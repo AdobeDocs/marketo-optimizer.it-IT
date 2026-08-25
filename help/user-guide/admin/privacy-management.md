@@ -46,7 +46,7 @@ Per un elenco aggiornato delle normative supportate, vedere [_Panoramica delle n
 * **[!UICONTROL Autorizzazioni Privacy Service]** - `Privacy Read Permission` e `Privacy Write Permission`
 * **[!UICONTROL Governance dei dati]** - `View Privacy Console`
 
-Per ulteriori informazioni, vedere [_Gestione delle autorizzazioni per Privacy Service_](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/permissions){target="_blank"} nella Guida di [!DNL Privacy Service].
+Per ulteriori informazioni, vedere [_Gestione delle autorizzazioni per Privacy Service_](https://experienceleague.adobe.com/it/docs/experience-platform/privacy/permissions){target="_blank"} nella Guida di [!DNL Privacy Service].
 
 >[!ENDSHADEBOX]
 
