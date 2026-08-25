@@ -60,8 +60,8 @@ Per aprire l&#39;area di progettazione [!DNL Adobe Connect], incorporata diretta
 
 1. Scegli una **modalità di consegna**:
 
-   - **Live** - I relatori ospitano la sessione in tempo reale.
-   - **Live simulato**: i contenuti preregistrati vengono riprodotti all&#39;ora pianificata, insieme a chat in diretta, sondaggi e domande e risposte.
+   &#x200B;- **Live** - I relatori ospitano la sessione in tempo reale.
+   &#x200B;- **Live simulato**: i contenuti preregistrati vengono riprodotti all&#39;ora pianificata, insieme a chat in diretta, sondaggi e domande e risposte.
 
 1. Scegli una **sala webinar**.
 
@@ -111,5 +111,5 @@ Prima di promuovere il webinar, esegui una sessione di test per confermare che l
 
 Puoi modificare un webinar dopo l’avvio delle registrazioni, ma fai attenzione a farlo:
 
-- La modifica della pianificazione può attivare le notifiche di aggiornamento per le persone già registrate. È possibile configurare la possibilità di modificare i webinar pianificati.
-- I campi a cui fanno riferimento i token nelle e-mail live richiedono una conferma esplicita per la rimozione, in quanto così facendo si interrompe il contenuto già pianificato per l’invio.
+&#x200B;- La modifica della pianificazione può attivare le notifiche di aggiornamento per le persone già registrate. È possibile configurare la possibilità di modificare i webinar pianificati.
+&#x200B;- I campi a cui fanno riferimento i token nelle e-mail live richiedono una conferma esplicita per la rimozione, in quanto così facendo si interrompe il contenuto già pianificato per l’invio.

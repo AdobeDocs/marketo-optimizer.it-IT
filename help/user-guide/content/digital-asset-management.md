@@ -38,7 +38,7 @@ Nel menu di navigazione a sinistra, espandi **[!UICONTROL Gestione contenuto]** 
 
 >[!BEGINSHADEBOX]
 
-La prima volta che accedi alla libreria _[!UICONTROL Assets]_, rivedi le [_[!UICONTROL Condizioni d&#39;uso generative per l&#39;intelligenza artificiale ]_](https://www.adobe.com/it/legal/licenses-terms/adobe-gen-ai-user-guidelines.html) e conferma il tuo contratto.
+La prima volta che accedi alla libreria _[!UICONTROL Assets]_, rivedi le [_[!UICONTROL Condizioni d&#39;uso generative per l&#39;intelligenza artificiale &#x200B;]_](https://www.adobe.com/it/legal/licenses-terms/adobe-gen-ai-user-guidelines.html) e conferma il tuo contratto.
 
 ![Finestra di dialogo del contratto Generative AI Terms of Use nella libreria Assets](./assets/dam-asset-library-gen-ai-agree.png){width="500"}
 

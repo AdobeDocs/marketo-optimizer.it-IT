@@ -4,7 +4,9 @@ description: Scopri i concetti alla base dei webinar interattivi in Marketo Opti
 keywords: 
 role: User
 feature: Channels
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 75b481faf0d66210329f95c8afabdfa59e7bcb79
 workflow-type: tm+mt
 source-wordcount: 1085
@@ -69,13 +71,13 @@ I token del webinar sono disponibili ovunque tu personalizzi il contenuto dellâ€
 
 I token a livello di risorsa si trovano direttamente nella cartella del webinar:
 
-- Titolo
-- Descrizione
-- Data e ora inizio, data e ora fine
-- Durata
-- Fuso orario
-- Presentatori
-- URL di registrazione
+&#x200B;- Titolo
+&#x200B;- Descrizione
+&#x200B;- Data e ora inizio, data e ora fine
+&#x200B;- Durata
+&#x200B;- Fuso orario
+&#x200B;- Presentatori
+&#x200B;- URL di registrazione
 
 >[!NOTE]
 >
@@ -83,9 +85,9 @@ I token a livello di risorsa si trovano direttamente nella cartella del webinar:
 
 I token per destinatario risiedono in una sottocartella **Membro**:
 
-- **Stato** - Stato corrente del webinar del destinatario (Invitato, Registrato, Partecipato, No-Show o Partecipato su richiesta). Consulta [Stato webinar](#webinar-status).
-- **URL di partecipazione** - Il collegamento [!DNL Adobe Connect] personale del destinatario. Questo problema viene risolto solo dopo la registrazione o la successiva dello stato del webinar del destinatario. Si risolve vuoto per chiunque in una fase precedente.
-- **URL di registrazione** - Si risolve dopo la pubblicazione della registrazione dopo la sessione live e rimane vuoto fino ad allora. Utilizzalo in modo condizionale nelle e-mail dopo il webinar in modo che non venga visualizzato un collegamento prima che sia presente una registrazione da mostrare.
+&#x200B;- **Stato** - Stato corrente del webinar del destinatario (Invitato, Registrato, Partecipato, No-Show o Partecipato su richiesta). Consulta [Stato webinar](#webinar-status).
+&#x200B;- **URL di partecipazione** - Il collegamento [!DNL Adobe Connect] personale del destinatario. Questo problema viene risolto solo dopo la registrazione o la successiva dello stato del webinar del destinatario. Si risolve vuoto per chiunque in una fase precedente.
+&#x200B;- **URL di registrazione** - Si risolve dopo la pubblicazione della registrazione dopo la sessione live e rimane vuoto fino ad allora. Utilizzalo in modo condizionale nelle e-mail dopo il webinar in modo che non venga visualizzato un collegamento prima che sia presente una registrazione da mostrare.
 
 >[!NOTE]
 >

@@ -14,7 +14,7 @@ Dopo aver [creato un modulo](./forms.md#create-forms), lo spazio di progettazion
 
 ![Spazio di progettazione modulo](assets/form-new-design-space.png){width="700" zoomable="yes"}
 
-Per impostazione predefinita, il pulsante _**Invia**_ (campo piè di pagina) fa parte del modulo e non può essere rimosso. È possibile selezionare il componente pulsante/piè di pagina nel modulo per [modificare il testo e lo stile del pulsante](#submit-button).
+Per impostazione predefinita, il pulsante _&#x200B;**Invia**&#x200B;_ (campo piè di pagina) fa parte del modulo e non può essere rimosso. È possibile selezionare il componente pulsante/piè di pagina nel modulo per [modificare il testo e lo stile del pulsante](#submit-button).
 
 ## Campi {#fields}
 
