@@ -14,7 +14,7 @@ Sales Qualifier è un&#39;applicazione basata sull&#39;intelligenza artificiale 
 
 I BDR possono utilizzare il browser e i plug-in e-mail per accedere alle informazioni aziendali direttamente in CRM o Outlook. Il video seguente offre una breve dimostrazione di Sales Qualifier e Account Qualification Agent.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476550)
+>[!VIDEO](https://video.tv.adobe.com/v/3476569?captions=ita)
 
 ## Home dell’applicazione {#application-home}
 
