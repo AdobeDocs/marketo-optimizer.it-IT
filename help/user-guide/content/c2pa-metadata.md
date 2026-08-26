@@ -26,7 +26,7 @@ Per informazioni complete sulla cronologia delle risorse, puoi utilizzare lo str
 
 I metadati C2PA persistono con il file di immagine. Quando un&#39;immagine generata o modificata con IA generativa viene caricata o esportata da [!DNL Adobe Marketo Optimizer], i relativi metadati C2PA vengono conservati.
 
-Per ulteriori dettagli sull&#39;allegato automatico dei metadati C2PA nelle applicazioni Adobe CX Enterprise, vedi [_Trasparenza dei contenuti di IA generativa_](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency){target="_blank"} nella guida AI in CX Enterprise.
+Per ulteriori dettagli sull&#39;allegato automatico dei metadati C2PA nelle applicazioni Adobe CX Enterprise, vedi [_Trasparenza dei contenuti di IA generativa_](https://experienceleague.adobe.com/it/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency){target="_blank"} nella guida AI in CX Enterprise.
 
 >[!NOTE]
 >
