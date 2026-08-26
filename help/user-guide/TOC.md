@@ -3,7 +3,7 @@ user-guide-title: Documentazione di Marketo Optimizer
 user-guide-description: Scopri Adobe Marketo Optimizer e come utilizzarlo per eseguire attività coordinate di marketing e vendita con contenuti personalizzati e basati sull’intelligenza artificiale per lead e account B2B.
 hide: true
 nudge: red
-source-git-commit: bc9b09fe125aad1909864db4fa7fc7605bf86597
+source-git-commit: d1268dd4fadec58b5adedeaa295ca0624c2c2dcd
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 46%
@@ -66,7 +66,7 @@ ht-degree: 46%
 + Contenuti {#content}
   + Risorse {#assets}
     + [Panoramica](./content/digital-asset-management.md)
-    + {hide-from-toc}[Metadati C2PA](./content/c2pa-metadata.md)
+    + [Metadati C2PA](./content/c2pa-metadata.md)
   + Modelli {#templates}
     + [Panoramica](./content/templates.md)
     + [Creare modelli](./content/templates-create.md)
