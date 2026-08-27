@@ -93,7 +93,7 @@ Prima di iniziare a creare moduli riutilizzabili in [!DNL Marketo Optimizer], è
 >id="ajo-b2b-prime_lp_form_preset"
 >title="Selezionare un predefinito"
 >abstract="Scegli un predefinito preimpostato contenente la connessione da utilizzare e un set di dati preimpostato per il modulo."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/prime/admin/channels/configuration-presets-forms#create-preset" text="Creare un predefinito di modulo"
+>additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer-b2b/prime/admin/channels/configuration-presets-forms#create-preset" text="Creare un predefinito di modulo"
 
 Puoi creare un modulo in [!DNL Marketo Optimizer] facendo clic su **[!UICONTROL Crea modulo]** in alto a destra nella pagina dell&#39;elenco _[!UICONTROL Forms]_.
 
