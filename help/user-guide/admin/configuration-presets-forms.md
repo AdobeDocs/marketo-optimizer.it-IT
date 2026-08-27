@@ -18,7 +18,7 @@ Quando i dati arrivano sull’endpoint di streaming, sono collegati alle informa
 
 ## Prerequisiti
 
-Per utilizzare i moduli Web, è necessario che in Adobe Experience Platform siano definite una o più _**connessioni di streaming API HTTP**_. Verificare che ogni connessione che si desidera utilizzare soddisfi i seguenti requisiti:
+Per utilizzare i moduli Web, è necessario che in Adobe Experience Platform siano definite una o più _&#x200B;**connessioni di streaming API HTTP**&#x200B;_. Verificare che ogni connessione che si desidera utilizzare soddisfi i seguenti requisiti:
 
 * Il tipo di dati deve essere impostato su XDM (non su dati non elaborati)
 * L&#39;autenticazione deve essere disabilitata (connessione non autenticata)

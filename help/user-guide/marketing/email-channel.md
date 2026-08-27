@@ -139,7 +139,7 @@ La pagina e-mail viene visualizzata quando crei un messaggio e-mail per un nodo 
 
 * Evita **il ritaglio e-mail**. Alcuni client, ad esempio Gmail, troncano i messaggi di dimensioni superiori a ~100 KB, impedendo ai destinatari di visualizzare l&#39;intero contenuto.
 * Migliora il **tempo di caricamento e-mail** nella casella in entrata del destinatario.
-* Migliora il recapito messaggi **1} e riduci l&#39;utilizzo della larghezza di banda.**
+* Migliora il recapito messaggi **1&rbrace; e riduci l&#39;utilizzo della larghezza di banda.**
 
 Questa ottimizzazione non viene applicata automaticamente. Abilitarla nella scheda _[!UICONTROL Contenuto]_.
 
