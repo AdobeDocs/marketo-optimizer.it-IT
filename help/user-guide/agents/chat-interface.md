@@ -1,9 +1,9 @@
 ---
 title: Interfaccia chat
 description: Utilizza il pannello Chat di Coworker in Marketo Optimizer per creare programmi, percorsi ed elenchi utilizzando il linguaggio naturale o il menu con barra (/).
-source-git-commit: 75b481faf0d66210329f95c8afabdfa59e7bcb79
+source-git-commit: 6264cadee61cb4a9366df655611803214110cccf
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '928'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,16 @@ Nella parte inferiore del pannello si trova la finestra di messaggio in cui è p
 
 * Aggiungi un messaggio e premi **Invio** per inviare (**MAIUSC+INVIO** inserisce una nuova riga).
 * Allega un file utilizzando l&#39;icona _Allega_ (formati supportati: `.txt`, `.md`, `.csv`, `.json`, `.xlsx`, `.docx`, `.pdf`). Utilizza i caricamenti CSV e fogli di calcolo per avviare un’importazione di lead.
+
+>[!BEGINSHADEBOX]
+
+## Qualificatore di vendita
+
+[!DNL Adobe Sales Qualifier] è un&#39;applicazione basata su IA che è possibile utilizzare con [!DNL Marketo Optimizer]. Implementa Account Qualification Agent ed è progettato per semplificare i flussi di lavoro per i rappresentanti di sviluppo aziendale (BDR, Business Development Representative). [!DNL Sales Qualifier] automatizza i flussi di lavoro di qualificazione dei potenziali clienti, di estensione e di coinvolgimento degli acquirenti tra i canali. Riduce il carico BDR manuale e accelera la velocità della pipeline per le aziende B2B aziendali.
+
+Per ulteriori informazioni, consulta la [documentazione di Sales Qualifier](https://experienceleague.adobe.com/en/docs/sales-qualifier/using/home){target="_blank"}.
+
+>[!ENDSHADEBOX]
 
 ## Chiedi al collega
 
