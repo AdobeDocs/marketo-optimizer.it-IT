@@ -1,7 +1,7 @@
 ---
 title: Configurazione recapito e-mail
 description: Configura la delega dei sottodomini, DMARC, SPF, DKIM e i pool IP per Marketo Optimizer.
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+source-git-commit: 81d9880cb37bb60301252b48bd89637b6656a993
 workflow-type: tm+mt
 source-wordcount: '2502'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Utilizza i seguenti blocchi predefiniti, configurati da un amministratore, in ge
 1. [Conferma il pool IP](#ip-pools) utilizzato per inviare e-mail per il tuo sottodominio.
 1. [Crea una o più configurazioni del canale e-mail](../admin/email-channel-configuration.md#create-email-channel-configuration) che associano un sottodominio, un pool IP e un&#39;identità mittente.
 
-![Configurazione del recapito messaggi e-mail per Marketo Optimizer](./assets/email-deliverability-diagram.svg){width="550" zoomable="yes"}
+![Configurazione del recapito messaggi e-mail per Marketo Optimizer](./assets/email-deliverability-diagram.svg){width="600"}
 
 >[!TIP]
 >

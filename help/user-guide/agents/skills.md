@@ -1,16 +1,16 @@
 ---
 title: Abilità del collaboratore
-description: 'Esaminare le competenze del collaboratore in Marketo Optimizer: flussi di lavoro combinati per programmi, percorsi, tipi di pubblico, punteggi, contenuti e ottimizzazione del tempo di invio.'
-source-git-commit: 75b481faf0d66210329f95c8afabdfa59e7bcb79
+description: 'Esaminare le competenze di CX Enterprise Coworker in Marketo Optimizer: flussi di lavoro combinati per programmi, percorsi, tipi di pubblico, valutazione, contenuto e ottimizzazione del tempo di invio.'
+source-git-commit: ef30aa7a901c18c7b9b0919d537ad59db9a6c481
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '575'
 ht-degree: 5%
 
 ---
 
 # Competenze del collaboratore
 
-Un _skill_ è un flusso di lavoro integrato che l&#39;agente è in grado di eseguire, ovvero i blocchi predefiniti del menu `/` e le richieste in linguaggio naturale. Ogni abilità riunisce istruzioni dettagliate e gli strumenti specifici necessari per un lavoro (ad esempio, &quot;pubblicare un percorso&quot;, &quot;confrontare elenchi di due persone&quot;, &quot;creare un modello di punteggio&quot;).
+Una _abilità_ è un flusso di lavoro integrato che Coworker è in grado di eseguire, ovvero i blocchi predefiniti sia del menu `/` che delle richieste in linguaggio naturale. Ogni abilità riunisce istruzioni dettagliate e gli strumenti specifici necessari per un lavoro (ad esempio, &quot;pubblicare un percorso&quot;, &quot;confrontare elenchi di due persone&quot;, &quot;creare un modello di punteggio&quot;).
 
 >[!NOTE]
 >
@@ -20,7 +20,7 @@ Un _skill_ è un flusso di lavoro integrato che l&#39;agente è in grado di eseg
 
 | Competenza | Funzionamento | Accesso | Superficie del prodotto | Impatto/flusso di dati |
 |---|---|---|---|---|
-| `falco-program-creation` | Creazione del programma [!DNL Marketo Optimizer] end-to-end: programma, sottocartelle, token, elenchi, percorsi. | Scrittura | [!DNL Marketo Optimizer] | Legge e scrive [!DNL Marketo Optimizer]. Consulta _[Creare un programma da una descrizione](./program-from-brief.md)_. |
+| `falco-program-creation` | Creazione del programma [!DNL Marketo Optimizer] end-to-end: programma, sottocartelle, token, elenchi, percorsi. <p>Consulta _[Creare un programma da una descrizione](./program-from-brief.md)_. | Scrittura | [!DNL Marketo Optimizer] | Legge e scrive [!DNL Marketo Optimizer]. |
 | `adapt-program` | Genera storie di migrazione da [!DNL Marketo Engage] programmi per l&#39;adattamento [!DNL Marketo Optimizer]. | Lettura | [!DNL Marketo Optimizer] | Legge [!DNL Marketo Engage], scrive [!DNL Marketo Optimizer] |
 | `folder-creation` | Crea cartelle organizzative nella struttura ad albero delle risorse. | Scrittura | [!DNL Marketo Optimizer] | Legge e scrive [!DNL Marketo Optimizer] |
 | `program-creation` *(Programmi di compilazione)* | Crea programmi Marketo da una descrizione della campagna. | Scrittura | [!DNL Marketo Engage] | Legge e scrive [!DNL Marketo Engage] |
@@ -43,7 +43,7 @@ Un _skill_ è un flusso di lavoro integrato che l&#39;agente è in grado di eseg
 
 | Competenza | Funzionamento | Accesso | Prodotto | Back-end (flusso di dati) |
 |---|---|---|---|---|
-| `audience-creation` | Adattare uno smartlist [!DNL Marketo Engage], creare un elenco di persone o aggiungere/aggiornare regole. | Scrittura | [!DNL Marketo Optimizer] | Legge [!DNL Marketo Engage] + legge/scrive [!DNL Marketo Optimizer].  Consulta _[Creare tipi di pubblico per i programmi](./audience-creation.md)_. |
+| `audience-creation` | Adattare uno smartlist [!DNL Marketo Engage], creare un elenco di persone o aggiungere/aggiornare regole. <p>Consulta _[Creare tipi di pubblico per i programmi](./audience-creation.md)_. | Scrittura | [!DNL Marketo Optimizer] | Legge [!DNL Marketo Engage] + legge/scrive [!DNL Marketo Optimizer]. |
 | `people-list-comparison` | Confrontare gli elenchi di due persone e visualizzare i membri sovrapposti. | Lettura | [!DNL Marketo Optimizer] | Legge [!DNL Marketo Optimizer] |
 | `import-leads` | Controllare la qualità dei dati CSV e confermare le importazioni in [!DNL Marketo Engage]. | Lettura e scrittura | Entrambi | Legge e scrive [!DNL Marketo Engage] |
 | `lead-investigation` *(Indagare sui lead)* | Analizzare l’attività, il punteggio, la qualifica e il ciclo di vita di un lead. | Lettura | [!DNL Marketo Engage] | Legge [!DNL Marketo Engage] |
@@ -60,7 +60,7 @@ Un _skill_ è un flusso di lavoro integrato che l&#39;agente è in grado di eseg
 
 | Competenza | Funzionamento | Accesso | Prodotto | Back-end (flusso di dati) |
 |---|---|---|---|---|
-| `scoring-studio` | Elencare/ottenere modelli di punteggio e generarli/pubblicarli. | Lettura e scrittura | [!DNL Marketo Optimizer] | Legge e scrive [!DNL Marketo Optimizer] (servizio di assegnazione punteggio); legge [!DNL Marketo Engage] campi/tipi di attività lead. Consulta _[Creare modelli di punteggio personalizzati](./lead-scoring-model.md)_. |
+| `scoring-studio` | Elencare/ottenere modelli di punteggio e generarli/pubblicarli. <p>Consulta _[Creare modelli di punteggio personalizzati](./lead-scoring-model.md)_. | Lettura e scrittura | [!DNL Marketo Optimizer] | Legge e scrive [!DNL Marketo Optimizer] (servizio di assegnazione punteggio); legge [!DNL Marketo Engage] campi/tipi di attività lead. |
 | `engagementconfiguration` | Mostra la configurazione del coinvolgimento e modifica/aggiorna i pesi. | Lettura e scrittura | [!DNL Marketo Optimizer] | Legge e scrive [!DNL Marketo Optimizer] |
 | `intentconfiguration` | Mostra la configurazione intento e imposta/aggiorna i pesi. | Lettura e scrittura | [!DNL Marketo Optimizer] | Legge e scrive [!DNL Marketo Optimizer] |
 | `intent-query` | Eseguire query e spiegare i punteggi di intento per persona/segmento/elenco. | Lettura | [!DNL Marketo Optimizer] | Legge [!DNL Marketo Optimizer] |
@@ -88,4 +88,3 @@ Queste abilità si estendono su più back-end:
 - **`scoring-studio`** - legge [!DNL Marketo Engage] tipi di campi/attività lead insieme al servizio di punteggio [!DNL Marketo Optimizer].
 
 Tutti gli strumenti `falco-mcp_*` e percorsi/token/scoring/STO/FCS hanno raggiunto [!DNL Marketo Optimizer] servizi; gli strumenti CSV/program/lead hanno raggiunto [!DNL Marketo Engage].
-
