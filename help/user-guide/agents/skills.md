@@ -1,9 +1,9 @@
 ---
 title: Abilità del collaboratore
 description: 'Esaminare le competenze di CX Enterprise Coworker in Marketo Optimizer: flussi di lavoro combinati per programmi, percorsi, tipi di pubblico, valutazione, contenuto e ottimizzazione del tempo di invio.'
-source-git-commit: ef30aa7a901c18c7b9b0919d537ad59db9a6c481
+source-git-commit: 9db94582512d95f6c07d4e978a0a27291b471900
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '581'
 ht-degree: 5%
 
 ---
@@ -37,7 +37,7 @@ Una _abilità_ è un flusso di lavoro integrato che Coworker è in grado di eseg
 | `journey-stop` | Interrompi, chiudi, interrompi, interrompi o uccidi percorsi. | Scrittura | [!DNL Marketo Optimizer] | Legge e scrive [!DNL Marketo Optimizer] |
 | `journey-reentry` | Configura reinserimento: consenti/non consentiti, arresto del sistema, numero massimo di voci. | Scrittura | [!DNL Marketo Optimizer] | Legge e scrive [!DNL Marketo Optimizer] |
 | `journey-trafficcontrol` | Esegui una simulazione di controllo del traffico che mostra l’instradamento del profilo. | Lettura | [!DNL Marketo Optimizer] | Legge [!DNL Marketo Optimizer] (simulazione) |
-| `journey-observability` | Avanzamento debug/monitoraggio: percorsi, tempistica, divisioni, blocchi, permanenza. | Lettura | [!DNL Marketo Optimizer] | Legge [!DNL Marketo Optimizer] + [!DNL Marketo Engage] (controllo elenco statico) |
+| `journey-observability` | Avanzamento debug/monitoraggio: percorsi, tempistica, divisioni, blocchi, permanenza. <p>Consulta _[Eseguire il debug e monitorare la progressione del percorso](./journey-observability.md)_. | Lettura | [!DNL Marketo Optimizer] | Legge [!DNL Marketo Optimizer] + [!DNL Marketo Engage] (controllo elenco statico) |
 
 ## Pubblico e persone {#audiences-people}
 
