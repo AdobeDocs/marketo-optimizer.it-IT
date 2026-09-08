@@ -56,7 +56,7 @@ Per introdurre i quattro tipi di report che può generare, richiamare `/analyze-
 
 **Prompt consigliato:** _&quot;Mostra i lead più intensi per &lt;product>&quot;_
 
-Classifica i lead per intensità del segnale di intento per un prodotto o una parola chiave. Le colonne includono Lead, E-mail, Account, Settore, Prodotti, Punteggio, Livello intento e origine attività principale. La colonna delta ]_di_[!UICONTROL  7 giorni mostra come il punteggio intento è stato spostato nell&#39;ultima settimana. La colonna _[!UICONTROL Ultimo aggiornamento]_ mostra quando il lead ha interagito per l&#39;ultima volta, ovvero quando è stato modificato il punteggio. I filtri per il livello di prodotto e intento sono elenchi a discesa live, quindi non sei limitato a ciò che hai digitato nel prompt. Le colonne sono ordinabili.
+Classifica i lead per intensità del segnale di intento per un prodotto o una parola chiave. Le colonne includono Lead, E-mail, Account, Settore, Prodotti, Punteggio, Livello intento e origine attività principale. La colonna delta _di_ 7 giorni mostra come il punteggio intento è stato spostato nell&#39;ultima settimana. La colonna _[!UICONTROL Ultimo aggiornamento]_ mostra quando il lead ha interagito per l&#39;ultima volta, ovvero quando è stato modificato il punteggio. I filtri per il livello di prodotto e intento sono elenchi a discesa live, quindi non sei limitato a ciò che hai digitato nel prompt. Le colonne sono ordinabili.
 
 Altri prompt che aprono lo stesso report:
 
