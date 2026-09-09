@@ -2,9 +2,13 @@
 title: Configurare e analizzare le finalità
 description: Scopri come configurare i pesi delle attività per il modello di punteggio intento e analizzare l’intento a livello di lead con rapporti di classificazione, profilo, tendenza e confronto.
 TQID: 'https://experienceleague.adobe.com/BNzbM6v6ADSKyPR6jQMj1QdWMnLQQX-j3PNk8gF6PxY'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-feature_v2: id: 46e599c6-e20f-5f67-9824-93415016f66bid: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
-topic_v2: id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 46e599c6-e20f-5f67-9824-93415016f66b
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+topic_v2:
+  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 978
@@ -60,7 +64,7 @@ Per introdurre i quattro tipi di report che può generare, richiamare `/analyze-
 
 **Prompt consigliato:** _&quot;Mostra i lead più intensi per &lt;product>&quot;_
 
-Classifica i lead per intensità del segnale di intento per un prodotto o una parola chiave. Le colonne includono Lead, E-mail, Account, Settore, Prodotti, Punteggio, Livello intento e origine attività principale. La colonna delta ]_di_[!UICONTROL  7 giorni mostra come il punteggio intento è stato spostato nell&#39;ultima settimana. La colonna _[!UICONTROL Ultimo aggiornamento]_ mostra quando il lead ha interagito per l&#39;ultima volta, ovvero quando è stato modificato il punteggio. I filtri per il livello di prodotto e intento sono elenchi a discesa live, quindi non sei limitato a ciò che hai digitato nel prompt. Le colonne sono ordinabili.
+Classifica i lead per intensità del segnale di intento per un prodotto o una parola chiave. Le colonne includono Lead, E-mail, Account, Settore, Prodotti, Punteggio, Livello intento e origine attività principale. La colonna delta _di_ 7 giorni mostra come il punteggio intento è stato spostato nell&#39;ultima settimana. La colonna _[!UICONTROL Ultimo aggiornamento]_ mostra quando il lead ha interagito per l&#39;ultima volta, ovvero quando è stato modificato il punteggio. I filtri per il livello di prodotto e intento sono elenchi a discesa live, quindi non sei limitato a ciò che hai digitato nel prompt. Le colonne sono ordinabili.
 
 Altri prompt che aprono lo stesso report:
 

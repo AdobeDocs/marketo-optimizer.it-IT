@@ -2,7 +2,8 @@
 title: Authoring dei contenuti - aggiungere moduli
 description: Sezione riutilizzata sull’aggiunta di moduli nelle pagine di destinazione e nei modelli
 TQID: 'https://experienceleague.adobe.com/glo6SZqT-pu3uOiIckj0K70xPrjryxuTUaKYAcjv7lA'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 355
