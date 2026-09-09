@@ -146,7 +146,7 @@ Quando configuri la segmentazione per un percorso di persone in un nodo [_Percor
 
 In [!DNL Marketo Optimizer], puoi configurare la ponderazione del punteggio di coinvolgimento direttamente dall&#39;[interfaccia chat di Coworker](../agents/chat-interface.md).
 
-Per informazioni di base sui modelli di punteggio di coinvolgimento, sulle fasce di ponderazione e sui pesi delle attività, consulta [Configurare la ponderazione del punteggio di coinvolgimento personalizzato](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/configurations/engagement-score-weighting).
+Per informazioni di base sui modelli di punteggio di coinvolgimento, sulle fasce di ponderazione e sui pesi delle attività, consulta [Configurare la ponderazione del punteggio di coinvolgimento personalizzato](https://experienceleague.adobe.com/it/docs/journey-optimizer-b2b/user/admin/configurations/engagement-score-weighting).
 
 1. Apri il pannello chat di **[!UICONTROL Collaboratore]** dal lato sinistro della schermata (icona chat).
 

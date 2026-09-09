@@ -22,7 +22,7 @@ Il nodo _[!UICONTROL Pubblico persona]_ è automaticamente il primo nodo del per
 :::: landing-cards-container
 
 :::
-<!-- ![Person audience node](https://cdn.experienceleague.adobe.com/icons/users.svg) -->
+<!-- ![Person audience node](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=it) -->
 
 Nodo di pubblico della persona
 
@@ -32,7 +32,7 @@ Il percorso inizia sempre con un nodo di pubblico persona. Imposta il pubblico d
 :::
 
 :::
-<!-- ![Action nodes](https://cdn.experienceleague.adobe.com/icons/circle-play.svg) -->
+<!-- ![Action nodes](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it) -->
 
 Nodi azione
 
@@ -42,7 +42,7 @@ Applica le modifiche a ogni persona in un percorso, ad esempio l’invio di un�
 :::
 
 :::
-<!-- ![Event nodes](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg) -->
+<!-- ![Event nodes](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it) -->
 
 Nodi evento
 
@@ -52,7 +52,7 @@ Porta le persone al passaggio del percorso successivo quando si verifica un’at
 :::
 
 :::
-<!-- ![Wait nodes](https://cdn.experienceleague.adobe.com/icons/clock.svg) -->
+<!-- ![Wait nodes](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=it) -->
 
 Nodi di attesa
 
@@ -62,7 +62,7 @@ Sospendi la progressione del percorso per una durata impostata o fino a una data
 :::
 
 :::
-<!-- ![Split and merge paths nodes](https://cdn.experienceleague.adobe.com/icons/code-branch.svg) -->
+<!-- ![Split and merge paths nodes](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it) -->
 
 Dividere e unire i nodi dei percorsi
 
@@ -72,7 +72,7 @@ Segmenta le persone in percorsi separati in base alle condizioni, applica azioni
 :::
 
 :::
-<!-- ![Next best path node](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg) -->
+<!-- ![Next best path node](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=it) -->
 
 Nodo percorso migliore successivo
 

@@ -41,7 +41,7 @@ Puoi creare un webinar in due modi:
 
 ## Webinar come risorsa
 
-Un webinar è una risorsa di proprietà di un [programma](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/prime/marketing-management/programs/programs), allo stesso modo di un&#39;e-mail o di una pagina di destinazione. L’aggiunta di un webinar a un programma ne effettua la registrazione e ne rende disponibili i token, gli attributi e le attività per ogni percorso e risorsa di tale programma.
+Un webinar è una risorsa di proprietà di un [programma](https://experienceleague.adobe.com/it/docs/journey-optimizer-b2b/prime/marketing-management/programs/programs), allo stesso modo di un&#39;e-mail o di una pagina di destinazione. L’aggiunta di un webinar a un programma ne effettua la registrazione e ne rende disponibili i token, gli attributi e le attività per ogni percorso e risorsa di tale programma.
 
 >[!IMPORTANT]
 >
@@ -53,7 +53,7 @@ Per ogni persona che è membro di un programma che contiene un webinar, si appli
 
 | Stato | Proprietario | Valori |
 |---|---|---|
-| Stato membro del programma | Programma | Configurabile per [tipo di programma](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/prime/admin/program-types) |
+| Stato membro del programma | Programma | Configurabile per [tipo di programma](https://experienceleague.adobe.com/it/docs/journey-optimizer-b2b/prime/admin/program-types) |
 | Stato del webinar | Risorsa webinar | Invitato, Registrato, Partecipato, No-Show, Partecipato su richiesta |
 | Stato percorso | Percorso | Nodo corrente, in pausa, completato e altri stati di runtime del percorso |
 
