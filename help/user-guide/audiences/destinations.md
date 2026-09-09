@@ -1,10 +1,14 @@
 ---
 title: Destinazioni
 description: Scopri le autorizzazioni richieste, le destinazioni supportate e come collegare una destinazione in Marketo Optimizer per attivare elenchi di persone statici per le piattaforme pubblicitarie e social.
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/u5sWVDR0JaiX-YvlQ23l7mqoI9G95xS-uiKcqANwsnc'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 6%
+source-wordcount: 643
+ht-degree: 7%
 
 ---
 
@@ -57,7 +61,7 @@ Prima di poter attivare un elenco statico, è necessario che nel catalogo delle 
 >
 >Questo catalogo non è il catalogo completo delle [!DNL Adobe Experience Platform] destinazioni. Se si accede alle destinazioni direttamente da [!DNL Experience Platform], verrà visualizzato un catalogo più grande, ma solo queste destinazioni sono attualmente disponibili per l&#39;attivazione in [!DNL Marketo Optimizer]. Altre destinazioni sono pianificate per le versioni future.
 
-## Configurare una destinazione {#set-up-destination}
+## Imposta una destinazione {#set-up-destination}
 
 Ogni scheda di destinazione supportata mostra **[!UICONTROL Configura nuova destinazione]**. La configurazione di una destinazione è un prerequisito per l&#39;attivazione.
 
@@ -79,7 +83,7 @@ Ogni scheda di destinazione supportata mostra **[!UICONTROL Configura nuova dest
 
 1. Rivedi le impostazioni delle azioni di marketing e governance dei dati, quindi fai clic su **[!UICONTROL Salva]**.
 
-Per i passaggi di installazione completi, vedere [Creare una nuova connessione di destinazione](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} nella documentazione di [!DNL Experience Platform].
+Per i passaggi di installazione completi, vedere [Creare una nuova connessione di destinazione](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} nella documentazione di [!DNL Experience Platform].
 
 Una volta configurata, la destinazione è disponibile per l&#39;attivazione ovunque sia possibile selezionare una destinazione in [!DNL Marketo Optimizer].
 

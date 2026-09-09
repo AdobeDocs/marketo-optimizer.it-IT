@@ -4,10 +4,11 @@ description: Scopri i concetti alla base dei webinar interattivi in Marketo Opti
 keywords: 
 role: User
 feature: Channels
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 75b481faf0d66210329f95c8afabdfa59e7bcb79
+TQID: 'https://experienceleague.adobe.com/rcaoljHUnCghXxc-W0LY5DYM-46-9jc5mz39208eMxE'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 3c1de303-7a7c-59a6-abca-8c534730e19cid: 3cf5f37e-e87e-5179-812b-53ce05d7eebbid: 46e599c6-e20f-5f67-9824-93415016f66bid: 64b90904-e4f0-5c1b-a871-8c6a40b204a1id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4id: d4203578-d294-5145-b397-f26f4488a904
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 1085
 ht-degree: 2%
@@ -31,7 +32,7 @@ Puoi creare un webinar in due modi:
 
 ## Webinar come risorsa
 
-Un webinar è una risorsa di proprietà di un [programma](https://experienceleague.adobe.com/it/docs/journey-optimizer-b2b/prime/marketing-management/programs/programs), allo stesso modo di un&#39;e-mail o di una pagina di destinazione. L’aggiunta di un webinar a un programma ne effettua la registrazione e ne rende disponibili i token, gli attributi e le attività per ogni percorso e risorsa di tale programma.
+Un webinar è una risorsa di proprietà di un [programma](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/prime/marketing-management/programs/programs), allo stesso modo di un&#39;e-mail o di una pagina di destinazione. L’aggiunta di un webinar a un programma ne effettua la registrazione e ne rende disponibili i token, gli attributi e le attività per ogni percorso e risorsa di tale programma.
 
 >[!IMPORTANT]
 >
@@ -43,7 +44,7 @@ Per ogni persona che è membro di un programma che contiene un webinar, si appli
 
 | Stato | Proprietario | Valori |
 |---|---|---|
-| Stato membro del programma | Programma | Configurabile per [tipo di programma](https://experienceleague.adobe.com/it/docs/journey-optimizer-b2b/prime/admin/program-types) |
+| Stato membro del programma | Programma | Configurabile per [tipo di programma](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/prime/admin/program-types) |
 | Stato del webinar | Risorsa webinar | Invitato, Registrato, Partecipato, No-Show, Partecipato su richiesta |
 | Stato percorso | Percorso | Nodo corrente, in pausa, completato e altri stati di runtime del percorso |
 
@@ -71,13 +72,13 @@ I token del webinar sono disponibili ovunque tu personalizzi il contenuto dell�
 
 I token a livello di risorsa si trovano direttamente nella cartella del webinar:
 
-&#x200B;- Titolo
-&#x200B;- Descrizione
-&#x200B;- Data e ora inizio, data e ora fine
-&#x200B;- Durata
-&#x200B;- Fuso orario
-&#x200B;- Presentatori
-&#x200B;- URL di registrazione
+- Titolo
+- Descrizione
+- Data e ora inizio, data e ora fine
+- Durata
+- Fuso orario
+- Presentatori
+- URL di registrazione
 
 >[!NOTE]
 >
@@ -85,9 +86,9 @@ I token a livello di risorsa si trovano direttamente nella cartella del webinar:
 
 I token per destinatario risiedono in una sottocartella **Membro**:
 
-&#x200B;- **Stato** - Stato corrente del webinar del destinatario (Invitato, Registrato, Partecipato, No-Show o Partecipato su richiesta). Consulta [Stato webinar](#webinar-status).
-&#x200B;- **URL di partecipazione** - Il collegamento [!DNL Adobe Connect] personale del destinatario. Questo problema viene risolto solo dopo la registrazione o la successiva dello stato del webinar del destinatario. Si risolve vuoto per chiunque in una fase precedente.
-&#x200B;- **URL di registrazione** - Si risolve dopo la pubblicazione della registrazione dopo la sessione live e rimane vuoto fino ad allora. Utilizzalo in modo condizionale nelle e-mail dopo il webinar in modo che non venga visualizzato un collegamento prima che sia presente una registrazione da mostrare.
+- **Stato** - Stato corrente del webinar del destinatario (Invitato, Registrato, Partecipato, No-Show o Partecipato su richiesta). Consulta [Stato webinar](#webinar-status).
+- **URL di partecipazione** - Il collegamento [!DNL Adobe Connect] personale del destinatario. Questo problema viene risolto solo dopo la registrazione o la successiva dello stato del webinar del destinatario. Si risolve vuoto per chiunque in una fase precedente.
+- **URL di registrazione** - Si risolve dopo la pubblicazione della registrazione dopo la sessione live e rimane vuoto fino ad allora. Utilizzalo in modo condizionale nelle e-mail dopo il webinar in modo che non venga visualizzato un collegamento prima che sia presente una registrazione da mostrare.
 
 >[!NOTE]
 >

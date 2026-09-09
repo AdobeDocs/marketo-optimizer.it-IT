@@ -1,9 +1,13 @@
 ---
 title: Configurazione Forms
 description: Placeholder
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/7X5-67hfrjRjWbGjq9duLu7mVjgfCs7tpAQLV8u6YKE'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: a659ad61-de21-559d-a901-02e2fb329ff5id: d4203578-d294-5145-b397-f26f4488a904
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: 541
 ht-degree: 16%
 
 ---
@@ -18,7 +22,7 @@ Quando i dati arrivano sull’endpoint di streaming, sono collegati alle informa
 
 ## Prerequisiti
 
-Per utilizzare i moduli Web, è necessario che in Adobe Experience Platform siano definite una o più _&#x200B;**connessioni di streaming API HTTP**&#x200B;_. Verificare che ogni connessione che si desidera utilizzare soddisfi i seguenti requisiti:
+Per utilizzare i moduli Web, è necessario che in Adobe Experience Platform siano definite una o più _**connessioni di streaming API HTTP**_. Verificare che ogni connessione che si desidera utilizzare soddisfi i seguenti requisiti:
 
 * Il tipo di dati deve essere impostato su XDM (non su dati non elaborati)
 * L&#39;autenticazione deve essere disabilitata (connessione non autenticata)

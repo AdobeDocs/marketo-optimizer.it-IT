@@ -1,12 +1,15 @@
 ---
 title: Creare e progettare un webinar
 description: Aggiungi una risorsa webinar a un programma, progettala in [!DNL Adobe Connect], aggiungi co-host e relatori, esegui una sessione di test e modifica un webinar live in [!DNL Marketo Optimizer].
-keywords: null
+keywords: 
 role: User
 feature: Channels
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/fFvlOnp8hDF1RNOyohPWkc1whSG3T3deNrJ3RnEDzlo'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4id: d4203578-d294-5145-b397-f26f4488a904
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: 680
 ht-degree: 0%
 
 ---
@@ -60,8 +63,8 @@ Per aprire l&#39;area di progettazione [!DNL Adobe Connect], incorporata diretta
 
 1. Scegli una **modalità di consegna**:
 
-   &#x200B;- **Live** - I relatori ospitano la sessione in tempo reale.
-   &#x200B;- **Live simulato**: i contenuti preregistrati vengono riprodotti all&#39;ora pianificata, insieme a chat in diretta, sondaggi e domande e risposte.
+   - **Live** - I relatori ospitano la sessione in tempo reale.
+   - **Live simulato**: i contenuti preregistrati vengono riprodotti all&#39;ora pianificata, insieme a chat in diretta, sondaggi e domande e risposte.
 
 1. Scegli una **sala webinar**.
 
@@ -111,5 +114,5 @@ Prima di promuovere il webinar, esegui una sessione di test per confermare che l
 
 Puoi modificare un webinar dopo l’avvio delle registrazioni, ma fai attenzione a farlo:
 
-&#x200B;- La modifica della pianificazione può attivare le notifiche di aggiornamento per le persone già registrate. È possibile configurare la possibilità di modificare i webinar pianificati.
-&#x200B;- I campi a cui fanno riferimento i token nelle e-mail live richiedono una conferma esplicita per la rimozione, in quanto così facendo si interrompe il contenuto già pianificato per l’invio.
+- La modifica della pianificazione può attivare le notifiche di aggiornamento per le persone già registrate. È possibile configurare la possibilità di modificare i webinar pianificati.
+- I campi a cui fanno riferimento i token nelle e-mail live richiedono una conferma esplicita per la rimozione, in quanto così facendo si interrompe il contenuto già pianificato per l’invio.

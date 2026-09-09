@@ -1,9 +1,13 @@
 ---
 title: Contenuto e-mail
 description: Scopri come comporre e progettare contenuti e-mail in Adobe Marketo Optimizer utilizzando l’area di lavoro visiva, gli strumenti di trascinamento della selezione, l’importazione di HTML e i modelli riutilizzabili.
-source-git-commit: 75b481faf0d66210329f95c8afabdfa59e7bcb79
+TQID: 'https://experienceleague.adobe.com/uNzBQk1fXPZchQna577-bUQtqRRRiqEVPI3jzZKgGKw'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '2287'
+source-wordcount: 2287
 ht-degree: 3%
 
 ---
@@ -148,7 +152,7 @@ Consulta [Aggiungi CSS personalizzato per il contenuto](./design-custom-css.md) 
 
 >[!NOTE]
 >
->Se il messaggio di posta elettronica è progettato utilizzando un modello [&#x200B; con contenuto bloccato](./template-content-governance.md), non è possibile aggiungere CSS personalizzati al contenuto. L&#39;etichetta del pulsante diventa **[!UICONTROL Visualizza CSS personalizzato]** ed eventuali CSS personalizzati già presenti nel contenuto sono di sola lettura.
+>Se il messaggio di posta elettronica è progettato utilizzando un modello [ con contenuto bloccato](./template-content-governance.md), non è possibile aggiungere CSS personalizzati al contenuto. L&#39;etichetta del pulsante diventa **[!UICONTROL Visualizza CSS personalizzato]** ed eventuali CSS personalizzati già presenti nel contenuto sono di sola lettura.
 
 ### Aggiungi frammenti {#visual-fragments}
 

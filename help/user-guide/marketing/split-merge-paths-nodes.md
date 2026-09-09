@@ -1,9 +1,12 @@
 ---
 title: Dividere e unire i nodi dei percorsi
 description: Scopri come utilizzare suddividere e unire i nodi dei percorsi nei percorsi di persone per segmentare le persone in percorsi distinti in base a condizioni definite, quindi riunirle in un punto comune a valle.
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/XMN7lgb77bFlJkNXrmPf9ZSCV-GgIuybtr-O3AsqT2U'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: 660
 ht-degree: 0%
 
 ---
@@ -20,7 +23,7 @@ Un nodo Percorsi suddivisi definisce uno o più percorsi segmentati in base ai f
 
 <!-- A split based on a people filter is automatically closed with a merge paths node so that all people can move forward to the next step. Split by people paths can include only people actions. These paths cannot be split again and automatically join back. _not currently true_ -->
 
-_&#x200B;**Funzionamento di un percorso suddiviso per nodo persone**&#x200B;_
+_**Funzionamento di un percorso suddiviso per nodo persone**_
 
 * La valutazione di ciascun percorso è dall&#39;alto verso il basso. Se una persona corrisponde per il primo e il secondo percorso, procede solo lungo il primo percorso.
 * Il nodo supporta la definizione di un percorso _Altre persone_, in cui è possibile aggiungere azioni o eventi per le persone che non corrispondono a uno dei segmenti o percorsi definiti.

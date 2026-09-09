@@ -1,9 +1,12 @@
 ---
 title: Progettazione del modulo
 description: Progetta i moduli con tipi di campo, convalida, stile e attributi dello schema XDM per la raccolta di dati aziendali in Marketo Optimizer.
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/NyFwttqh2J9hkgS4tE9B-R2GCsZnsJXwoIX27yV-epA'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '2177'
+source-wordcount: 2177
 ht-degree: 1%
 
 ---
@@ -14,7 +17,7 @@ Dopo aver [creato un modulo](./forms.md#create-forms), lo spazio di progettazion
 
 ![Spazio di progettazione modulo](assets/form-new-design-space.png){width="700" zoomable="yes"}
 
-Per impostazione predefinita, il pulsante _&#x200B;**Invia**&#x200B;_ (campo piè di pagina) fa parte del modulo e non può essere rimosso. È possibile selezionare il componente pulsante/piè di pagina nel modulo per [modificare il testo e lo stile del pulsante](#submit-button).
+Per impostazione predefinita, il pulsante _**Invia**_ (campo piè di pagina) fa parte del modulo e non può essere rimosso. È possibile selezionare il componente pulsante/piè di pagina nel modulo per [modificare il testo e lo stile del pulsante](#submit-button).
 
 ## Campi {#fields}
 

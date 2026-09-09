@@ -1,9 +1,12 @@
 ---
 title: Nodi del Percorso di persone
 description: 'Scopri i nodi del percorso di persone in Marketo Optimizer: pubblico, azioni, eventi, attese, divisioni dei percorsi e routing dei percorsi migliore basato sull’intelligenza artificiale.'
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/DXva-JytBjj7MHwYeeYfsR2GYomHdj5NZWZk0kgdv1M'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: 317
 ht-degree: 0%
 
 ---
@@ -17,7 +20,7 @@ Il nodo _[!UICONTROL Pubblico persona]_ è automaticamente il primo nodo del per
 :::: landing-cards-container
 
 :::
-<!-- ![Person audience node](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=it) -->
+<!-- ![Person audience node](https://cdn.experienceleague.adobe.com/icons/users.svg) -->
 
 Nodo di pubblico della persona
 
@@ -27,7 +30,7 @@ Il percorso inizia sempre con un nodo di pubblico persona. Imposta il pubblico d
 :::
 
 :::
-<!-- ![Action nodes](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it) -->
+<!-- ![Action nodes](https://cdn.experienceleague.adobe.com/icons/circle-play.svg) -->
 
 Nodi azione
 
@@ -37,7 +40,7 @@ Applica le modifiche a ogni persona in un percorso, ad esempio l’invio di un�
 :::
 
 :::
-<!-- ![Event nodes](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it) -->
+<!-- ![Event nodes](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg) -->
 
 Nodi evento
 
@@ -47,7 +50,7 @@ Porta le persone al passaggio del percorso successivo quando si verifica un’at
 :::
 
 :::
-<!-- ![Wait nodes](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=it) -->
+<!-- ![Wait nodes](https://cdn.experienceleague.adobe.com/icons/clock.svg) -->
 
 Nodi di attesa
 
@@ -57,7 +60,7 @@ Sospendi la progressione del percorso per una durata impostata o fino a una data
 :::
 
 :::
-<!-- ![Split and merge paths nodes](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it) -->
+<!-- ![Split and merge paths nodes](https://cdn.experienceleague.adobe.com/icons/code-branch.svg) -->
 
 Dividere e unire i nodi dei percorsi
 
@@ -67,7 +70,7 @@ Segmenta le persone in percorsi separati in base alle condizioni, applica azioni
 :::
 
 :::
-<!-- ![Next best path node](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=it) -->
+<!-- ![Next best path node](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg) -->
 
 Nodo percorso migliore successivo
 
