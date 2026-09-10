@@ -1,9 +1,14 @@
 ---
 title: Creare modelli di punteggio personalizzati
 description: Crea, visualizza in anteprima e pubblica modelli personalizzati di punteggio del lead in Marketo Optimizer utilizzando l’abilità Studio di punteggio nell’interfaccia della chat di Collaborator.
-source-git-commit: 75b481faf0d66210329f95c8afabdfa59e7bcb79
+TQID: 'https://experienceleague.adobe.com/OAY0CzFPTyUi7NCPbRnxGkG6nnndPygbwGlbv9u2oeA'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: 468
 ht-degree: 1%
 
 ---

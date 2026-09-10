@@ -1,10 +1,21 @@
 ---
 title: Regole di business
 description: Crea e gestisci set di regole per applicare limiti di frequenza e regole di orario non interattivo che controllano la frequenza e il momento in cui i clienti ricevono i messaggi di marketing.
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/uLuI4cGbmaY4O0AEtf5tCT-czPl0AsY-44t2lU2xbrQ'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+  - id: a659ad61-de21-559d-a901-02e2fb329ff5
+  - id: d4203578-d294-5145-b397-f26f4488a904
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '2965'
-ht-degree: 13%
+source-wordcount: 2965
+ht-degree: 16%
 
 ---
 
@@ -65,7 +76,7 @@ Per disattivare una regola, fai clic sull&#39;icona _Disattiva_ ( ![Icona Disatt
 >
 >La disattivazione di una regola o di un set di regole non influisce né reimposta i conteggi sui singoli profili.
 
-## Creare e attivare set di regole personalizzati {#create}
+## Creare e attivare set di regole personalizzate {#create}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_rule_set_domain"
@@ -84,8 +95,8 @@ Per disattivare una regola, fai clic sull&#39;icona _Disattiva_ ( ![Icona Disatt
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_rule_sets_duration"
->title="Reimposta la frequenza di limite"
->abstract="Selezionare il periodo di calendario utilizzato per reimpostare il contatore dei limiti: Orario, Giornaliero, Settimanale o Mensile. Il contatore viene reimpostato automaticamente su 0 all&#39;inizio di ogni nuovo periodo."
+>title="Ripristina la limitazione della frequenza"
+>abstract="Seleziona il periodo di calendario utilizzato per ripristinare il contatore delle limitazioni: Orario, Giornaliero, Settimanale o Mensile. Il contatore viene ripristinato automaticamente su 0 all’inizio di ciascun nuovo periodo."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_rule_set_rule_capping"

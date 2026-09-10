@@ -1,9 +1,14 @@
 ---
 title: Modalità scura per il contenuto delle e-mail
 description: Scopri la progettazione delle e-mail in modalità scura in Marketo Optimizer. Anteprima del rendering, personalizzazione delle impostazioni e test tra client e-mail.
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/IFAOy7HJQ93uT4Mz70dC-RPHPaWhUhE9T0d5dEgJYgk'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: 1476
 ht-degree: 7%
 
 ---
