@@ -3,15 +3,15 @@ title: Scoring Studio
 description: Scopri Scoring Studio in Adobe Marketo Optimizer, compresi l’elenco di modelli, l’area di lavoro, le colonne delle dimensioni, le schede di segnale, i segmenti principali e la pubblicazione.
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
-source-git-commit: 96a923c923a6290b9d90e4ffc8e161d78f029c47
+    internal-label: Chat Interface
+source-git-commit: cc6a908809cfb91bf03157935737f4869761a7db
 workflow-type: tm+mt
-source-wordcount: 897
+source-wordcount: '897'
 ht-degree: 2%
-
 ---
-
 
 # Scoring Studio
 
@@ -20,6 +20,8 @@ Scoring Studio include un elenco di modelli, un&#39;area di lavoro modificabile 
 ## Elenco modelli {#model-list}
 
 L’elenco dei modelli è la vista di destinazione di Scoring Studio. Ogni modello di punteggio nell&#39;istanza [!DNL Marketo Optimizer] viene visualizzato come righe in una tabella o come schede se si passa alla visualizzazione griglia.
+
+![L&#39;elenco dei modelli di Scoring Studio mostra i modelli di punteggio attivi con le relative dimensioni, i segnali e i dettagli dell&#39;ultima modifica.](./assets/scoring-studio-ui.png){width="800" zoomable="yes"}
 
 | Colonna | Descrizione |
 | --- | --- |
@@ -31,8 +33,6 @@ L’elenco dei modelli è la vista di destinazione di Scoring Studio. Ogni model
 | Ultima modifica eseguita da | Persona che ha modificato per ultima il modello. |
 | Creato il | Data di creazione del modello. |
 | Creato da | Persona che ha creato il modello. |
-
-![L&#39;elenco dei modelli di Scoring Studio mostra i modelli di punteggio attivi con le relative dimensioni, i segnali e i dettagli dell&#39;ultima modifica.](./assets/scoring-studio-ui.png){width="800" zoomable="yes"}
 
 Utilizza il campo di ricerca per trovare un modello per nome o filtrare l’elenco per stato. Seleziona il **[!UICONTROL altro menu]** di una riga per **[!UICONTROL modificare]**, **[!UICONTROL duplicare]**, **[!UICONTROL archiviare]** o **[!UICONTROL eliminare]** un modello.
 
