@@ -4,25 +4,34 @@ description: 'Esaminare le competenze di CX Enterprise Coworker in Marketo Optim
 TQID: 'https://experienceleague.adobe.com/nNFB9UEghfqVvnBrNtTDnpnLUKKKMAU2nY1Pqt0KkUQ'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
   - id: 46e599c6-e20f-5f67-9824-93415016f66b
+    internal-label: Audiences
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
 topic_v2:
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+    internal-label: Data quality
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Personalization
+source-git-commit: 6e03e2dc6abb00d288f5684e9ea9b6489c6517e4
 workflow-type: tm+mt
-source-wordcount: 581
+source-wordcount: '568'
 ht-degree: 5%
-
 ---
-
 # Competenze del collaboratore
 
 Una _abilità_ è un flusso di lavoro integrato che Coworker è in grado di eseguire, ovvero i blocchi predefiniti sia del menu `/` che delle richieste in linguaggio naturale. Ogni abilità riunisce istruzioni dettagliate e gli strumenti specifici necessari per un lavoro (ad esempio, &quot;pubblicare un percorso&quot;, &quot;confrontare elenchi di due persone&quot;, &quot;creare un modello di punteggio&quot;).
@@ -35,10 +44,9 @@ Una _abilità_ è un flusso di lavoro integrato che Coworker è in grado di eseg
 
 | Competenza | Funzionamento | Accesso | Superficie del prodotto | Impatto/flusso di dati |
 |---|---|---|---|---|
-| `falco-program-creation` | Creazione del programma [!DNL Marketo Optimizer] end-to-end: programma, sottocartelle, token, elenchi, percorsi. <p>Consulta _[Creare un programma da una descrizione](./program-from-brief.md)_. | Scrittura | [!DNL Marketo Optimizer] | Legge e scrive [!DNL Marketo Optimizer]. |
 | `adapt-program` | Genera storie di migrazione da [!DNL Marketo Engage] programmi per l&#39;adattamento [!DNL Marketo Optimizer]. | Lettura | [!DNL Marketo Optimizer] | Legge [!DNL Marketo Engage], scrive [!DNL Marketo Optimizer] |
 | `folder-creation` | Crea cartelle organizzative nella struttura ad albero delle risorse. | Scrittura | [!DNL Marketo Optimizer] | Legge e scrive [!DNL Marketo Optimizer] |
-| `program-creation` *(Programmi di compilazione)* | Crea programmi Marketo da una descrizione della campagna. | Scrittura | [!DNL Marketo Engage] | Legge e scrive [!DNL Marketo Engage] |
+| `program-creation` *(Programmi di compilazione)* | Crea programmi Marketo da una descrizione della campagna.  <p>Consulta _[Creare un programma da una descrizione](./program-from-brief.md)_. | Scrittura | [!DNL Marketo Engage] | Legge e scrive [!DNL Marketo Engage] |
 | `program-planning` *(Pianificare Campagne)* | Trasforma i resoconti in documenti di configurazione/implementazione. | Lettura | [!DNL Marketo Engage] | Legge [!DNL Marketo Engage] |
 | `program-qa` *(Convalida Programmi)* | Convalidare/controllare i programmi (solo regole, piano di test o descrizione). | Lettura | [!DNL Marketo Engage] | Legge [!DNL Marketo Engage] |
 

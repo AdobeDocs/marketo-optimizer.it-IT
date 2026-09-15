@@ -4,21 +4,21 @@ description: Crea, visualizza in anteprima e pubblica modelli personalizzati di 
 TQID: 'https://experienceleague.adobe.com/OAY0CzFPTyUi7NCPbRnxGkG6nnndPygbwGlbv9u2oeA'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+    internal-label: Chat Interface
 source-git-commit: 96a923c923a6290b9d90e4ffc8e161d78f029c47
 workflow-type: tm+mt
-source-wordcount: 468
-ht-degree: 1%
-
+source-wordcount: '468'
+ht-degree: 5%
 ---
-
 # Crea modelli di punteggio personalizzati
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_scoring_studio"
 >title="Scoring Studio"
->abstract="Utilizza l’abilità di Scoring Studio per creare, configurare e pubblicare modelli personalizzati di punteggio del lead tramite l’interfaccia di chat di Collaborator."
+>abstract="Utilizza l’abilità Scoring Studio per creare, configurare e pubblicare modelli di punteggio dei lead personalizzati tramite l’interfaccia chat di Coworker."
 
 L&#39;abilità [_Scoring Studio_](./skills.md#scoring-signals) in [!DNL Adobe Marketo Optimizer] fornisce una soluzione di valutazione dei lead nativa per l&#39;intelligenza artificiale che consente di creare, configurare e pubblicare modelli di valutazione dei lead. Lo studio combina un flusso di lavoro basato su agenti con un&#39;interfaccia utente visiva: è possibile creare modelli di punteggio tramite prompt del linguaggio naturale nell&#39;[interfaccia chat di Coworker](./chat-interface.md) o interagendo direttamente con i controlli dell&#39;interfaccia utente.
 
