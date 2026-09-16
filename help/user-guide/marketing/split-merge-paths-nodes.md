@@ -25,7 +25,7 @@ Un nodo Percorsi suddivisi definisce uno o più percorsi segmentati in base ai f
 
 <!-- A split based on a people filter is automatically closed with a merge paths node so that all people can move forward to the next step. Split by people paths can include only people actions. These paths cannot be split again and automatically join back. _not currently true_ -->
 
-_**Funzionamento di un nodo di percorso diviso**_
+_&#x200B;**Funzionamento di un nodo di percorso diviso**&#x200B;_
 
 * La valutazione di ciascun percorso è dall&#39;alto verso il basso. Se una persona corrisponde al primo e al secondo percorso, procede solo lungo il primo percorso.
 * Il nodo supporta la definizione di un percorso _Altre persone_, in cui è possibile aggiungere azioni o eventi per le persone che non corrispondono a uno dei segmenti o percorsi definiti.
