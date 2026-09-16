@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
     internal-label: Reporting
-source-git-commit: 56f39b3c77bd13984cf72761621ac3b228f13abd
+source-git-commit: 32017a2577b7f31632080215ba91b9454c51b9ef
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '488'
 ht-degree: 2%
 ---
 
@@ -57,7 +57,7 @@ Seleziona **[!UICONTROL Condividi]** nella parte superiore della pagina del repo
 >
 >L’organizzazione può avere un massimo di 10 esportazioni pianificate in tutti i rapporti, con frequenza settimanale o mensile. Se non sei un amministratore, puoi gestire solo le esportazioni pianificate. Gli amministratori possono visualizzare e gestire ogni esportazione pianificata nell’organizzazione.
 
-## Analizzare un rapporto in CJA {#analyze-a-report-in-cja}
+## Analizzare un report in [!DNL Customer Journey Analytics] {#analyze-a-report-in-cja}
 
 >[!AVAILABILITY]
 >
