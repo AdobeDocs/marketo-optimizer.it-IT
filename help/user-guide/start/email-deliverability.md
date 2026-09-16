@@ -4,24 +4,32 @@ description: Configura la delega dei sottodomini, DMARC, SPF, DKIM e i pool IP p
 TQID: 'https://experienceleague.adobe.com/-7yEXTaOrGIfCFw-UzanMqA9VJ1Nk-BmdmE2JJJSoB4'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
+    internal-label: Reporting
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a659ad61-de21-559d-a901-02e2fb329ff5
+    internal-label: Administration
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Administration
+source-git-commit: cf3d8c71c9301ee038cc1b31968d30aba34d1fc7
 workflow-type: tm+mt
-source-wordcount: 2502
+source-wordcount: '2590'
 ht-degree: 0%
-
 ---
-
 # Recapitabilità delle e-mail
 
 Le informazioni seguenti sono destinate agli amministratori che configurano l’infrastruttura di invio per supportare gli addetti al marketing e i creatori di contenuti e-mail. Descrive le funzioni di recapito messaggi e come configurare i sottodomini, l’autenticazione e i pool IP.
@@ -34,6 +42,7 @@ Utilizza i seguenti blocchi predefiniti, configurati da un amministratore, in ge
 1. [Configura i record DMARC, SPF e DKIM](#dmarc-spf-dkim) in ciascun sottodominio.
 1. [Conferma il pool IP](#ip-pools) utilizzato per inviare e-mail per il tuo sottodominio.
 1. [Crea una o più configurazioni del canale e-mail](../admin/email-channel-configuration.md#create-email-channel-configuration) che associano un sottodominio, un pool IP e un&#39;identità mittente.
+1. [Inserisce nell&#39;elenco Consentiti gli indirizzi IP di invio](#allowlist-ip-addresses) con il tuo reparto IT in modo che le e-mail di prova raggiungano la tua casella in entrata.
 
 ![Configurazione del recapito messaggi e-mail per Marketo Optimizer](./assets/email-deliverability-diagram.svg){width="600"}
 
@@ -361,6 +370,20 @@ In questa versione, viene eseguito il preprovisioning dei pool IP per la tua org
 >[!IMPORTANT]
 >
 >Non combinare il traffico di marketing e quello transazionale sullo stesso pool IP, anche quando il pool condiviso è disponibile. L’impostazione del tipo di e-mail nella configurazione del canale (Marketing anziché Transazionale) governa il comportamento di eliminazione, ma le configurazioni del canale devono comunque utilizzare pool distinti, ove possibile.
+
+## Inserire nell&#39;elenco Consentiti indirizzi IP {#allowlist-ip-addresses}
+
+I sistemi aziendali anti-spam a volte bloccano le e-mail di prova inviate da [!DNL Marketo Optimizer]. Questi sistemi si basano sugli indirizzi IP del mittente per verificare che un’e-mail sia valida. Per assicurarsi che le e-mail di test arrivino, aggiungi [!DNL Marketo Optimizer] al tuo elenco Consentiti aziendale di.
+
+Chiedi al tuo reparto IT di aggiungere questi indirizzi IP al tuo elenco Consentiti di aziendale:
+
+* 54.212.167.17
+* 35.165.244.220
+* 44.235.171.179
+
+>[!TIP]
+>
+>In genere, il reparto IT gestisce il inserisco nell&#39;elenco Consentiti di gestione delle e-mail aziendali per l azienda. Condividi questo elenco di indirizzi IP con loro durante la configurazione iniziale.
 
 <!--
 
