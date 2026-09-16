@@ -3,10 +3,10 @@ user-guide-title: Documentazione di Marketo Optimizer
 user-guide-description: Scopri Adobe Marketo Optimizer e come utilizzarlo per eseguire attività coordinate di marketing e vendita con contenuti personalizzati e basati sull’intelligenza artificiale per lead e account B2B.
 hide: true
 nudge: red
-source-git-commit: b25a376b80aa6ee821f372398b77e5b6dd542e3c
+source-git-commit: 32017a2577b7f31632080215ba91b9454c51b9ef
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 44%
+source-wordcount: '246'
+ht-degree: 43%
 ---
 
 # Guida utente di Marketo Optimizer {#user}
@@ -60,8 +60,9 @@ ht-degree: 44%
   + [Panoramica](./reports/reports-overview.md)
   + [Panoramica del percorso per persone](./reports/person-journey-overview-report.md)
   + [Coinvolgimento](./reports/engagement-report.md)
-  + {hide-from-toc}[Coinvolgimento e-mail](./reports/email-engagement-report.md)
+  + [Coinvolgimento e-mail](./reports/email-engagement-report.md)
   + [Coinvolgimento web](./reports/web-engagement-report.md)
+  + [Set di dati di Experience Platform](./reports/aep-datasets.md)
 + Tipi di pubblico {#audiences}
   + [Elenchi di persone](./audiences/people-lists.md)
   + [Dettagli delle persone](./audiences/person-details.md)
