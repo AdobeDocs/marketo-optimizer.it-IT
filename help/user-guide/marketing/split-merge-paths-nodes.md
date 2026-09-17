@@ -8,10 +8,10 @@ product_v2:
 feature_v2:
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
     internal-label: Journeys
-source-git-commit: 9d9f2ae1aafc5ffdc2bcc6546c7eb2ddcbaa4ab2
+source-git-commit: bc370a501d3f8ff80ad846576b62504aca77f530
 workflow-type: tm+mt
-source-wordcount: '1064'
-ht-degree: 6%
+source-wordcount: '1083'
+ht-degree: 2%
 ---
 # Dividere e unire i nodi dei percorsi
 
@@ -38,10 +38,10 @@ Per ogni percorso definito per il nodo, utilizza i seguenti tipi di filtro per f
 | ------- | ----------- |
 | Cronologia delle attività | Attività basate su condizioni valutate utilizzando uno o più elementi selezionati |
 | Brand Concierge | Attività per lead che interagiscono con [!DNL Brand Concierge]. |
-| Attributi azienda | Attributi dal profilo società/account, tra cui: <li>Ricavi annuali <li>Nome dell’azienda <li>Paese di fatturazione <li>Settore <li>N. dipendenti <li>Codice SIC <li>Stato |
+| Attributi azienda | Attributi dal profilo società/account, tra cui: <li>[!UICONTROL Entrate annuali] <li>[!UICONTROL Nome società] <li>[!UICONTROL Paese di fatturazione] <li>[!UICONTROL Settore] <li>[!UICONTROL Numero dipendenti] <li>[!UICONTROL Codice SIC] <li>[!UICONTROL Stato] |
 | Dati di intento | Attributi basati sui dati di intento associati al profilo della persona. |
-| Opportunità | Attributi in base alle opportunità associate al profilo persona. |
-| Attributi della persona | Attributi dal profilo persona B2B, tra cui: <li>Città <li>Paese <li>Data di nascita <li>Indirizzo e-mail <li>E-mail non valida <li>E-mail sospesa <li>Nome <li>Area geografica dello stato dedotta<li>Posizione lavorativa <li>Cognome <li>Numero di cellulare <li>Punteggio di coinvolgimento della persona <li>Numero di telefono <li>Codice postale <li>Stato <li>Annulla l&#39;iscrizione <li>Motivo dell’annullamento dell’iscrizione |
+| Opportunità | Stato e attributi in base alle opportunità associate al profilo persona, tra cui: <li>[!UICONTROL Ha opportunità] <li>[!UICONTROL Numero di opportunità] <li>[!UICONTROL Importo totale opportunità] <li>[!UICONTROL Aggiunto all&#39;opportunità] <li>[!UICONTROL Rimosso dall&#39;opportunità] |
+| Attributi della persona | Attributi dal profilo persona B2B, tra cui: <li>[!UICONTROL Città] <li>[!UICONTROL Paese] <li>[!UICONTROL Data di nascita] <li>[!UICONTROL Indirizzo e-mail] <li>[!UICONTROL E-mail non valida] <li>[!UICONTROL E-mail sospesa] <li>[!UICONTROL Nome] <li>[!UICONTROL Area di stato dedotta] <li>[!UICONTROL Qualifica] <li>[!UICONTROL Cognome] <li>[!UICONTROL Numero di telefono cellulare] <li>[!UICONTROL Punteggio di coinvolgimento della persona] <li>[!UICONTROL Numero di telefono] <li>[!UICONTROL Codice postale] <li>[!UICONTROL Stato] <li>[!UICONTROL Abbonamento annullato] <li>[!UICONTROL Motivo per annullamento abbonamento] |
 | App di vendita | Attività lead relative a [!DNL Sales Qualifier] o [!DNL Marketo Sales Insights]. |
 | Filtri speciali | Filtrare gli attributi che non rientrano nelle categorie predefinite, fornendo flessibilità per criteri di filtro personalizzati o vari. |
 
@@ -57,16 +57,16 @@ Per le condizioni del percorso, [!DNL Marketo Optimizer] supporta le attività d
 
 È possibile creare le condizioni per le seguenti [!DNL Marketo Engage] attività:
 
-* [!UICONTROL Modulo Marketo Engage compilato] - Corrisponde ai lead che hanno completato un modulo [!DNL Marketo Engage] specifico in qualsiasi punto del registro attività non obsoleto.
-* [!UICONTROL Pagina Web Marketo Engage visitata] - Corrisponde ai lead che hanno visualizzato un URL specifico sul sito Web o [!DNL Marketo Engage] pagine di destinazione. Funziona direttamente utilizzando il codice di tracciamento di Munchkin installato sul tuo sito.
-* [!UICONTROL Collegamento selezionato nella pagina Web di Marketo Engage] - Corrisponde ai lead che hanno fatto clic su un collegamento o una risorsa specifica in una pagina tracciata.
-* [!UICONTROL E-mail Marketo Engage inviata] - Corrisponde ai lead a cui [!DNL Marketo Engage] ha tentato di inviare un&#39;e-mail specifica, tenendo conto delle azioni di distribuzione precedenti agli hard bounce o alle accettazioni del server.
-* [!UICONTROL E-mail Marketo Engage recapitata] - Corrisponde a un lead il cui server di posta (MX) ha restituito una risposta di esito positivo (un messaggio OK 250) al server di invio [!DNL Marketo Engage].
-* [!UICONTROL E-mail Marketo Engage non recapitata] - Corrisponde ai lead che hanno riscontrato un errore irreversibile (consegna permanente non riuscita) in un invio e-mail specifico o in un intervallo di tempo.
-* [!UICONTROL E-mail non recapitate in Marketo Engage] - Corrisponde a lead le cui e-mail hanno subito un errore di consegna temporaneo (ad esempio, una casella in entrata completa o un server offline) anziché un errore permanente irreversibile.
-* [!UICONTROL Annullamento dell&#39;iscrizione all&#39;e-mail di Marketo Engage] - Corrisponde ai lead che hanno rinunciato alle e-mail di marketing non operative. In questo caso, [!DNL Marketo Engage] aggiorna automaticamente il valore del campo `Unsubscribed` del lead in `true`, eliminandoli dagli invii di e-mail standard futuri.
-* [!UICONTROL E-mail Marketo Engage aperta] - Corrisponde ai lead che hanno aperto un&#39;e-mail [!DNL Marketo Engage] tracciata.
-* [!UICONTROL Collegamento selezionato nell&#39;e-mail di Marketo Engage] - Corrisponde ai lead che hanno fatto clic su un collegamento (o un collegamento specifico) all&#39;interno di un&#39;e-mail di [!DNL Marketo Engage].
+* **[!UICONTROL Modulo Marketo Engage compilato]** - Corrisponde ai lead che hanno completato un modulo [!DNL Marketo Engage] specifico in qualsiasi punto del registro attività non obsoleto.
+* **[!UICONTROL Pagina Web Marketo Engage visitata]** - Corrisponde ai lead che hanno visualizzato un URL specifico sul sito Web o [!DNL Marketo Engage] pagine di destinazione. Funziona direttamente utilizzando il codice di tracciamento di Munchkin installato sul tuo sito.
+* **[!UICONTROL Collegamento selezionato nella pagina Web di Marketo Engage]** - Corrisponde ai lead che hanno fatto clic su un collegamento o una risorsa specifica in una pagina tracciata.
+* **[!UICONTROL E-mail Marketo Engage inviata]** - Corrisponde ai lead a cui [!DNL Marketo Engage] ha tentato di inviare un&#39;e-mail specifica, tenendo conto delle azioni di distribuzione precedenti agli hard bounce o alle accettazioni del server.
+* **[!UICONTROL E-mail Marketo Engage recapitata]** - Corrisponde a un lead il cui server di posta (MX) ha restituito una risposta di esito positivo (un messaggio OK 250) al server di invio [!DNL Marketo Engage].
+* **[!UICONTROL E-mail Marketo Engage non recapitata]** - Corrisponde ai lead che hanno riscontrato un errore irreversibile (consegna permanente non riuscita) in un invio e-mail specifico o in un intervallo di tempo.
+* **[!UICONTROL E-mail non recapitate in Marketo Engage]** - Corrisponde a lead le cui e-mail hanno subito un errore di consegna temporaneo (ad esempio, una casella in entrata completa o un server offline) anziché un errore permanente irreversibile.
+* **[!UICONTROL Annullamento dell&#39;iscrizione all&#39;e-mail di Marketo Engage]** - Corrisponde ai lead che hanno rinunciato alle e-mail di marketing non operative. In questo caso, [!DNL Marketo Engage] aggiorna automaticamente il valore del campo `Unsubscribed` del lead in `true`, eliminandoli dagli invii di e-mail standard futuri.
+* **[!UICONTROL E-mail Marketo Engage aperta]** - Corrisponde ai lead che hanno aperto un&#39;e-mail [!DNL Marketo Engage] tracciata.
+* **[!UICONTROL Collegamento selezionato nell&#39;e-mail di Marketo Engage]** - Corrisponde ai lead che hanno fatto clic su un collegamento (o un collegamento specifico) all&#39;interno di un&#39;e-mail di [!DNL Marketo Engage].
 
 >[!ENDSHADEBOX]
 

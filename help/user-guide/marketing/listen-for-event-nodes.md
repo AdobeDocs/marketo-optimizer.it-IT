@@ -5,10 +5,10 @@ TQID: 'https://experienceleague.adobe.com/6v3i6M-Hhr2RAWrS68WaEVb8VJEzJZbD7vXOJO
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
     internal-label: Marketo Optimizer
-source-git-commit: cc98b02f4273c5df2e27b52acd1239f0f0bf8aa0
+source-git-commit: bc370a501d3f8ff80ad846576b62504aca77f530
 workflow-type: tm+mt
-source-wordcount: '1139'
-ht-degree: 6%
+source-wordcount: '1158'
+ht-degree: 2%
 ---
 # Ascolta un nodo evento
 
@@ -39,15 +39,15 @@ Quando si attiva su eventi, [!DNL Marketo Optimizer] supporta le attività dell&
 
 È possibile generare trigger di evento in base alle seguenti [!DNL Marketo Engage] attività:
 
-* [!UICONTROL Compila il modulo di Marketo Engage] - Generato quando un lead invia un modulo [!DNL Marketo Engage] specificato.
-* [!UICONTROL Visita la pagina Web di Marketo Engage] - Viene attivato quando un lead con un cookie di tracciamento di Munchkin visita una pagina Web specificata.
-* [!UICONTROL Collegamento clic sulla pagina Web di Marketo Engage] - Viene attivato quando un lead fa clic su un collegamento ipertestuale tracciato in una pagina Web in cui è installato il codice di tracciamento di Munchkin [!DNL Marketo Engage].
-* [!UICONTROL L&#39;e-mail Marketo Engage è stata recapitata]. Viene attivato quando il server di posta del lead (MX) restituisce una risposta di completamento (un messaggio OK 250) al server di invio [!DNL Marketo Engage].
-* [!UICONTROL Mancati recapiti e-mail di Marketo Engage] - Viene attivato quando un server di posta di destinazione rifiuta un messaggio e-mail di [!DNL Marketo Engage] inviato come errore permanente, ad esempio un utente non valido o un dominio sconosciuto.
-* [!UICONTROL Marketo Engage email bounces soft] - Viene attivato quando un server di posta di destinazione rifiuta un messaggio di posta elettronica [!DNL Marketo Engage] inviato come problema temporaneo (ad esempio, server occupato o cassetta postale piena). [!DNL Marketo Engage] ritenta automaticamente i mancati recapiti non permanenti fino a tre volte attraverso i server MX prima di segnalare i problemi.
-* [!UICONTROL Annulla iscrizione all&#39;e-mail di Marketo Engage] - Viene attivato quando un lead rinuncia alle e-mail di marketing non operative. Quando viene attivato, [!DNL Marketo Engage] aggiorna automaticamente il valore del campo `Unsubscribed` del lead in `true`, eliminandoli dagli invii di e-mail standard futuri.
-* [!UICONTROL Apre l&#39;e-mail di Marketo Engage] - Viene attivato quando un lead apre un&#39;e-mail di [!DNL Marketo Engage] tracciata.
-* [!UICONTROL Collegamento clic nell&#39;e-mail di Marketo Engage] - Viene attivato quando un lead fa clic su un collegamento (o un collegamento vincolato specifico) all&#39;interno di un&#39;e-mail di [!DNL Marketo Engage].
+* **[!UICONTROL Compila il modulo di Marketo Engage]** - Generato quando un lead invia un modulo [!DNL Marketo Engage] specificato.
+* **[!UICONTROL Visita la pagina Web di Marketo Engage]** - Viene attivato quando un lead con un cookie di tracciamento di Munchkin visita una pagina Web specificata.
+* **[!UICONTROL Collegamento clic sulla pagina Web di Marketo Engage]** - Viene attivato quando un lead fa clic su un collegamento ipertestuale tracciato in una pagina Web in cui è installato il codice di tracciamento di Munchkin [!DNL Marketo Engage].
+* **[!UICONTROL L&#39;e-mail Marketo Engage è stata recapitata]**. Viene attivato quando il server di posta del lead (MX) restituisce una risposta di completamento (un messaggio OK 250) al server di invio [!DNL Marketo Engage].
+* **[!UICONTROL Mancati recapiti e-mail di Marketo Engage]** - Viene attivato quando un server di posta di destinazione rifiuta un messaggio e-mail di [!DNL Marketo Engage] inviato come errore permanente, ad esempio un utente non valido o un dominio sconosciuto.
+* **[!UICONTROL Marketo Engage email bounces soft]** - Viene attivato quando un server di posta di destinazione rifiuta un messaggio di posta elettronica [!DNL Marketo Engage] inviato come problema temporaneo (ad esempio, server occupato o cassetta postale piena). [!DNL Marketo Engage] ritenta automaticamente i mancati recapiti non permanenti fino a tre volte attraverso i server MX prima di segnalare i problemi.
+* **[!UICONTROL Annulla iscrizione all&#39;e-mail di Marketo Engage]** - Viene attivato quando un lead rinuncia alle e-mail di marketing non operative. Quando viene attivato, [!DNL Marketo Engage] aggiorna automaticamente il valore del campo `Unsubscribed` del lead in `true`, eliminandoli dagli invii di e-mail standard futuri.
+* **[!UICONTROL Apre l&#39;e-mail di Marketo Engage]** - Viene attivato quando un lead apre un&#39;e-mail di [!DNL Marketo Engage] tracciata.
+* **[!UICONTROL Collegamento clic nell&#39;e-mail di Marketo Engage]** - Viene attivato quando un lead fa clic su un collegamento (o un collegamento vincolato specifico) all&#39;interno di un&#39;e-mail di [!DNL Marketo Engage].
 
 >[!ENDSHADEBOX]
 
@@ -59,10 +59,10 @@ Puoi includere il filtro per limitare i trigger di evento corrispondenti in base
 | ------- | ----------- |
 | Cronologia delle attività | Attività basate su condizioni valutate utilizzando uno o più elementi selezionati |
 | Brand Concierge | Attività per lead che interagiscono con [!DNL Brand Concierge]. |
-| Attributi azienda | Attributi dal profilo società/account, tra cui: <li>Ricavi annuali <li>Nome dell’azienda <li>Paese di fatturazione <li>Settore <li>N. dipendenti <li>Codice SIC <li>Stato |
+| Attributi azienda | Attributi dal profilo società/account, tra cui: <li>[!UICONTROL Entrate annuali] <li>[!UICONTROL Nome società] <li>[!UICONTROL Paese di fatturazione] <li>[!UICONTROL Settore] <li>[!UICONTROL Numero dipendenti] <li>[!UICONTROL Codice SIC] <li>[!UICONTROL Stato] |
 | Dati di intento | Attributi basati sui dati di intento associati al profilo della persona. |
-| Opportunità | Attributi in base alle opportunità associate al profilo persona. |
-| Attributi della persona | Attributi dal profilo persona B2B, tra cui: <li>Città <li>Paese <li>Data di nascita <li>Indirizzo e-mail <li>E-mail non valida <li>E-mail sospesa <li>Nome <li>Area geografica dello stato dedotta<li>Posizione lavorativa <li>Cognome <li>Numero di cellulare <li>Punteggio di coinvolgimento della persona <li>Numero di telefono <li>Codice postale <li>Stato <li>Annulla l&#39;iscrizione <li>Motivo dell’annullamento dell’iscrizione |
+| Opportunità | Stato e attributi in base alle opportunità associate al profilo persona, tra cui: <li>[!UICONTROL Ha opportunità] <li>[!UICONTROL Numero di opportunità] <li>[!UICONTROL Importo totale opportunità] <li>[!UICONTROL Aggiunto all&#39;opportunità] <li>[!UICONTROL Rimosso dall&#39;opportunità] |
+| Attributi della persona | Attributi dal profilo persona B2B, tra cui: <li>[!UICONTROL Città] <li>[!UICONTROL Paese] <li>[!UICONTROL Data di nascita] <li>[!UICONTROL Indirizzo e-mail] <li>[!UICONTROL E-mail non valida] <li>[!UICONTROL E-mail sospesa] <li>[!UICONTROL Nome] <li>[!UICONTROL Area di stato dedotta] <li>[!UICONTROL Qualifica] <li>[!UICONTROL Cognome] <li>[!UICONTROL Numero di telefono cellulare] <li>[!UICONTROL Punteggio di coinvolgimento della persona] <li>[!UICONTROL Numero di telefono] <li>[!UICONTROL Codice postale] <li>[!UICONTROL Stato] <li>[!UICONTROL Abbonamento annullato] <li>[!UICONTROL Motivo per annullamento abbonamento] |
 | App di vendita | Attività lead relative a [!DNL Sales Qualifier] o [!DNL Marketo Sales Insights]. |
 | Filtri speciali | Filtrare gli attributi che non rientrano nelle categorie predefinite, fornendo flessibilità per criteri di filtro personalizzati o vari. |
 
@@ -78,16 +78,16 @@ Quando si filtrano eventi attivati, [!DNL Marketo Optimizer] supporta le attivit
 
 È possibile creare filtri evento per le seguenti [!DNL Marketo Engage] attività:
 
-* [!UICONTROL Modulo Marketo Engage compilato] - Corrisponde ai lead che hanno completato un modulo [!DNL Marketo Engage] specifico in qualsiasi punto del registro attività non obsoleto.
-* [!UICONTROL Pagina Web Marketo Engage visitata] - Corrisponde ai lead che hanno visualizzato un URL specifico sul sito Web o [!DNL Marketo Engage] pagine di destinazione. Si basa direttamente sul codice di tracciamento di Munchkin installato sul sito.
-* [!UICONTROL Collegamento selezionato nella pagina Web di Marketo Engage] - Corrisponde ai lead che hanno fatto clic su un collegamento o una risorsa specifica in una pagina tracciata.
-* [!UICONTROL E-mail Marketo Engage inviata] - Corrisponde ai lead a cui [!DNL Marketo Engage] ha tentato di inviare un&#39;e-mail specifica, tenendo conto delle azioni di distribuzione precedenti agli hard bounce o alle accettazioni del server.
-* [!UICONTROL E-mail Marketo Engage recapitata] - Corrisponde ai lead il cui server di posta (MX) ha restituito una risposta di esito positivo (un messaggio OK 250) al server di invio [!DNL Marketo Engage].
-* [!UICONTROL E-mail Marketo Engage non recapitata] - Corrisponde ai lead che hanno riscontrato un errore di recapito permanente in un invio e-mail specifico o in un arco temporale.
-* [!UICONTROL E-mail non recapitate in Marketo Engage] - Corrisponde a lead le cui e-mail hanno subito un errore di consegna temporaneo (ad esempio, una casella in entrata completa o un server offline) anziché un errore permanente irreversibile.
-* [!UICONTROL Annullamento dell&#39;iscrizione all&#39;e-mail di Marketo Engage] - Corrisponde ai lead che hanno rinunciato alle e-mail di marketing non operative. In questo caso, [!DNL Marketo Engage] aggiorna automaticamente il valore del campo `Unsubscribed` del lead in `true`, eliminandoli dagli invii di e-mail standard futuri.
-* [!UICONTROL E-mail Marketo Engage aperta] - Corrisponde ai lead che hanno aperto un&#39;e-mail [!DNL Marketo Engage] tracciata.
-* [!UICONTROL Collegamento selezionato nell&#39;e-mail di Marketo Engage] - Corrisponde ai lead che hanno fatto clic su un collegamento (o un collegamento specifico) all&#39;interno di un&#39;e-mail di [!DNL Marketo Engage].
+* **[!UICONTROL Modulo Marketo Engage compilato]** - Corrisponde ai lead che hanno completato un modulo [!DNL Marketo Engage] specifico in qualsiasi punto del registro attività non obsoleto.
+* **[!UICONTROL Pagina Web Marketo Engage visitata]** - Corrisponde ai lead che hanno visualizzato un URL specifico sul sito Web o [!DNL Marketo Engage] pagine di destinazione. Si basa direttamente sul codice di tracciamento di Munchkin installato sul sito.
+* **[!UICONTROL Collegamento selezionato nella pagina Web di Marketo Engage]** - Corrisponde ai lead che hanno fatto clic su un collegamento o una risorsa specifica in una pagina tracciata.
+* **[!UICONTROL E-mail Marketo Engage inviata]** - Corrisponde ai lead a cui [!DNL Marketo Engage] ha tentato di inviare un&#39;e-mail specifica, tenendo conto delle azioni di distribuzione precedenti agli hard bounce o alle accettazioni del server.
+* **[!UICONTROL E-mail Marketo Engage recapitata]** - Corrisponde ai lead il cui server di posta (MX) ha restituito una risposta di esito positivo (un messaggio OK 250) al server di invio [!DNL Marketo Engage].
+* **[!UICONTROL E-mail Marketo Engage non recapitata]** - Corrisponde ai lead che hanno riscontrato un errore di recapito permanente in un invio e-mail specifico o in un arco temporale.
+* **[!UICONTROL E-mail non recapitate in Marketo Engage]** - Corrisponde a lead le cui e-mail hanno subito un errore di consegna temporaneo (ad esempio, una casella in entrata completa o un server offline) anziché un errore permanente irreversibile.
+* **[!UICONTROL Annullamento dell&#39;iscrizione all&#39;e-mail di Marketo Engage]** - Corrisponde ai lead che hanno rinunciato alle e-mail di marketing non operative. In questo caso, [!DNL Marketo Engage] aggiorna automaticamente il valore del campo `Unsubscribed` del lead in `true`, eliminandoli dagli invii di e-mail standard futuri.
+* **[!UICONTROL E-mail Marketo Engage aperta]** - Corrisponde ai lead che hanno aperto un&#39;e-mail [!DNL Marketo Engage] tracciata.
+* **[!UICONTROL Collegamento selezionato nell&#39;e-mail di Marketo Engage]** - Corrisponde ai lead che hanno fatto clic su un collegamento (o un collegamento specifico) all&#39;interno di un&#39;e-mail di [!DNL Marketo Engage].
 
 >[!ENDSHADEBOX]
 
