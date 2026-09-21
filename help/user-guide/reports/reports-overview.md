@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
     internal-label: Reporting
-source-git-commit: 32017a2577b7f31632080215ba91b9454c51b9ef
+source-git-commit: 6e919a66af259ea1f5facf7f5c3e811d76101e85
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '491'
 ht-degree: 2%
 ---
 
@@ -37,7 +37,7 @@ La scheda [!UICONTROL Rapporti] organizza i rapporti predefiniti in quattro sezi
 Alcuni rapporti si concentrano su un singolo record anziché su una visualizzazione a livello di sezione e sono accessibili da un&#39;area diversa dell&#39;applicazione.
 
 * Per le prestazioni di ottimizzazione dell&#39;ora di invio dell&#39;e-mail, apri il report dall&#39;interfaccia chat di [!UICONTROL Collaboratore]. Per i passaggi, consulta [Ottimizzazione dell&#39;ora di invio dell&#39;e-mail](../marketing/email-send-time-optimization.md#reporting).
-* Per informazioni sull’avanzamento di una persona in un singolo percorso, apri il rapporto dall’interno di tale percorso.
+* Per informazioni sull&#39;avanzamento di una persona in un singolo percorso, aprire il report [Individuale Percorso di persone](./person-journey-individual-report.md) da tale percorso.
 
 ## Esportare un rapporto {#export-a-report}
 
