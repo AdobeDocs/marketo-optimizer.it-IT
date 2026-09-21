@@ -3,9 +3,9 @@ user-guide-title: Documentazione di Marketo Optimizer
 user-guide-description: Scopri Adobe Marketo Optimizer e come utilizzarlo per eseguire attività coordinate di marketing e vendita con contenuti personalizzati e basati sull’intelligenza artificiale per lead e account B2B.
 hide: true
 nudge: red
-source-git-commit: 32017a2577b7f31632080215ba91b9454c51b9ef
+source-git-commit: 1dcc3bcdc59114c7fc1e16178db8921ae173b955
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '249'
 ht-degree: 43%
 ---
 
@@ -28,6 +28,7 @@ ht-degree: 43%
   + [Creare e promuovere webinar](./agents/webinar-creation.md)
   + [Monitorare ed eseguire il debug della progressione del percorso](./agents/journey-observability.md)
   + [Configurare e analizzare le finalità](./agents/intent.md)
+  + [Generare rapporti di analisi](./agents/surface-analytics.md)
 + Decisioning IA {#ai-decisioning}
   + [Panoramica](./agents/ai-decisioning.md)
   + [Integrità delle decisioni basate sull’intelligenza artificiale](./agents/ai-decisioning-health.md)
