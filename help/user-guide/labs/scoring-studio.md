@@ -7,10 +7,10 @@ product_v2:
 feature_v2:
   - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
     internal-label: Chat Interface
-source-git-commit: cc6a908809cfb91bf03157935737f4869761a7db
+source-git-commit: 7e3080b688415ef623cdbd57aa08ed43eb6fcd17
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 2%
+source-wordcount: '1410'
+ht-degree: 1%
 ---
 
 # Scoring Studio
@@ -105,6 +105,84 @@ Sotto il segmento del lead, la scheda **[!UICONTROL Nome campo punteggio]** most
 
 ## Pubblicazione e pianificazione {#publish-schedule}
 
-Quando il modello è pronto, seleziona **[!UICONTROL Pubblica]**. Scegli con quale frequenza il modello classifica il pubblico: giornaliero, settimanale o mensile.
+Quando il modello è pronto, fai clic su **[!UICONTROL Pubblica]**.
 
-Per informazioni sull&#39;intero processo di pubblicazione, incluso il modo in cui [!DNL Marketo Optimizer] esegue automaticamente il provisioning di un campo di punteggio, vedere [_Pubblicare un modello di punteggio_](../agents/lead-scoring-model.md#publish-model).
+![Il pulsante Pubblica viene visualizzato per un modello di punteggio bozza.](./assets/scoring-model-publish.png){width="700" zoomable="yes"}
+
+Scegli con quale frequenza il modello classifica il pubblico: giornaliero, settimanale o mensile. È inoltre possibile scegliere un&#39;opzione manuale per eseguire il modello.
+
+![Le opzioni di pianificazione mostrano le scelte di ricorrenza giornaliera, settimanale, mensile e manuale per l&#39;esecuzione del modello di punteggio.](./assets/scoring-model-publish-schedule-options.png){width="420" zoomable="no"}
+
+Per il processo di pubblicazione completo tramite l&#39;interfaccia di chat di [Coworker](../agents/chat-interface.md), incluso il modo in cui [!DNL Marketo Optimizer] esegue automaticamente il provisioning di un campo di punteggio, vedere [_Pubblicare un modello di punteggio_](../agents/lead-scoring-model.md#publish-model).
+
+I punteggi più recenti sono archiviati in un campo con provisioning sincronizzato con l&#39;istanza [!DNL Marketo Engage].
+
+![Il campo del punteggio predisposto è visualizzato nella gestione dei campi di Marketo Engage](./assets/scoring-model-score-field-ame.png){width="800" zoomable="yes"}
+
+## Utilizzare i punteggi nei filtri {#filter-score}
+
+Dopo aver [pubblicato un modello](#publish-schedule), puoi utilizzare il punteggio risultante come filtro durante la creazione di tipi di pubblico basati su eventi e _Ascoltare un evento_ nodi, come condizione di percorso diviso o per l&#39;iscrizione all&#39;elenco di persone.
+
+Il punteggio viene visualizzato nel pannello dei filtri nella categoria **[!UICONTROL Attributi persona]**, etichettati con il nome del modello o il nome del campo personalizzato [_Punteggio_](#lead-segment) assegnato. Immetti tale nome nel campo di ricerca del pannello dei filtri per individuare il punteggio, quindi trascinalo nell’area di lavoro e definisci i criteri.
+
+### Tipi di pubblico e nodi basati su eventi {#scoring-model-event-audience}
+
+Per utilizzare un risultato del modello di punteggio per filtrare un pubblico [basato su eventi](../audiences/event-based-audiences.md) o [_Ascoltare un evento_ nodo](../marketing/listen-for-event-nodes.md):
+
+1. Fare clic su **[!UICONTROL Aggiungi criteri evento]**.
+
+1. Nella finestra di dialogo _[!UICONTROL Modifica criteri evento]_, seleziona la scheda **[!UICONTROL Filtri]**.
+
+1. Inserisci il nome del modello nel campo di ricerca, quindi trascina il punteggio nell’area di lavoro.
+
+   ![Nella scheda Filtri viene visualizzato il nome di un modello immesso nel campo di ricerca e il punteggio corrispondente viene trascinato nell&#39;area di lavoro.](./assets/scoring-model-event-filter.png){width="700" zoomable="yes"}
+
+1. Imposta l’operatore e il valore in modo che corrispondano ai punteggi di cui desideri eseguire il targeting.
+
+1. Fai clic su **[!UICONTROL Salva]**.
+
+### Condizioni di suddivisione del percorso {#split-path-conditions}
+
+Per utilizzare il risultato di un modello di punteggio per definire le condizioni del percorso per un nodo [_Percorsi suddivisi_](../marketing/split-merge-paths-nodes.md):
+
+1. Fare clic su **[!UICONTROL Modifica condizione]** per il percorso del nodo.
+
+1. Nella finestra di dialogo _[!UICONTROL Condizioni]_, immetti il nome del modello nel campo di ricerca, quindi trascina il punteggio corrispondente nell&#39;area di lavoro.
+
+   ![Nella finestra di dialogo Condizioni viene visualizzato il nome di un modello immesso nel campo di ricerca e il punteggio corrispondente viene trascinato nell&#39;area di lavoro.](./assets/scoring-model-split-path-condition.png){width="700" zoomable="yes"}
+
+1. Imposta l’operatore e il valore in modo che corrispondano ai punteggi di cui desideri eseguire il targeting.
+
+1. Fai clic su **[!UICONTROL Fine]** per salvare la condizione per il percorso.
+
+### Appartenenza all’elenco Persone {#scoring-model-people-lists}
+
+Per gestire l&#39;appartenenza a [persone elenco](../audiences/people-lists.md) utilizzando un risultato del modello di punteggio:
+
+**Elenco statico — Aggiungi membri**
+
+1. Apri l&#39;elenco statico e fai clic su **[!UICONTROL Aggiungi persone]**.
+
+1. Nella finestra di dialogo _[!UICONTROL Aggiungi persone]_, immetti il nome del modello nel campo di ricerca, quindi trascina il punteggio corrispondente nell&#39;area di lavoro.
+
+   ![Nella finestra di dialogo Aggiungi persone viene visualizzato il nome di un modello immesso nel campo di ricerca e il punteggio corrispondente viene trascinato nell&#39;area di lavoro.](./assets/scoring-model-static-list-add-people.png){width="700" zoomable="yes"}
+
+1. Imposta l’operatore e il valore in modo che corrispondano ai punteggi di cui desideri eseguire il targeting.
+
+1. Fai clic su **[!UICONTROL Fine]** per applicare il filtro e qualificare le persone corrispondenti nell&#39;elenco.
+
+**Elenco dinamico - Imposta regole di appartenenza**
+
+1. Apri l&#39;elenco dinamico e seleziona la scheda **[!UICONTROL Regole]**.
+
+1. Fai clic su **[!UICONTROL Modifica regole]**.
+
+1. Nella finestra di dialogo _[!UICONTROL Modifica regole]_, immetti il nome del modello nel campo di ricerca, quindi trascina l&#39;elemento di punteggio nell&#39;area di lavoro.
+
+   ![Nella finestra di dialogo Modifica regole viene visualizzato il nome di un modello immesso nel campo di ricerca e il punteggio corrispondente viene trascinato nell&#39;area di lavoro.](./assets/scoring-model-dynamic-list-rules.png){width="700" zoomable="yes"}
+
+1. Imposta l’operatore e il valore in modo che corrispondano ai punteggi di cui desideri eseguire il targeting.
+
+1. Fai clic su **[!UICONTROL Fine]** per salvare la regola.
+
+   L’iscrizione viene aggiornata automaticamente quando i record delle persone vengono valutati in base alla regola.
