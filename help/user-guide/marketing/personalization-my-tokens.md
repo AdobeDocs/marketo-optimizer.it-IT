@@ -1,34 +1,38 @@
 ---
 title: Token personalizzati per Personalization
-description: 'Creazione e gestione di token personalizzati per la personalizzazione dinamica degli artefatti di marketing: definisci le variabili di testo e numero per i programmi in Marketo Optimizer.'
+description: 'Crea e gestisci token personalizzati per la personalizzazione dinamica degli artefatti di marketing: definisci le variabili di testo e numero per i programmi in Marketo Optimizer.'
 TQID: 'https://experienceleague.adobe.com/utVM69g7aQSuF-V3XQIdVBqvBXyiDz1ZWr0WtE67UCg'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Personalization
+source-git-commit: 177e7c3d0806febd730104b19787ba3cbea2914a
 workflow-type: tm+mt
-source-wordcount: 629
-ht-degree: 3%
-
+source-wordcount: '704'
+ht-degree: 2%
 ---
-
 # Token personalizzati per la personalizzazione
 
-La personalizzazione del contenuto utilizza i token come segnaposto o variabili che vengono compilate al momento della generazione dell’artefatto di contenuto. I token di personalizzazione standard sono disponibili per e-mail, pagine di destinazione, frammenti e modelli. Puoi anche definire un set di token personalizzati con valori specifici per il programma o la cartella. Questo set di token personalizzati si chiama _I miei token_ e uno qualsiasi di questi token personalizzati è destinato alla personalizzazione.
+La personalizzazione del contenuto utilizza i token come segnaposto o variabili che vengono compilate al momento della generazione dell’artefatto di contenuto. I token di personalizzazione standard sono disponibili per e-mail, pagine di destinazione, frammenti e modelli. Puoi anche definire un set di token personalizzati con valori specifici per il programma o la cartella. Questo set di token personalizzati si chiama _I miei token_ e uno qualsiasi di questi token personalizzati è disponibile per la personalizzazione.
 
-Quando aggiungi un token personalizzato a un&#39;e-mail, questo viene visualizzato come `{{my.TokenName}}`. Ad esempio, potresti avere `{{my.EventDate}}` o `{{my.WebinarSpeaker}}` token creati per gestire il contenuto delle e-mail relative ai prossimi webinar.
+<!-- 
+When you add a custom token to an email, it is displayed as `{{my.TokenName}}`. For example, you might have `{{my.EventDate}}` or `{{my.WebinarSpeaker}}` tokens created to manage email content related to upcoming webinars in your program.
+-->
 
 Oltre a _I miei token_, specifici del programma o della cartella, puoi utilizzare qualsiasi token standard (incorporato) per la personalizzazione.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->_I miei token_ non sono attualmente abilitati nell&#39;editor di Personalization per questa versione di Beta.
+>Per la versione iniziale di Marketo Optimizer, _I miei token_ sono supportati per i nodi di azione del percorso Change Data Value e sono limitati all&#39;utilizzo negli attributi di stringa e testo. _I miei token_ sono **non** attualmente abilitati nell&#39;editor di Personalization.
 
-## Token di accesso
+## Token di accesso {#access-tokens}
 
 1. Nella barra di navigazione a sinistra, espandere **[!UICONTROL Gestione marketing]**.
 
@@ -57,17 +61,17 @@ I _Token personali_ sono variabili personalizzate create o modificate per un pro
 | Booleano | Questo tipo contiene un valore booleano standard, true o false. |
 | Rich Text | Questo tipo contiene il testo formattato. |
 
-### Nidificazione dei token
+### Nidificazione dei token {#nesting}
 
-Quando crei un token in un programma o in una cartella, questo può essere usato come riferimento da altri oggetti secondari.
+Quando crei un token in un programma o in una cartella, questo può essere usato come riferimento da oggetti all’interno della gerarchia.
 
-* Token locale: il token è definito nello stesso programma o cartella.
-* Token ereditato: il token è definito in un programma o in una cartella principale, uno o più livelli al di sopra del programma o della cartella corrente.
-* Token sostituito: il token è definito in un programma o in una cartella principale, ma in tale programma o cartella è definito un valore diverso. Lo stato del token cambia in _Ignorato_ e tutte le cartelle, i programmi e gli artefatti di marketing figlio ereditano il nuovo valore.
+* **Token locale** - Token definito nello stesso programma o cartella.
+* **Token ereditato** - Il token è definito in un programma o in una cartella padre, uno o più livelli al di sopra del programma o della cartella corrente.
+* **Token sovrascritto** - Il token è definito in un programma o in una cartella principale, ma nella cartella o nel programma corrente è definito un valore diverso. Lo stato del token cambia in _Ignorato_ e tutte le cartelle, i programmi e gli artefatti di marketing figlio ereditano il nuovo valore.
 
 ![Tipi di token ed ereditarietà](./assets/program-tokens-inherited-overridden.png){width="600" zoomable="yes"}
 
-### Creare un token
+### Creare un token {#create}
 
 1. Nella scheda _[!UICONTROL Token]_, fai clic su **[!UICONTROL Crea]**.
 
@@ -83,9 +87,9 @@ Quando crei un token in un programma o in una cartella, questo può essere usato
 
 1. Fai clic su **[!UICONTROL Crea]**.
 
-### Modificare un token
+### Modificare un token {#edit}
 
-Puoi modificare il valore per qualsiasi dei My Tokens definiti. Esegui questa operazione per ignorare il valore di un token ereditato.
+Puoi modificare il valore di qualsiasi token My definito, che sostituisce il valore di un token ereditato.
 
 <!-- (How does this affect live person journeys? ) -->
 
@@ -97,13 +101,21 @@ Puoi modificare il valore per qualsiasi dei My Tokens definiti. Esegui questa op
 
 1. Fai clic sull&#39;icona _Salva_.
 
-### Eliminare un token
+### Eliminare un token {#delete}
 
 Puoi eliminare un token personalizzato dall’elenco se non è attualmente utilizzato nel contenuto dell’e-mail del percorso.
 
 1. In _[!UICONTROL Token]_ , fai clic sull&#39;icona _Elimina_ accanto al nome del token.
 
 1. Nella finestra di dialogo di conferma, fai clic su **[!UICONTROL Elimina]**.
+
+## Suggerimento automatico e anteprima {#autosuggest}
+
+Quando includi nel percorso un _valore dati di modifica_ [nodo azione](./action-nodes.md), puoi immettere `{{` nel campo **[!UICONTROL Nuovo valore]** per visualizzare il menu dei token _Suggerimento automatico_. L’elenco visualizzato mostra gli spazi dei nomi supportati e i singoli token. Sono elencati solo i token di un tipo di dati compatibile.
+
+Per _I miei token_, viene visualizzata un&#39;anteprima del valore del token con il nome del token per facilitare la selezione del valore corretto.
+
+![Sintassi nel campo Nuovo valore per visualizzare il menu di suggerimento automatico per i token](./assets/program-tokens-change-data-value-autosuggest.png){width="500" zoomable="yes"}
 
 <!--
 
