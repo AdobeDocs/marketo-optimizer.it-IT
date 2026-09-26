@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentazione di Marketo Optimizer
 user-guide-description: Scopri Adobe Marketo Optimizer e come utilizzarlo per eseguire attività coordinate di marketing e vendita con contenuti personalizzati e basati sull’intelligenza artificiale per lead e account B2B.
-source-git-commit: 177e7c3d0806febd730104b19787ba3cbea2914a
+source-git-commit: 7053281563adbce7b5eb6fd1669974bad15677cb
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 42%
+source-wordcount: '254'
+ht-degree: 44%
 ---
 
 # Guida utente di Marketo Optimizer {#user}
@@ -105,7 +105,4 @@ ht-degree: 42%
     + [Configurazione predefinito per modulo](./admin/configuration-presets-forms.md)
   + [Regole di business](./admin/business-rules.md)
   + [Tipi di programmi](./admin/program-types.md)
-
-<!--
-   + [Persona mapping](./admin/persona-mapping.md)
--->
+  + [Mappatura utente tipo](./admin/persona-mapping.md)
