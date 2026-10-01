@@ -63,7 +63,7 @@ Utilizza questo approccio per eseguire percorsi, passaggi di attesa e decisioni 
 1. Per ogni passaggio di invio, aggiungi l&#39;azione **[!UICONTROL Richiedi campagna Marketo Engage]** e seleziona una campagna [!DNL Marketo Engage] corrispondente.
 1. Facoltativo: aggiungere un programma generale predefinito in [!DNL Marketo Engage] per aggregare i report di successo nel percorso.
 
-Per informazioni dettagliate sull&#39;azione, vedere [Eseguire un&#39;azione ](./marketing/action-nodes.md).
+Per informazioni dettagliate sull&#39;azione, vedere [Eseguire un&#39;azione &#x200B;](./marketing/action-nodes.md).
 
 [!DNL Marketo Engage] invia l&#39;e-mail tramite le impostazioni del canale esistenti. Poiché [!DNL Marketo Engage] invia l&#39;e-mail, non è possibile configurare canali o e-mail in [!DNL Marketo Optimizer]. Inoltre:
 
