@@ -15,9 +15,9 @@ subfeature_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
     internal-label: Artificial intelligence
-source-git-commit: 5334f0f5d9d958ea47b055b067a7308950352e9c
+source-git-commit: abbd342b8191ddebd7e155ad2c5944e4695a05b3
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '967'
 ht-degree: 4%
 ---
 
@@ -82,7 +82,6 @@ Queste abilità creano e gestiscono e-mail, moduli e pagine di destinazione.
 | --- | --- | --- |
 | **Elenca Forms** | Elencare i moduli e visualizzarne i dettagli e i campi. | Ricerca |
 | **Elenca pagine di destinazione** | Elencare le pagine di destinazione, visualizzarne i dettagli e gestirne lo stato bozza o pubblicato. | Ricerca |
-| **Controllo e-mail** | Controlla un’e-mail rispetto al relativo gruppo target, inclusa l’inferenza dell’utente tipo e una breve revisione sezione per sezione più. | Analizza |
 | **Authoring di e-mail** | Crea o aggiorna un nodo e-mail di percorso, inclusa la composizione da un breve o PDF, il collegamento a un nodo e la scrittura di contenuto. | Modifica |
 | **Authoring modulo** | Crea o aggiorna un modulo di acquisizione lead autonomo, pubblicalo e, facoltativamente, incorporalo in una pagina di destinazione. | Creare |
 | **Authoring della pagina di destinazione** | Crea o aggiorna una pagina di destinazione da una breve descrizione, inclusa la pianificazione del contenuto, la selezione dei modelli, la compilazione degli slot e l’aggiunta di un modulo, quindi pubblicalo. Allegare una pagina di destinazione pubblicata come collegamento call-to-action in un messaggio e-mail. | Creare |
