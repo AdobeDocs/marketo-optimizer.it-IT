@@ -18,6 +18,11 @@ feature_v2:
     internal-label: Programs
   - id: d4203578-d294-5145-b397-f26f4488a904
     internal-label: Channels
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
@@ -27,7 +32,7 @@ topic_v2:
     internal-label: Optimization
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 518a807aeed2471772b4f0a4d6d8d525cd3e22fd
+source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 0%
@@ -63,7 +68,7 @@ Utilizza questo approccio per eseguire percorsi, passaggi di attesa e decisioni 
 1. Per ogni passaggio di invio, aggiungi l&#39;azione **[!UICONTROL Richiedi campagna Marketo Engage]** e seleziona una campagna [!DNL Marketo Engage] corrispondente.
 1. Facoltativo: aggiungere un programma generale predefinito in [!DNL Marketo Engage] per aggregare i report di successo nel percorso.
 
-Per informazioni dettagliate sull&#39;azione, vedere [Eseguire un&#39;azione &#x200B;](./marketing/action-nodes.md).
+Per informazioni dettagliate sull&#39;azione, vedere [Eseguire un&#39;azione ](./marketing/action-nodes.md).
 
 [!DNL Marketo Engage] invia l&#39;e-mail tramite le impostazioni del canale esistenti. Poiché [!DNL Marketo Engage] invia l&#39;e-mail, non è possibile configurare canali o e-mail in [!DNL Marketo Optimizer]. Inoltre:
 
