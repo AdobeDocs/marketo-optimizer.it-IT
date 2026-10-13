@@ -6,24 +6,31 @@ role: Admin
 TQID: 'https://experienceleague.adobe.com/VgnMCjm6l4pWG2-gqMuOmZUqU7E2Wrc-eVxn4kL5rKc'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 18a33a66-85a1-58e4-8e50-418b832ade8b
+    internal-label: Privacy
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Privacy
+source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
 workflow-type: tm+mt
-source-wordcount: 630
+source-wordcount: '630'
 ht-degree: 5%
-
 ---
-
 
 # Gestione della privacy {#privacy-management}
 
-[Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/it/docs/experience-platform/privacy/home){target="_blank"} fornisce un&#39;API RESTful e un&#39;interfaccia utente per aiutarti a gestire le richieste di dati dei clienti. Con [!DNL Adobe Privacy Service] è possibile inviare richieste di accesso ed eliminazione dei dati personali dei clienti dalle applicazioni Adobe CX Enterprise, semplificando la conformità automatica alle normative legali e organizzative sulla privacy.
+[Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/it/docs/experience-platform/privacy/home){target="_blank"} fornisce un&#39;API RESTful e un&#39;interfaccia utente per aiutarti a gestire le richieste di dati dei clienti. Con [!DNL Adobe Privacy Service] è possibile inviare richieste di accesso ed eliminazione dei dati personali dei clienti dalle applicazioni Adobe CX Enterprise, facilitando la conformità automatica alle normative legali e organizzative sulla privacy.
 
 [!DNL Adobe Marketo Optimizer] fornisce questi strumenti per la privacy in modo da soddisfare i requisiti di protezione dei dati globali. Utilizzare [!DNL Privacy Service] per inviare e gestire le richieste di accesso ed eliminazione per i dati raccolti e archiviati da [!DNL Marketo Optimizer].
 
@@ -87,7 +94,7 @@ Utilizza l&#39;opzione **[!UICONTROL Tipo di regolamento]** in alto a destra per
 
 1. Per **[!UICONTROL Prodotti]**, seleziona **[!UICONTROL Marketo]**.
 
-   ![Crea una richiesta di accesso RGPD per Marketo Engage e Marketo Optimizer](./assets/privacy-request-create-gdpr.png){width="450" zoomable="yes"}
+   ![Crea una richiesta di accesso al RGPD per Marketo Engage e Marketo Optimizer](./assets/privacy-request-create-gdpr.png){width="450" zoomable="yes"}
 
    Questa selezione include dati sia di [!DNL Marketo Optimizer] che dell&#39;istanza [!DNL Marketo Engage].
 

@@ -1,27 +1,36 @@
 ---
 title: Creare e promuovere i webinar
-description: Utilizza l’interfaccia di chat in Marketo Optimizer per pianificare un webinar, aggiungere co-host e relatori, creare percorsi di promozione e sviluppo e controllare la generazione di rapporti, il tutto in un linguaggio naturale.
-keywords: 
+description: Utilizza l’interfaccia di chat in Marketo Optimizer per pianificare un webinar, aggiungere co-host e relatori, creare percorsi di promozione e cultura e controllare la generazione di rapporti, il tutto in un linguaggio naturale.
+keywords:
 role: User
 TQID: 'https://experienceleague.adobe.com/OKsYvVIcNN-GEMiMPW2mWomstM2MabYcK0jTColgxIQ'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+    internal-label: Chat Interface
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
+    internal-label: Reporting
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Security
+source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
 workflow-type: tm+mt
-source-wordcount: 958
+source-wordcount: '958'
 ht-degree: 0%
-
 ---
-
 
 # Creare e promuovere webinar
 
@@ -127,4 +136,4 @@ Seleziona **[!UICONTROL Progetta il tuo webinar]** per aprire la pagina di confi
 
 Nell&#39;interfaccia di chat, puoi porre domande di reporting come *&quot;Mostra tutti i miei prossimi webinar&quot;* o *&quot;Fornisci i dettagli del webinar [name]&quot;*. Mostra il collegamento del dashboard di coinvolgimento insieme alle azioni migliori successive, ad esempio **Progettazione**, **Aggiungi co-host** o **Pubblica nella data del webinar**.
 
-Per analisi più approfondite, quali la partecipazione, le prestazioni di sondaggi e sondaggi e i dati per membro, l&#39;interfaccia chat si collega alle schede **Analytics** e **Membri** del webinar e al rollup tra i programmi in **Gestione webinar**. <!-- See [Webinar reporting](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/prime/marketing-management/webinars/webinar-reporting). -->
+Per analisi più approfondite, quali la partecipazione, le prestazioni di sondaggi e sondaggi e i dati per membro, l&#39;interfaccia chat si collega alle schede **Analytics** e **Membri** del webinar e al rollup tra i programmi in **Gestione webinar**. <!-- See [Webinar reporting](https://experienceleague.adobe.com/it/docs/journey-optimizer-b2b/prime/marketing-management/webinars/webinar-reporting). -->
