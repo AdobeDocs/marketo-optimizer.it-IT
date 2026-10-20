@@ -1,23 +1,27 @@
 ---
 title: Controllo traffico percorso
-description: Scopri come il controllo del traffico di Percorso in Marketo Optimizer utilizza il punteggio di IA in sette dimensioni ponderate per iscrivere ogni persona al solo percorso che si adatta meglio quando i tipi di pubblico si sovrappongono.
+description: Scopri come il controllo del traffico di Percorso in Marketo Optimizer utilizza il punteggio di intelligenza artificiale in sette dimensioni ponderate per iscrivere ogni persona al solo percorso più adatto quando i tipi di pubblico si sovrappongono.
 TQID: 'https://experienceleague.adobe.com/MRPRSUHGHV9CZdp4ZIqxsIsIaB6U86DDiau7RE2r0ak'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
+    internal-label: Reporting
   - id: 46e599c6-e20f-5f67-9824-93415016f66b
+    internal-label: Audiences
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Reporting
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 1543
+source-wordcount: '1582'
 ht-degree: 0%
-
 ---
-
 # Controllo traffico percorso
 
 Il controllo del traffico di percorso (JTC) dà priorità al percorso migliore per una persona quando i tipi di pubblico si sovrappongono. Quando una persona è idonea per più percorsi abilitati per JTC, un modello di IA li valuta rispetto a ciascun candidato e li aggiunge al percorso più adatto, tenendoli fuori dagli altri.
@@ -56,6 +60,7 @@ Le dimensioni per le quali una persona non dispone di dati vengono ignorate auto
 
 Prima che il controllo del traffico di percorso possa produrre risultati, tieni presente quanto segue:
 
+* **Autorizzazioni.** È necessario disporre dell&#39;autorizzazione **[!UICONTROL Visualizza controllo del traffico di Percorso B2B]** per visualizzare le impostazioni di controllo del traffico di percorso e dell&#39;autorizzazione **[!UICONTROL Gestisci controllo del traffico di Percorso B2B]** per configurare il controllo del traffico di percorso, inclusa la simulazione dell&#39;effetto. Per ulteriori informazioni, vedere [Risorse di autorizzazione](../start/permissions-reference.md).
 * **Il reporting richiede un percorso pubblicato e abilitato per JTC.** La scheda _[!UICONTROL Generazione rapporti]_ non mostra alcun dato finché non viene pubblicato almeno un percorso con il controllo del traffico di percorso abilitato.
 * **La simulazione richiede almeno un percorso pubblicato nell&#39;istanza.** La simulazione valuta [profili](../audiences/people-lists.md) già presenti in percorsi live, pertanto è necessario almeno un percorso pubblicato nell&#39;istanza da cui estrarre i profili. La simulazione stessa non richiede l&#39;attivazione di JTC (vedere [_Simulare punteggio_](#simulate-scoring)).
 

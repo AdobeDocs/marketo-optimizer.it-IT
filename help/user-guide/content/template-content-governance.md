@@ -1,18 +1,18 @@
 ---
 title: Governance dei contenuti per i modelli
-description: Utilizza le impostazioni di governance in Marketo Optimizer per bloccare il contenuto dei modelli e-mail a livello di struttura o di componente, controllando cosa possono modificare gli autori di e-mail.
+description: Utilizza le impostazioni di governance in Marketo Optimizer per bloccare il contenuto dei modelli e-mail a livello di struttura o di componente, controllando cosa gli autori di e-mail possono modificare.
 TQID: 'https://experienceleague.adobe.com/0QZuUrqbF97W7c9yZzBYY39EC7DmbadKxXOJxjxDDy8'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Governance
+source-git-commit: b6253400e2c9fc5b7f277add102367743981ce8a
 workflow-type: tm+mt
-source-wordcount: 608
+source-wordcount: '608'
 ht-degree: 0%
-
 ---
-
 
 # Governance dei contenuti per i modelli
 
@@ -22,7 +22,7 @@ Il blocco del contenuto consente agli autori dei modelli di definire regole di g
 >
 >Il blocco dei contenuti è una funzione di governance a livello di editor. Controlla gli elementi che gli autori possono modificare nello spazio di progettazione delle e-mail, ma non impedisce le modifiche effettuate tramite l’API.
 
-Solo gli utenti con l&#39;autorizzazione **[!UICONTROL Gestisci modelli di contenuto]** possono configurare le impostazioni di governance.
+Solo gli utenti con l&#39;autorizzazione **[!UICONTROL Gestisci modelli B2B]** possono configurare le impostazioni di governance.
 
 ## Abilita governance {#enable}
 

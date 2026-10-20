@@ -18,10 +18,10 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 19%
+source-wordcount: '765'
+ht-degree: 18%
 ---
 # Risorse
 
@@ -51,7 +51,7 @@ Nel menu di navigazione a sinistra, espandi **[!UICONTROL Gestione contenuto]** 
 
 >[!BEGINSHADEBOX]
 
-La prima volta che accedi alla libreria _[!UICONTROL Assets]_, rivedi le [_[!UICONTROL Condizioni d&#39;uso generative per l&#39;intelligenza artificiale &#x200B;]_](https://www.adobe.com/it/legal/licenses-terms/adobe-gen-ai-user-guidelines.html) e conferma il tuo contratto.
+La prima volta che accedi alla libreria _[!UICONTROL Assets]_, rivedi le [_[!UICONTROL Condizioni d&#39;uso generative per l&#39;intelligenza artificiale ]_](https://www.adobe.com/it/legal/licenses-terms/adobe-gen-ai-user-guidelines.html) e conferma il tuo contratto.
 
 ![Finestra di dialogo del contratto Generative AI Terms of Use nella libreria Assets](./assets/dam-asset-library-gen-ai-agree.png){width="500"}
 
@@ -61,6 +61,13 @@ La libreria supporta due opzioni di layout:
 
 * **[!UICONTROL Elenco]** — Fai clic sull&#39;icona _Vista a elenco_ ( ![Icona Vista a elenco](../assets/do-not-localize/icon-falco-list-view.svg) ) per visualizzare le risorse in una tabella ordinabile con colonne di metadati.
 * **[!UICONTROL Galleria]** — Fai clic sull&#39;icona _Visualizzazione Raccolta_ ( ![Icona Visualizzazione Raccolta](../assets/do-not-localize/icon-falco-gallery-view.svg) ) per visualizzare le risorse come griglia di miniature visiva.
+
+>[!PREREQUISITES]
+>
+>L&#39;utilizzo delle risorse richiede le [autorizzazioni](../start/permissions-reference.md) seguenti:
+>
+>* **[!UICONTROL Visualizza Assets B2B]**: necessario per visualizzare la libreria _[!UICONTROL Assets]_ e i dettagli del file di risorse.
+>* **[!UICONTROL Gestisci Assets B2B]**: necessario per creare, modificare ed eliminare i file di risorse.
 
 ## Cercare risorse {#find-assets}
 

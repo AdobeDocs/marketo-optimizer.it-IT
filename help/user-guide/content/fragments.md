@@ -4,15 +4,15 @@ description: 'Creazione, gestione e riutilizzo di frammenti di contenuto visivo 
 TQID: 'https://experienceleague.adobe.com/dxPI12xu0thTB3eYJiyCY3OtLIxX-8IKKeXitH4C0Ws'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Content Management
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 2634
+source-wordcount: '2677'
 ht-degree: 3%
-
 ---
-
 # Frammenti
 
 Un frammento è un componente riutilizzabile a cui è possibile fare riferimento in uno o più e-mail e modelli di e-mail in [!DNL Marketo Optimizer]. In genere si tratta di un blocco di contenuto (testo, immagine o entrambi) che può essere precreato e inserito rapidamente in un modello e-mail o e-mail. Con questa funzionalità, puoi precreare più blocchi di contenuto personalizzati da utilizzare da parte dei membri del team di marketing per assemblare contenuti e-mail e migliorare il processo di progettazione. I casi d’uso comuni includono blocchi di contenuto di intestazione/piè di pagina per e-mail, banner di invito per eventi e saluti stagionali.
@@ -33,6 +33,14 @@ Per utilizzare al meglio i frammenti nei flussi di lavoro:
 
 * _Crea frammenti personalizzati_ - Crea frammenti visivi da zero o salvando il contenuto come frammento dallo spazio di progettazione del contenuto visivo.
 * _Riutilizza frammenti_ - Puoi utilizzarli tutte le volte che è necessario nel contenuto del modello e-mail o e-mail.
+
+>[!PREREQUISITES]
+>
+>L&#39;utilizzo dei frammenti richiede le [autorizzazioni](../start/permissions-reference.md) seguenti:
+>
+>* **[!UICONTROL Visualizza frammenti B2B]** - Necessario per visualizzare l&#39;elenco dei frammenti e i dettagli.
+>* **[!UICONTROL Gestisci frammenti B2B]**: necessario per creare, modificare ed eliminare frammenti.
+>* **[!UICONTROL Pubblica frammenti B2B]**: necessario per pubblicare frammenti da utilizzare in modelli, e-mail e pagine di destinazione.
 
 ## Accedere e gestire i frammenti {#access-manage-fragments}
 

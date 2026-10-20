@@ -19,14 +19,20 @@ topic_v2:
     internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: e2577dd31c38f55f4dc2ce32119315ad7f9fe6f6
+source-git-commit: be5df9d4e4482516a60b652d9ec2f977eb29b520
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '955'
 ht-degree: 0%
 ---
 # Interfaccia chat
 
 Il pannello chat è incorporato in [!DNL Adobe Marketo Optimizer]. È qui che interagisci con gli agenti di intelligenza artificiale utilizzando un linguaggio semplice per creare programmi e percorsi, creare e confrontare elenchi di persone, indagare sui lead, configurare il punteggio e altro ancora.
+
+>[!PREREQUISITES]
+>
+>Per utilizzare il pannello chat di Coworker in [!DNL Marketo Optimizer], è necessario disporre dell&#39;autorizzazione **[!UICONTROL Gestione esperienza conversazionale B2B]** [autorizzazione](../start/permissions-reference.md).
+>
+>Questa autorizzazione consente di accedere al pannello chat, ma non a nessuna funzione. Il sistema controlla ogni abilità o azione in chat rispetto alla stessa autorizzazione necessaria per la funzione all&#39;esterno della chat: _Gestisci_ autorizzazioni per creare, modificare o pubblicare e _Visualizza_ autorizzazioni per le abilità di sola lettura. Se non disponi dell’autorizzazione per la funzione, l’assistente non può eseguire l’azione al posto tuo. Ad esempio, la creazione di un percorso richiede **[!UICONTROL Gestione Percorsi di persone B2B]**, mentre l&#39;elenco dei moduli richiede **[!UICONTROL Visualizza Forms B2B]**.
 
 Per aprire il pannello, seleziona l&#39;icona _Collaboratore_ nell&#39;area di navigazione a sinistra. L’intestazione del pannello presenta quattro controlli:
 

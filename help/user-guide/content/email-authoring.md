@@ -1,24 +1,29 @@
 ---
 title: Contenuto e-mail
-description: Scopri come comporre e progettare contenuti e-mail in Adobe Marketo Optimizer utilizzando l’area di lavoro visiva, gli strumenti di trascinamento della selezione, l’importazione di HTML e i modelli riutilizzabili.
+description: Scopri come comporre e progettare contenuti e-mail in Adobe Marketo Optimizer utilizzando l’area di lavoro visiva, gli strumenti di trascinamento, l’importazione HTML e i modelli riutilizzabili.
 TQID: 'https://experienceleague.adobe.com/uNzBQk1fXPZchQna577-bUQtqRRRiqEVPI3jzZKgGKw'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Personalization
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 2287
+source-wordcount: '2325'
 ht-degree: 3%
-
 ---
-
 # Authoring dei contenuti e-mail
 
 In [!DNL Adobe Marketo Optimizer], lo spazio di progettazione delle e-mail fornisce un&#39;area di lavoro visiva in cui gli addetti al marketing compongono le e-mail. Gli strumenti di progettazione delle e-mail nei pannelli sinistro e superiore (strutture, componenti di contenuto, modelli, frammenti e altro ancora) supportano la creazione da zero con il trascinamento della selezione. Puoi anche scegliere di iniziare da un modello, incollare HTML non elaborati o assemblare messaggi da frammenti visivi riutilizzabili.
@@ -26,6 +31,14 @@ In [!DNL Adobe Marketo Optimizer], lo spazio di progettazione delle e-mail forni
 >[!IMPORTANT]
 >
 >Per informazioni sulla configurazione da parte dell&#39;amministratore di sottodomini, autenticazione, pool IP e canali e-mail, vedere [Recapito messaggi e-mail](../start/email-deliverability.md) e [Configurazione canale e-mail](../admin/email-channel-configuration.md).
+
+>[!PREREQUISITES]
+>
+>L&#39;authoring di e-mail richiede le [autorizzazioni](../start/permissions-reference.md) seguenti:
+>
+>* **[!UICONTROL Visualizza e-mail B2B]**: obbligatorio per visualizzare i messaggi e-mail.
+>* **[!UICONTROL Gestisci e-mail B2B]**: necessario per creare, modificare ed eliminare i messaggi e-mail.
+>* **[!UICONTROL Gestisci Percorsi di persone B2B]** - Necessario per aggiungere l&#39;e-mail a un percorso di persone.
 
 In [!DNL Marketo Optimizer], ogni e-mail è associata a un&#39;azione _[!UICONTROL Invia e-mail]_ in un percorso di persone. L’intero flusso di lavoro dalla progettazione del percorso alla definizione dell’e-mail avviene in un’esperienza continua. Quando [aggiungi un _Invia e-mail_ nodo](../marketing/action-nodes.md#add-an-action-node) a un percorso di persone, fai clic su **[!UICONTROL Crea e-mail]** per avviare il processo. Innanzitutto definisci le azioni e le impostazioni di contenuto per l’e-mail. Fai clic su **[!UICONTROL Modifica corpo dell&#39;e-mail]** per avviare lo spazio di progettazione del contenuto dell&#39;e-mail, dove puoi scegliere come progettare l&#39;e-mail dalle seguenti opzioni:
 
@@ -159,7 +172,7 @@ Consulta [Aggiungi CSS personalizzato per il contenuto](./design-custom-css.md) 
 
 >[!NOTE]
 >
->Se il messaggio di posta elettronica è progettato utilizzando un modello [&#x200B; con contenuto bloccato](./template-content-governance.md), non è possibile aggiungere CSS personalizzati al contenuto. L&#39;etichetta del pulsante diventa **[!UICONTROL Visualizza CSS personalizzato]** ed eventuali CSS personalizzati già presenti nel contenuto sono di sola lettura.
+>Se il messaggio di posta elettronica è progettato utilizzando un modello [ con contenuto bloccato](./template-content-governance.md), non è possibile aggiungere CSS personalizzati al contenuto. L&#39;etichetta del pulsante diventa **[!UICONTROL Visualizza CSS personalizzato]** ed eventuali CSS personalizzati già presenti nel contenuto sono di sola lettura.
 
 ### Aggiungi frammenti {#visual-fragments}
 

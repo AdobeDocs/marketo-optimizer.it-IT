@@ -17,9 +17,9 @@ topic_v2:
     internal-label: Data collection
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '2434'
+source-wordcount: '2473'
 ht-degree: 2%
 ---
 # Moduli
@@ -31,14 +31,12 @@ La quantità di informazioni che il modulo deve acquisire dipende dal valore del
 >[!PREREQUISITES]
 >
 >Prima che i team di marketing possano creare e utilizzare i moduli per acquisire informazioni, un amministratore deve definire uno o più predefiniti per moduli. Per ulteriori informazioni, vedere [_Configurazioni Forms_](../admin/configuration-presets-forms.md).
-
-<!-- 
->Form creation in [!DNL Marketo Optimizer] requires the following [permissions](../start/user-management.md#b2b-product-permissions):
 >
->* _[!UICONTROL Journey Optimizer Library]_ > _[!UICONTROL Read B2C Forms]_ - Required to access and view forms.
->* _[!UICONTROL Journey Optimizer Library]_ > _[!UICONTROL Manage B2C Forms]_ - Required to create, update, and delete forms.
->* _[!UICONTROL Journey Optimizer Library]_ > _[!UICONTROL Publish B2C Forms]_ - Required to publish forms.
--->
+>La creazione del modulo in [!DNL Marketo Optimizer] richiede le [autorizzazioni](../start/permissions-reference.md) seguenti:
+>
+>* _[!UICONTROL Assets B2B]_ > _[!UICONTROL Visualizza Forms B2B]_ - Necessario per accedere e visualizzare i moduli.
+>* _[!UICONTROL Assets B2B]_ > _[!UICONTROL Gestisci Forms B2B]_ - Necessario per creare, modificare ed eliminare i moduli.
+>* _[!UICONTROL Assets B2B]_ > _[!UICONTROL Pubblica Forms B2B]_ - Necessario per pubblicare i moduli.
 
 ## Accedere e gestire i moduli {#view-forms}
 

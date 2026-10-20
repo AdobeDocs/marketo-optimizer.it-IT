@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '1085'
-ht-degree: 2%
+source-wordcount: '1131'
+ht-degree: 1%
 ---
 
 # Webinar interattivi
@@ -51,7 +51,7 @@ Puoi creare un webinar in due modi:
 
 ## Webinar come risorsa
 
-Un webinar è una risorsa di proprietà di un [programma](https://experienceleague.adobe.com/it/docs/journey-optimizer-b2b/prime/marketing-management/programs/programs), allo stesso modo di un&#39;e-mail o di una pagina di destinazione. L’aggiunta di un webinar a un programma ne effettua la registrazione e ne rende disponibili i token, gli attributi e le attività per ogni percorso e risorsa di tale programma.
+Un webinar è una risorsa di proprietà di un [programma](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/prime/marketing-management/programs/programs), allo stesso modo di un&#39;e-mail o di una pagina di destinazione. L’aggiunta di un webinar a un programma ne effettua la registrazione e ne rende disponibili i token, gli attributi e le attività per ogni percorso e risorsa di tale programma.
 
 >[!IMPORTANT]
 >
@@ -63,7 +63,7 @@ Per ogni persona che è membro di un programma che contiene un webinar, si appli
 
 | Stato | Proprietario | Valori |
 |---|---|---|
-| Stato membro del programma | Programma | Configurabile per [tipo di programma](https://experienceleague.adobe.com/it/docs/journey-optimizer-b2b/prime/admin/program-types) |
+| Stato membro del programma | Programma | Configurabile per [tipo di programma](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/prime/admin/program-types) |
 | Stato del webinar | Risorsa webinar | Invitato, Registrato, Partecipato, No-Show, Partecipato su richiesta |
 | Stato percorso | Percorso | Nodo corrente, in pausa, completato e altri stati di runtime del percorso |
 
@@ -143,14 +143,15 @@ Prima di iniziare a creare un webinar, assicurati di aver soddisfatto le seguent
 
 ### Autorizzazioni
 
-L’accesso alle funzioni dei webinar dipende dalle autorizzazioni assegnate ai webinar.
+L’accesso alle funzioni dei webinar dipende dalle autorizzazioni assegnate ai webinar. Per l&#39;elenco completo delle autorizzazioni e dei ruoli consigliati, vedere [Accesso utente e autorizzazioni](../start/permissions-reference.md).
 
-| Ruolo | Che cosa viene concesso |
+| Autorizzazione | Che cosa viene concesso |
 |---|---|
 | Visualizza webinar B2B | Visualizzare l&#39;elenco dei webinar, la configurazione del webinar, i dettagli e i report. I controlli Crea, Progetta, Modifica e Immetti non sono disponibili tramite questa autorizzazione e non puoi essere assegnato a un webinar come co-host o relatore. |
+| Gestire i webinar B2B | Accesso completo al ciclo di vita: crea, progetta, configura, pianifica, modifica, distribuisci, ospita ed elimina un webinar. I controlli Crea, Progetta, Modifica e Gestisci sono disponibili solo per gli utenti con questa autorizzazione. |
 
 <!-- 
-| Manage B2B webinars | Full lifecycle access: create, design, configure, schedule, edit, deliver, host, and delete a webinar. The Create, Design, Edit, and Manage controls are available only for users with this role. |
+
 | Webinar co-host | After you are added as a co-host, this permission enables you to design and enter that webinar with co-host controls. |
 | Webinar presenter | After you are added as a presenter, this permission enables you to view and enter that webinar with presenter capabilities. It grants no authoring or design access on its own. |
 

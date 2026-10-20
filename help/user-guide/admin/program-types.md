@@ -4,18 +4,20 @@ description: Creazione e gestione di tipi di programmi che definiscono attributi
 TQID: 'https://experienceleague.adobe.com/Eepcnc51p-P-yoyylXBr47SF0xR-3pvZab2aHf9jdew'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
   - id: a659ad61-de21-559d-a901-02e2fb329ff5
+    internal-label: Administration
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Administration
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 389
+source-wordcount: '420'
 ht-degree: 0%
-
 ---
-
 # Tipi di programmi
 
 I tipi di programmi definiscono aspetti importanti dei [programmi](../marketing/programs.md) e dei relativi membri e distinguono tra diversi tipi di programmi di marketing. Ogni tipo di programma definisce le seguenti proprietà, che vengono ereditate per i programmi che utilizzano il tipo di programma:
@@ -29,6 +31,13 @@ I tipi di programmi definiscono aspetti importanti dei [programmi](../marketing/
 >[!NOTE]
 >
 >Se un tipo di programma è utilizzato da almeno un programma, non può essere modificato.
+
+>[!PREREQUISITES]
+>
+>L&#39;utilizzo dei tipi di programma richiede le [autorizzazioni](../start/permissions-reference.md) seguenti:
+>
+>* **[!UICONTROL Visualizza tipi di programmi B2B]**: obbligatorio per visualizzare i tipi di programmi di marketing.
+>* **[!UICONTROL Gestisci tipi di programmi B2B]**: necessario per creare, modificare ed eliminare tipi di programmi di marketing.
 
 _Per definire un tipo di programma personalizzato :_
 

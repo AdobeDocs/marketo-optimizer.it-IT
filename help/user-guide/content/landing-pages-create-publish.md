@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
+source-git-commit: b6253400e2c9fc5b7f277add102367743981ce8a
 workflow-type: tm+mt
-source-wordcount: '1550'
+source-wordcount: '1554'
 ht-degree: 13%
 ---
 # Creare e pubblicare pagine di destinazione
@@ -219,7 +219,7 @@ Una volta definiti le impostazioni e il contenuto della pagina di destinazione, 
 
 >[!PREREQUISITES]
 >
->Per visualizzare in anteprima e verificare le pagine di destinazione, devi disporre dell&#39;autorizzazione **[!UICONTROL Pubblica messaggi]** e di un set di dati definito contenente i profili di test.
+>Per visualizzare in anteprima e verificare le pagine di destinazione, devi disporre dell&#39;autorizzazione **[!UICONTROL Pubblica pagina di destinazione B2B]** e di un set di dati definito contenente i profili di test.
 
 1. Fai clic su **[!UICONTROL Anteprima e test]** per aprire la selezione del profilo di test.
 
@@ -259,7 +259,7 @@ Una volta definiti le impostazioni e il contenuto della pagina di destinazione, 
 
 >[!PREREQUISITES]
 >
->Per pubblicare le pagine di destinazione, devi disporre dell&#39;autorizzazione **[!UICONTROL Pubblica messaggi]**. Prima di pubblicare, [verifica e risolvi tutti gli avvisi](#check-alerts).
+>Per pubblicare le pagine di destinazione, devi disporre dell&#39;autorizzazione **[!UICONTROL Pubblica pagina di destinazione B2B]**. Prima di pubblicare, [verifica e risolvi tutti gli avvisi](#check-alerts).
 
 Quando la pagina della bozza soddisfa i criteri e desideri renderla disponibile per il collegamento nei messaggi di percorso, fai clic su **[!UICONTROL Pubblica]** in alto a destra. Nella finestra di dialogo di conferma, fai di nuovo clic su **[!UICONTROL Pubblica]** per confermare.
 

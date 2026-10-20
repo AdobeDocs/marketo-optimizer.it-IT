@@ -4,17 +4,18 @@ description: Scopri come configurare i pesi delle attività che guidano il model
 TQID: 'https://experienceleague.adobe.com/ZL9RJqD-OZkIgFMpwJ4Cz-FW-463w6OJyEHAe5uJuec'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+    internal-label: Chat Interface
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Taxonomy
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 1322
-ht-degree: 2%
-
+source-wordcount: '1365'
+ht-degree: 1%
 ---
-
 
 # Configurazione intento
 
@@ -28,6 +29,14 @@ Apri il pannello utilizzando uno dei due metodi dell&#39;interfaccia [chat](../a
 * Fai clic su **[!UICONTROL +]**, seleziona **[!UICONTROL Usa un&#39;abilità agente]**, seleziona la scheda **[!UICONTROL Intento]**, quindi fai clic su **[!UICONTROL Configurazione intento]**.
 
 ![Il pannello di configurazione intento è stato aperto dall&#39;interfaccia chat](./assets/intent-configuration-panel.png){width="700" zoomable="yes"}
+
+>[!PREREQUISITES]
+>
+>La configurazione dell&#39;intento richiede le [autorizzazioni](../start/permissions-reference.md) seguenti:
+>
+>* **[!UICONTROL Visualizza configurazione intento B2B]**: necessario per visualizzare le configurazioni intento (modelli di ponderazione intento).
+>* **[!UICONTROL Gestione configurazione intento B2B]** - Necessario per creare, modificare ed eliminare configurazioni intento.
+>* **[!UICONTROL Gestione esperienza conversazionale B2B]**: necessario per aprire il pannello dall&#39;interfaccia di chat.
 
 ## Vista a elenco modelli
 

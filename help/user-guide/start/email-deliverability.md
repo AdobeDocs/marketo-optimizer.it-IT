@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: cf3d8c71c9301ee038cc1b31968d30aba34d1fc7
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '2590'
+source-wordcount: '2694'
 ht-degree: 0%
 ---
 # Recapitabilità delle e-mail
@@ -44,7 +44,7 @@ Utilizza i seguenti blocchi predefiniti, configurati da un amministratore, in ge
 1. [Crea una o più configurazioni del canale e-mail](../admin/email-channel-configuration.md#create-email-channel-configuration) che associano un sottodominio, un pool IP e un&#39;identità mittente.
 1. [Inserisce nell&#39;elenco Consentiti gli indirizzi IP di invio](#allowlist-ip-addresses) con il tuo reparto IT in modo che le e-mail di prova raggiungano la tua casella in entrata.
 
-![Configurazione del recapito messaggi e-mail per Marketo Optimizer](./assets/email-deliverability-diagram.svg){width="600"}
+![Configurazione recapito messaggi e-mail per Marketo Optimizer](./assets/email-deliverability-diagram.svg){width="600"}
 
 >[!TIP]
 >
@@ -70,6 +70,18 @@ Prima di configurare l’e-mail, esamina i concetti seguenti che si applicano al
 | **_Sottodominio_** | Parte delegata del dominio di invio (ad esempio, `mail.contoso.com`) utilizzata per inviare messaggi di posta elettronica tramite [!DNL Marketo Optimizer]. I sottodomini isolano la reputazione di marketing B2B dalla posta aziendale o transazionale. |
 | **_Pool IP_** | Un gruppo di indirizzi IP associati a uno o più sottodomini. [!DNL Marketo Optimizer] supporta un pool IP condiviso gestito da Adobe in questa versione; i pool IP dedicati sono nella roadmap di GA. |
 | **_Configurazione canale_** | Un set riutilizzabile di impostazioni di invio e-mail (identità del mittente, indirizzo di risposta, sottodominio, pool IP, tipo e-mail e tracciamento) da allegare alle azioni e-mail nei percorsi. Puoi avere più configurazioni di canale denominate per diversi marchi, business unit o tipi di invio. |
+
+## Autorizzazioni richieste {#required-permissions}
+
+Il recapito messaggi e la configurazione dei canali sono attività a livello di amministratore. Le seguenti autorizzazioni nella categoria _Configurazioni canale B2B_ controllano l&#39;accesso:
+
+| Autorizzazione | Cosa consente |
+| ---------- | -------------- |
+| Visualizza impostazioni e-mail B2B | Visualizzare le impostazioni e-mail (sottodomini, record PTR, pool IP, elenchi di soppressione, elenchi di seed, piani di riscaldamento IP). |
+| Gestione impostazioni e-mail B2B | Configurare le impostazioni e-mail. Queste impostazioni sono necessarie prima che gli utenti possano inviare e-mail. |
+| Gestione configurazioni canali B2B | Accedi alla voce di menu _Canali_ nell&#39;area di navigazione a sinistra e a tutte le operazioni di configurazione dei canali. |
+
+Per le descrizioni di tutte le autorizzazioni e le autorizzazioni consigliate per ogni tipo di utente, vedere [Autorizzazioni prodotto](./permissions-reference.md).
 
 <!--
 
@@ -155,7 +167,7 @@ La delega dei sottodomini comunica a Internet che Adobe è autorizzato a inviare
 >* Decidi su una convenzione di denominazione del sottodominio (ad esempio, `mail.contoso.com` per il marketing, `alerts.contoso.com` per le transazioni).
 >* Conferma con il tuo team IT/DNS di poter delegare il sottodominio (record NS) ad Adobe.
 >* Crea il nuovo sottodominio nel provider DNS, quindi attendi 24-48 ore per la propagazione DNS prima di delegare ad Adobe.
->* Conferma di disporre del ruolo di amministratore in [!DNL Marketo Optimizer].
+>* Conferma di disporre dell&#39;autorizzazione **[!UICONTROL Gestione impostazioni e-mail B2B]**. Per ulteriori informazioni, vedere [Autorizzazioni richieste](#required-permissions).
 
 1. Nella barra di navigazione a sinistra di [!DNL Marketo Optimizer], espandi **[!UICONTROL Amministrazione]** e seleziona **[!UICONTROL Canali]**.
 1. Nel pannello, espandi **[!UICONTROL Impostazioni e-mail]** e seleziona **[!UICONTROL Sottodomini]**.

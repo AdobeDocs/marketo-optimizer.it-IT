@@ -1,30 +1,32 @@
 ---
 title: Configurazione canale WhatsApp
-description: Connetti il tuo account aziendale WhatsApp tramite l’API Cloud di Meta per abilitare la messaggistica WhatsApp nei percorsi di persone di Marketo Optimizer.
+description: Connetti il tuo account aziendale WhatsApp tramite l’API Cloud di Meta per abilitare la messaggistica WhatsApp nei percorsi Marketo Optimizer person.
 TQID: 'https://experienceleague.adobe.com/y7rOywtyZ-OlupwLS-Fsjx72EVlaT7Vy-O1NEMwMO5E'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a659ad61-de21-559d-a901-02e2fb329ff5
+    internal-label: Administration
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Administration
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 1469
+source-wordcount: '1510'
 ht-degree: 13%
-
 ---
-
 # Configurazione del canale WhatsApp
 
-Marketo Optimizer invia messaggi WhatsApp tramite l’API Cloud di Meta. Prima che gli addetti al marketing possano creare messaggi WhatsApp per percorsi di persone, un amministratore di prodotto deve configurare un canale WhatsApp.
+Marketo Optimizer invia messaggi WhatsApp tramite API Cloud di Meta. Prima che gli addetti al marketing possano creare messaggi WhatsApp per percorsi di persone, un amministratore di prodotto deve configurare un canale WhatsApp.
 
 ![Flusso di attività WhatsApp per Marketo Optimizer](assets/whatsapp-flow-diagram.png)
-
-## Prerequisiti {#prerequisites}
 
 Prima di configurare il canale WhatsApp, assicurati di disporre dei seguenti elementi:
 
@@ -35,7 +37,7 @@ Prima di configurare il canale WhatsApp, assicurati di disporre dei seguenti ele
 
 >[!IMPORTANT]
 >
->L&#39;utilizzo dei servizi di messaggistica WhatsApp è soggetto ai termini e alle condizioni di Meta. Accedendo alla messaggistica WhatsApp tramite Marketo Optimizer, confermi di aver rivisto e di accettare di rispettare [i criteri aziendali di Meta WhatsApp](https://www.whatsapp.com/legal/business-policy/).
+>L&#39;utilizzo dei servizi di messaggistica WhatsApp è soggetto ai termini e alle condizioni di Meta. Accedendo alla messaggistica WhatsApp tramite Marketo Optimizer, l&#39;utente conferma di aver rivisto e accetta di rispettare [i criteri aziendali WhatsApp di Meta](https://www.whatsapp.com/legal/business-policy/).
 
 ## Limitazioni {#limitations}
 
@@ -59,6 +61,14 @@ Completa le seguenti attività:
 1. [Aggiungere i webhook WhatsApp](#configure-webhooks)
 1. [Creare la configurazione del canale WhatsApp](#create-channel-configuration)
 
+>[!PREREQUISITES]
+>
+>Per completare queste attività in [!DNL Marketo Optimizer], sono necessarie le [autorizzazioni](../start/permissions-reference.md) seguenti:
+>
+>* **[!UICONTROL Gestione configurazioni canali B2B]**: necessario per accedere al menu _[!UICONTROL Canali]_.
+>* **[!UICONTROL Gestione impostazioni WhatsApp B2B]**: necessario per configurare il canale WhatsApp.
+>* **[!UICONTROL Gestisci predefiniti WhatsApp B2B]**: necessario per creare le credenziali API e i webhook.
+
 ### Creare le credenziali API WhatsApp {#create-whatsapp-api-credentials}
 
 >[!NOTE]
@@ -79,7 +89,7 @@ Completa le seguenti attività:
    * **[!UICONTROL Token API]** - Immetti il token API. Per informazioni, consultare la [documentazione di Meta](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/).
    * **[!UICONTROL ID account aziendale]** - Inserisci il numero univoco relativo al tuo portfolio aziendale. Per informazioni, consultare la [documentazione di Meta](https://www.facebook.com/business/help/1181250022022158?id=180505742745347).
 
-   ![Credenziali API impostazioni WhatsApp &#x200B;](assets/config-whatsapp-channels-api-credentials.png){width="500" zoomable="yes"}
+   ![Credenziali API impostazioni WhatsApp ](assets/config-whatsapp-channels-api-credentials.png){width="500" zoomable="yes"}
 
 1. Fai clic su **[!UICONTROL Continua]**.
 
@@ -117,7 +127,7 @@ Se riscontri un errore HTTP 500 durante la configurazione delle credenziali API 
    * Token API - Deve essere un token di accesso Meta [valido con le autorizzazioni appropriate](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/).
    * ID account aziendale - Deve corrispondere esattamente all&#39;[ID account aziendale Meta](https://www.facebook.com/business/help/1181250022022158?id=180505742745347).
 
-1. Verifica le credenziali esternamente: verifica le credenziali direttamente con l’API Meta per verificare se il problema si verifica con le credenziali o con la gestione delle credenziali di Marketo Optimizer.
+1. Verifica le credenziali esternamente: verifica le credenziali direttamente con l’API Meta per verificare se il problema si verifica con le credenziali o con la gestione delle credenziali Marketo Optimizer.
 
 1. Contatta Adobe - Se l’ambiente e le adesioni sono confermate valide, ma l’errore HTTP 500 persiste, contatta il rappresentante Adobe.
 
@@ -224,7 +234,7 @@ Una configurazione del canale definisce le impostazioni di consegna utilizzate p
 
    ![Dettagli configurazione canale WhatsApp](assets/config-whatsapp-channels-general-create.png){width="500" zoomable="yes"}
 
-1. (Attualmente non applicabile per Marketo Optimizer) Per il campo di esecuzione **[!UICONTROL WhatsApp]**, seleziona l&#39;attributo di profilo da utilizzare come numero di telefono prioritario quando sono disponibili più numeri di telefono per un destinatario.
+1. (Attualmente non applicabile per Marketo Optimizer) Per il campo di esecuzione **[!UICONTROL WhatsApp]**, selezionare l&#39;attributo di profilo da utilizzare come numero di telefono prioritario quando sono disponibili più numeri di telefono per un destinatario.
 
 1. Fai clic su **[!UICONTROL Invia]** per salvare o su **[!UICONTROL Salva come bozza]** per completare e inviare la configurazione in un secondo momento.
 

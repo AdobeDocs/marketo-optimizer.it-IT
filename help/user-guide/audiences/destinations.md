@@ -4,17 +4,18 @@ description: Scopri le autorizzazioni richieste, le destinazioni supportate e co
 TQID: 'https://experienceleague.adobe.com/u5sWVDR0JaiX-YvlQ23l7mqoI9G95xS-uiKcqANwsnc'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Governance
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 643
+source-wordcount: '680'
 ht-degree: 7%
-
 ---
-
 # Destinazioni
 
 Le destinazioni sono integrazioni predefinite che ti consentono di inviare [elenchi di persone statiche](./people-lists.md#static-lists) da [!DNL Marketo Optimizer] a piattaforme pubblicitarie o social esterne, ad esempio un pubblico della campagna LinkedIn, un pubblico di Google Customer Match o un pubblico personalizzato di Facebook. L’attivazione di un elenco statico in una destinazione mantiene sincronizzata l’appartenenza: quando le persone vengono aggiunte o rimosse dall’elenco, vengono aggiunte o rimosse in modo corrispondente dal pubblico di destinazione e, per estensione, da qualsiasi campagna creata dal pubblico.
@@ -28,11 +29,14 @@ Esistono due modi per attivare le persone in una destinazione connessa:
 
 ## Autorizzazioni richieste {#required-permissions}
 
-La funzionalità di destinazione completa richiede l&#39;abilitazione delle seguenti autorizzazioni [!DNL Adobe Experience Platform].
+La funzionalità di destinazione completa richiede l&#39;abilitazione delle seguenti autorizzazioni [!DNL Adobe Experience Platform]. Per le descrizioni e le autorizzazioni consigliate per ogni tipo di utente, vedere la pagina [Autorizzazioni prodotto](../start/permissions-reference.md) e le [Autorizzazioni destinazioni esterne](../start/permissions-reference.md#external-destinations-permissions).
 
 | Categoria | Autorizzazione | Obbligatorio |
 |--- |--- |--- |
 | Sandbox | Accesso alla sandbox _(abilitato per impostazione predefinita)_ | Sì |
+| Destinazioni B2B | Visualizzare le destinazioni B2B | Sì |
+| Destinazioni B2B | Gestire le destinazioni B2B | Sì |
+| Destinazioni B2B | Attivare le destinazioni B2B | Sì |
 | Dashboard | Visualizza dashboard standard | Sì |
 | Dashboard | Gestione dashboard standard | Sì |
 | Destinazioni | Visualizza destinazioni | Sì |
@@ -86,7 +90,7 @@ Ogni scheda di destinazione supportata mostra **[!UICONTROL Configura nuova dest
 
 1. Rivedi le impostazioni delle azioni di marketing e governance dei dati, quindi fai clic su **[!UICONTROL Salva]**.
 
-Per i passaggi di installazione completi, vedere [Creare una nuova connessione di destinazione](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} nella documentazione di [!DNL Experience Platform].
+Per i passaggi di installazione completi, vedere [Creare una nuova connessione di destinazione](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} nella documentazione di [!DNL Experience Platform].
 
 Una volta configurata, la destinazione è disponibile per l&#39;attivazione ovunque sia possibile selezionare una destinazione in [!DNL Marketo Optimizer].
 
