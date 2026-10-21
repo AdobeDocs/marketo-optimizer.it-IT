@@ -4,18 +4,20 @@ description: Scopri come configurare i pesi delle attività per il modello di pu
 TQID: 'https://experienceleague.adobe.com/BNzbM6v6ADSKyPR6jQMj1QdWMnLQQX-j3PNk8gF6PxY'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 46e599c6-e20f-5f67-9824-93415016f66b
+    internal-label: Audiences
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Taxonomy
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 978
+source-wordcount: '987'
 ht-degree: 0%
-
 ---
-
 
 # Configurare e analizzare le finalità
 
@@ -57,6 +59,10 @@ Il punteggio intento per un lead considera tre elementi:
 Per informazioni dettagliate su queste metriche, tra cui il peso suggerito da IA, la rilevanza dei contenuti e le limitazioni, vedere [Configurazione intento](../audiences/intent-configuration.md).
 
 ## Rapporti intento
+
+>[!PREREQUISITES]
+>
+>I report intento richiedono **[!UICONTROL Visualizza report intento B2B]** [autorizzazione](../start/permissions-reference.md).
 
 Per introdurre i quattro tipi di report che può generare, richiamare `/analyze-intent` per richiedere a Collaboratore. Il collaboratore attende quindi una richiesta di follow-up per denominare un lead, un prodotto o un confronto. Ogni report viene aperto come scheda propria nel pannello dell&#39;area di lavoro e in Collaboratore viene aggiunta anche una scheda di riepilogo nella chat con un pulsante _[!UICONTROL Apri report]_.
 

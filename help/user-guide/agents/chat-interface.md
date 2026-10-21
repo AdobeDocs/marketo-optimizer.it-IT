@@ -4,24 +4,35 @@ description: Utilizza il pannello Chat di Coworker in Marketo Optimizer per crea
 TQID: 'https://experienceleague.adobe.com/5oj0glKEbJuzQFem-jxL4qjnzxVG4tlOaiHKM5SuiWQ'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+    internal-label: Chat Interface
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Optimization
+source-git-commit: be5df9d4e4482516a60b652d9ec2f977eb29b520
 workflow-type: tm+mt
-source-wordcount: 928
+source-wordcount: '955'
 ht-degree: 0%
-
 ---
-
 # Interfaccia chat
 
 Il pannello chat è incorporato in [!DNL Adobe Marketo Optimizer]. È qui che interagisci con gli agenti di intelligenza artificiale utilizzando un linguaggio semplice per creare programmi e percorsi, creare e confrontare elenchi di persone, indagare sui lead, configurare il punteggio e altro ancora.
+
+>[!PREREQUISITES]
+>
+>Per utilizzare il pannello chat di Coworker in [!DNL Marketo Optimizer], è necessario disporre dell&#39;autorizzazione **[!UICONTROL Gestione esperienza conversazionale B2B]** [autorizzazione](../start/permissions-reference.md).
+>
+>Questa autorizzazione consente di accedere al pannello chat, ma non a nessuna funzione. Il sistema controlla ogni abilità o azione in chat rispetto alla stessa autorizzazione necessaria per la funzione all&#39;esterno della chat: _Gestisci_ autorizzazioni per creare, modificare o pubblicare e _Visualizza_ autorizzazioni per le abilità di sola lettura. Se non disponi dell’autorizzazione per la funzione, l’assistente non può eseguire l’azione al posto tuo. Ad esempio, la creazione di un percorso richiede **[!UICONTROL Gestione Percorsi di persone B2B]**, mentre l&#39;elenco dei moduli richiede **[!UICONTROL Visualizza Forms B2B]**.
 
 Per aprire il pannello, seleziona l&#39;icona _Collaboratore_ nell&#39;area di navigazione a sinistra. L’intestazione del pannello presenta quattro controlli:
 
@@ -36,16 +47,6 @@ Nella parte inferiore del pannello si trova la finestra di messaggio in cui è p
 
 * Aggiungi un messaggio e premi **Invio** per inviare (**MAIUSC+INVIO** inserisce una nuova riga).
 * Allega un file utilizzando l&#39;icona _Allega_ (formati supportati: `.txt`, `.md`, `.csv`, `.json`, `.xlsx`, `.docx`, `.pdf`). Utilizza i caricamenti CSV e fogli di calcolo per avviare un’importazione di lead.
-
->[!BEGINSHADEBOX]
-
-## Qualificatore di vendita
-
-[!DNL Adobe Sales Qualifier] è un&#39;applicazione basata su IA che è possibile utilizzare con [!DNL Marketo Optimizer]. Implementa Account Qualification Agent ed è progettato per semplificare i flussi di lavoro per i rappresentanti di sviluppo aziendale (BDR, Business Development Representative). [!DNL Sales Qualifier] automatizza i flussi di lavoro di qualificazione dei potenziali clienti, di estensione e di coinvolgimento degli acquirenti tra i canali. Riduce il carico BDR manuale e accelera la velocità della pipeline per le aziende B2B aziendali.
-
-Per ulteriori informazioni, consulta la [documentazione di Sales Qualifier](https://experienceleague.adobe.com/it/docs/sales-qualifier/using/home){target="_blank"}.
-
->[!ENDSHADEBOX]
 
 ## Chiedi al collega
 
@@ -89,7 +90,7 @@ I connettori aprono un modale invece di inserire testo. Le scelte rapide per la 
 >
 >Alcuni comandi sono visualizzati in grigio e contrassegnati come _In arrivo_. Questi sono gestiti da flag di funzione e non sono ancora attivi per il tuo account; selezionarne uno non fa nulla. Il set disponibile dipende dalle feature abilitate.
 
-## Competenza
+## Competenze
 
 Un&#39;abilità è un flusso di lavoro in pacchetti che l&#39;agente è in grado di eseguire, ovvero i blocchi predefiniti del menu `/` e le richieste in linguaggio naturale. Ogni abilità riunisce istruzioni dettagliate e gli strumenti specifici necessari per un lavoro (ad esempio, &quot;pubblicare un percorso&quot;, &quot;confrontare elenchi di due persone&quot;, &quot;creare un modello di punteggio&quot;).
 

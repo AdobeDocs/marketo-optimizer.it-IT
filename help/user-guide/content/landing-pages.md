@@ -4,16 +4,17 @@ description: 'Creazione, progettazione e pubblicazione di pagine di destinazione
 TQID: 'https://experienceleague.adobe.com/2eRB0eqgUbOrzaRTnWWy--Fjb4e5-qopiOMZWmr-sa4'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Content Management
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 1589
+source-wordcount: '1627'
 ht-degree: 2%
-
 ---
-
 # Pagine di destinazione
 
 Una pagina di destinazione è una pagina web indipendente in cui puoi indirizzare contatti e clienti dopo che hanno fatto clic su un elemento collegato in un’e-mail, un messaggio SMS o qualsiasi posizione digitale. Puoi incorporare queste pagine nei tuoi percorsi per consentire ai potenziali clienti e ai clienti di visualizzare i messaggi sul web e i progressi compiuti nei tuoi percorsi.
@@ -25,6 +26,14 @@ Casi d’uso comuni per le pagine di destinazione:
 * Acquisisci o aggiorna i dati del profilo (profilatura progressiva, preferenze, registrazioni e scenari simili) utilizzando i moduli nelle pagine di destinazione.
 * Indirizza le persone a informazioni specifiche per la campagna progettate per l’orchestrazione del percorso.
 * Reindirizza le persone a un modulo web dedicato senza creare una pagina esterna all&#39;esterno di [!DNL Marketo Optimizer].
+
+>[!PREREQUISITES]
+>
+>L&#39;utilizzo delle pagine di destinazione richiede le [autorizzazioni](../start/permissions-reference.md) seguenti:
+>
+>* **[!UICONTROL Visualizza pagina di destinazione B2B]**: obbligatorio per visualizzare le pagine di destinazione.
+>* **[!UICONTROL Gestisci pagina di destinazione B2B]**: necessario per creare, modificare ed eliminare le pagine di destinazione.
+>* **[!UICONTROL Pubblica pagina di destinazione B2B]**: obbligatorio per pubblicare le pagine di destinazione.
 
 ## Flusso di lavoro per pagina di destinazione {#workflow}
 
@@ -200,7 +209,7 @@ In qualità di addetto al marketing o creativo che produce contenuti per e-mail,
 
 1. Per l&#39;opzione **[!UICONTROL Pagina di destinazione]**, fare clic sull&#39;icona _Seleziona pagina_ ( ![Mostra icona collegamenti](../assets/do-not-localize/icon-landing-page-select.svg) ).
 
-1. Nella finestra di dialogo Seleziona pagina di destinazione, imposta **[!UICONTROL Origine pagina di destinazione]** come **[!UICONTROL Journey Optimizer B2B edition]**, seleziona la casella di controllo per la pagina di destinazione dall&#39;elenco delle pagine pubblicate e fai clic su **[!UICONTROL Seleziona]**.
+1. Nella finestra di dialogo Seleziona pagina di destinazione, imposta **[!UICONTROL Origine pagina di destinazione]** come **[!UICONTROL Journey Optimizer B2B Edition]**, seleziona la casella di controllo per la pagina di destinazione dall&#39;elenco delle pagine pubblicate e fai clic su **[!UICONTROL Seleziona]**.
 
    ![Opzioni di collegamento per una pagina di destinazione](assets/content-design-link-landing-page-select.png){width="600" zoomable="yes"}
 

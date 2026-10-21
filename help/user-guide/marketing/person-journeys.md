@@ -1,20 +1,22 @@
 ---
 title: Percorsi persona
-description: 'Creazione, pubblicazione e gestione di percorsi di persone in Marketo Optimizer: consente di sfogliare l''elenco dei percorsi, progettare flussi a più passaggi e duplicare o eliminare percorsi.'
+description: 'Creazione, pubblicazione e gestione di percorsi di persone in Marketo Optimizer: sfoglia l’elenco dei percorsi, progetta flussi a più passaggi e duplica o elimina percorsi.'
 TQID: 'https://experienceleague.adobe.com/RYzV8B9QTuGm1gGb2ZX6i3rc4TlACsM3LRwcnULgwV8'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
   - id: d4203578-d294-5145-b397-f26f4488a904
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Channels
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 1418
-ht-degree: 19%
-
+source-wordcount: '1480'
+ht-degree: 18%
 ---
-
 # Percorsi persona
 
 In [!DNL Adobe Marketo Optimizer], i percorsi di persone sono piani di marketing basati su lead automatizzati e a più passaggi, che orchestrano esperienze personalizzate su più canali. Questi percorsi utilizzano i dati di Marketo Engage per eseguire questi piani di marketing in risposta a coinvolgimento, eventi di business o campagne pianificate.
@@ -22,6 +24,15 @@ In [!DNL Adobe Marketo Optimizer], i percorsi di persone sono piani di marketing
 >[!NOTE]
 >
 >Ogni percorso risiede in un [programma](./programs.md) definito. Prima di creare un percorso è necessario disporre di almeno un programma da utilizzare come padre.
+
+>[!PREREQUISITES]
+>
+>L&#39;utilizzo di percorsi di persone richiede le [autorizzazioni](../start/permissions-reference.md) seguenti:
+>
+>* **[!UICONTROL Visualizza Percorsi di persone B2B]** - Necessario per accedere in sola lettura all&#39;elenco _[!UICONTROL Percorsi di persone]_ e ai dettagli del percorso.
+>* **[!UICONTROL Gestisci Percorsi di persone B2B]** - Necessario per accedere all&#39;elenco _[!UICONTROL Percorsi di persone]_ ed eseguire tutte le operazioni del percorso di persone.
+>* **[!UICONTROL Pubblica Percorsi di persone B2B]** - Necessario per pubblicare percorsi di persone.
+>* **[!UICONTROL Visualizza report Percorso di persone B2B]** - Obbligatorio per visualizzare i report percorso di persone.
 
 _Per creare un nuovo percorso di persone :_
 

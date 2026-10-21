@@ -4,16 +4,17 @@ description: Scopri come accedere e gestire i modelli e-mail in Marketo Optimize
 TQID: 'https://experienceleague.adobe.com/PS1sj99Udmajg2M4JadFQCGYF7DL9JkkdU9-7FG-OzY'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Content Management
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 483
+source-wordcount: '511'
 ht-degree: 1%
-
 ---
-
 
 # Modelli e-mail
 
@@ -24,6 +25,13 @@ I modelli e-mail in [!DNL Adobe Marketo Optimizer] consentono agli esperti di co
 >In questa versione di Beta, sono supportati solo i modelli e-mail.
 
 Quando un modello viene applicato a una nuova e-mail, il contenuto viene copiato in quel punto. Le modifiche apportate al modello non influiscono sulle e-mail create in precedenza da esso.
+
+>[!PREREQUISITES]
+>
+>L&#39;utilizzo dei modelli richiede le [autorizzazioni](../start/permissions-reference.md) seguenti:
+>
+>* **[!UICONTROL Visualizza modelli B2B]**: necessario per visualizzare l&#39;elenco dei modelli e i dettagli.
+>* **[!UICONTROL Gestisci modelli B2B]**: necessario per creare, modificare ed eliminare i modelli.
 
 ## Accedere ai modelli e-mail {#access}
 

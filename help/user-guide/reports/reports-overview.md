@@ -1,15 +1,15 @@
 ---
 title: Rapporti
-description: Scopri la scheda Rapporti in Adobe Marketo Optimizer, incluse le sezioni relative ai rapporti, le opzioni di esportazione e pianificazione e come modificare l’intervallo di date.
+description: Scopri la scheda Rapporti in Adobe Marketo Optimizer, incluse le sezioni dei rapporti, le opzioni di esportazione e pianificazione e come modificare l’intervallo di date.
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
     internal-label: Marketo Optimizer
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
     internal-label: Reporting
-source-git-commit: 6e919a66af259ea1f5facf7f5c3e811d76101e85
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '508'
 ht-degree: 2%
 ---
 
@@ -20,6 +20,10 @@ La scheda [!UICONTROL Rapporti] fornisce informazioni sulle prestazioni in [!DNL
 Ogni report è generato su [!DNL Adobe Customer Journey Analytics] e incorporato direttamente in [!DNL Marketo Optimizer]. Fai clic sull&#39;icona _Elenco_ ( ![Icona Elenco](../assets/do-not-localize/icon-table-of-contents.svg) ) per utilizzare il pannello **[!UICONTROL Sommario]** a sinistra per spostarti tra le sezioni.
 
 ![Pagina dei report in cui sono elencate le sezioni Panoramica Percorso di persone, Coinvolgimento, Coinvolgimento e-mail e Coinvolgimento Web](./assets/reports-table-of-contents.png){width="800" zoomable="yes"}
+
+>[!PREREQUISITES]
+>
+>Per visualizzare i report nella scheda _[!UICONTROL Report]_, è necessario disporre dell&#39;autorizzazione **[!UICONTROL Visualizza report incorporati B2B]** [&#128279;](../start/permissions-reference.md).
 
 ## Sezioni dei rapporti {#report-sections}
 

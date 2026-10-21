@@ -17,10 +17,10 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c825d93cdf9754a516b2d930bbe8c1e2e8aeaea1
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '2474'
-ht-degree: 36%
+source-wordcount: '2584'
+ht-degree: 34%
 ---
 # Accesso utente e autorizzazioni
 
@@ -32,6 +32,8 @@ Dopo aver completato il provisioning e aver associato le sandbox, completa i pas
 1. [Aggiungi utenti al nuovo gruppo](#add-users) in Admin Console.
 1. [Modifica i ruoli incorporati](#edit-role-permissions) o [crea un ruolo personalizzato](#create-a-custom-role) con le autorizzazioni del prodotto e la sandbox [!DNL Marketo Optimizer] richiesta in Experience Platform.
 1. [Aggiungi utenti](#add-users-to-a-role) o [gruppi](#add-user-groups-to-a-role) ai ruoli in Adobe Experience Platform.
+
+Per impostare i gruppi di utenti e i ruoli consigliati per amministratori, utenti con accesso completo e utenti di sola lettura, vedere [Tipi di utenti consigliati](./permissions-reference.md#suggested-user-types) e [Creare gruppi di utenti e ruoli per i tipi di utenti suggeriti](#create-suggested-roles).
 
 ## Configurare il profilo di prodotto {#config-profile}
 
@@ -172,65 +174,15 @@ Per ulteriori informazioni sulle autorizzazioni per i ruoli in Experience Platfo
 
 ### Risorse di autorizzazione {#permissions}
 
-Le risorse di autorizzazione seguenti controllano l&#39;accesso alla configurazione del canale, alla gestione del contenuto e alle funzionalità del percorso di persone in [!DNL Marketo Optimizer]:
+Per l&#39;elenco completo delle autorizzazioni che controllano l&#39;accesso alle funzionalità di [!DNL Marketo Optimizer], incluse le descrizioni e le autorizzazioni consigliate per ogni tipo di utente, vedere la pagina [Autorizzazioni prodotto](./permissions-reference.md).
 
 >[!IMPORTANT]
 >
->Per l&#39;accesso a [!DNL Marketo Optimizer] è necessario abilitare una sandbox specifica per la quale è stato eseguito il provisioning utilizzando la seguente convenzione per i nomi: `Mktoaep` + prefisso di sottoscrizione [!DNL Marketo Engage]. Ad esempio, se il prefisso della sottoscrizione [!DNL Marketo Engage] collegata è _AcmeAssoc_, la sandbox richiesta per l&#39;accesso [!DNL Marketo Optimizer] è _MktoaepAcmeAssoc_.
+>Per l&#39;accesso a [!DNL Marketo Optimizer] è necessario abilitare una sandbox specifica per la quale è stato eseguito il provisioning utilizzando la seguente convenzione per i nomi: `Mktoaep` + prefisso di sottoscrizione [!DNL Marketo Engage]. Ad esempio, se il prefisso della sottoscrizione [!DNL Marketo Engage] collegata è _AcmeAssoc_, la sandbox richiesta per l&#39;accesso [!DNL Marketo Optimizer] è _MktoaepAcmeAssoc_. Aggiungi questa sandbox a ogni ruolo.
 
-| Categoria | Autorizzazione | Descrizione |
-| -------- | ----------- | ---------- |
-| Configurazioni del canale B2B | Visualizza impostazioni e-mail B2B | Visualizzare le impostazioni e-mail (sottodomini, record PTR, pool IP, elenchi di soppressione, elenchi di seed, piani di riscaldamento IP). |
-| | Gestione impostazioni e-mail B2B | Configura le impostazioni e-mail (sottodomini, record PTR, pool IP, elenchi di soppressione, elenchi di seed, piani di riscaldamento IP). Queste impostazioni sono necessarie prima che gli utenti possano inviare e-mail. |
-| | Gestione configurazioni canali B2B | Accedi alla voce di menu _Canali_ nell&#39;area di navigazione a sinistra e a tutte le operazioni di configurazione dei canali. |
-| | Gestire i predefiniti WhatsApp B2B | Crea, visualizza ed elimina i predefiniti per messaggi WhatsApp e le impostazioni SMS associate. |
-| Percorsi B2B | Gestire Percorsi di persone B2B | Accesso all&#39;elenco _Percorsi di persone_ e a tutte le operazioni del percorso di persone. |
-| Assets B2B | Visualizza modelli di contenuto | Visualizzare l’elenco e i dettagli dei modelli di contenuto. |
-| | Gestire modelli B2B | Creare, modificare ed eliminare modelli di contenuto. |
-| | Visualizzare frammenti B2B | Visualizzare l’elenco e i dettagli dei frammenti di contenuto. |
-| | Gestire i frammenti B2B | Crea, modifica ed elimina frammenti di contenuto. |
-| | Pubblicare frammenti B2B | Pubblica frammenti di contenuto da utilizzare in modelli, e-mail e pagine di destinazione. |
-| | Visualizza Assets B2B | Visualizza i dettagli della libreria Assets e del file di risorse. |
-| | Gestire Assets B2B | Crea, modifica ed elimina i file di risorse. |
-| | Visualizza e-mail B2B | Visualizzare i messaggi e-mail. |
-| | Gestire le e-mail B2B | Crea, modifica ed elimina messaggi e-mail. |
-| | Gestione esportazione messaggi B2B | Esporta i rapporti sui messaggi nella sezione E-mail. |
-| Libreria Journey Optimizer | Gestire gli elementi della libreria B2B | Aggiungi ed elimina le espressioni salvate nella libreria. |
-| Governance dei dati | Gestire le etichette di utilizzo per l’eliminazione B2B | Visualizzare, creare ed eliminare le etichette di utilizzo dei dati (DULE) applicate ai set di dati e agli schemi. |
-| Amministrazione sandbox | Gestire pacchetti B2B | Crea, esporta, importa, copia ed elimina pacchetti sandbox. |
-
-Per fornire supporto per le destinazioni esterne in [!DNL Marketo Optimizer], sono necessarie le seguenti autorizzazioni:
-
-| Categoria | Autorizzazione | Descrizione |
-| -------- | ----------- | ---------- |
-| Dashboard | Visualizza dashboard standard | Accesso in sola visualizzazione alle _dashboard dei profili_, _destinazioni_ e _segmenti_. Abilita inoltre l&#39;accesso a _Dashboard_ nel menu di navigazione a sinistra e alla scheda _Dashboard_ inventario e integrazioni. |
-| | Gestione dashboard standard | Aggiungi attributi personalizzati non ancora presenti nel data warehouse. |
-| Destinazioni | Visualizza destinazioni | Accesso in sola visualizzazione per visualizzare le destinazioni disponibili nella scheda _Catalogo_ e le destinazioni autenticate nella scheda _Sfoglia_. |
-| | Gestire le destinazioni | Visualizzare, creare ed eliminare connessioni di destinazioni e account di destinazione. |
-| | Attivare le destinazioni | Attiva i dati nelle destinazioni attive. Per accedere a questa funzione è inoltre necessario _Visualizza destinazioni_ o _Gestisci destinazioni_. |
-| | Attiva segmento senza mappatura | Attiva i tipi di pubblico nelle destinazioni esistenti, senza visualizzare il passaggio di mappatura. Gli utenti possono aggiungere e rimuovere tipi di pubblico nei flussi di lavoro di attivazione, ma non possono aggiungere o rimuovere attributi o identità mappati. Per accedere a questa funzione è necessaria anche l&#39;autorizzazione _Visualizza destinazioni_. |
-| | Gestire e attivare la destinazione del set di dati | Visualizza, crea, modifica e disabilita i flussi di esportazione dei set di dati, nonché attiva i dati nei set di dati attivi. Per accedere a questa funzione è necessaria anche l&#39;autorizzazione _Visualizza destinazioni_. |
-| | Authoring delle destinazioni | Possibilità di creare destinazioni utilizzando Adobe Experience Platform Destination SDK. |
-| Governance dei dati | Visualizza criteri di utilizzo dati | Accesso in sola visualizzazione per i criteri di utilizzo dei dati appartenenti alla tua organizzazione. |
-| | Gestire i criteri di utilizzo dei dati | Visualizza, crea, modifica ed elimina i criteri di utilizzo dei dati. |
-| Acquisizione dei dati | Visualizza origini | Accesso in sola visualizzazione alle origini disponibili nella scheda _Catalogo_ e alle origini autenticate nella scheda _Sfoglia_. |
-| | Gestisci origini | Visualizzare, creare, modificare e disattivare le origini. |
-| Gestione profilo | Visualizza impostazioni profilo | Accesso in sola visualizzazione a tutte le impostazioni di profilo. |
-| | Gestione impostazioni profilo | Visualizza e modifica tutte le impostazioni di profilo. |
-
-<!--
-
-### B2B built-in roles {#b2b-built-in-roles}
-
-When your organization has [!DNL Marketo Optimizer] provisioned, Experience Platform includes a set of built-in (default, read-only) roles that you can use to manage access to the product capabilities:
-
-| Role | Permissions |
-| ---- | ----------- |
-| B2B Journey Manager | <li>Manage B2B Journeys <li>Manage B2B Buying Groups <li>Manage B2B Account Lists <li>View B2B Engagement Dashboard <li>View B2B Insights Dashboard |
-| B2B Channel Manager | <li>Manage B2B Assets <li>Manage B2B Templates <li>Manage B2B Fragments |
-| B2B System Administrator | <li>Manage B2B Channels Configurations <li>Manage B2B Admin Configurations |
-
--->
+>[!NOTE]
+>
+>Per visualizzare il riquadro _[!UICONTROL Autorizzazioni]_ in Experience Platform è necessario essere amministratore di sistema.
 
 ### Modifica autorizzazioni ruolo {#edit-role-permissions}
 
@@ -334,7 +286,7 @@ Per informazioni sulla gestione degli utenti, vedi [_Utenti Adobe Admin Console_
 
 1. Aggiungere le autorizzazioni per il prodotto:
 
-   Per determinare quali funzionalità di prodotto desideri per il ruolo, consulta l&#39;elenco di [autorizzazioni di prodotto](#permissions).
+   Per determinare quali funzionalità di prodotto desideri per il ruolo, consulta l&#39;elenco di [autorizzazioni di prodotto](./permissions-reference.md).
 
    Nell&#39;elenco _[!UICONTROL Risorse]_ a sinistra, individuare gli elementi B2B e fare clic sull&#39;icona _Aggiungi_ (**+**) per aggiungere ogni attributo che si desidera abilitare per il ruolo.
 
@@ -353,3 +305,95 @@ Per informazioni sulla gestione degli utenti, vedi [_Utenti Adobe Admin Console_
 1. Fai clic su **[!UICONTROL Salva]**.
 
 Il ruolo personalizzato è configurato e gli utenti del gruppo assegnato possono ora accedere alle funzionalità [!DNL Marketo Optimizer] selezionate.
+
+### Creare gruppi di utenti e ruoli per i tipi di utenti suggeriti {#create-suggested-roles}
+
+Utilizzare le procedure seguenti per configurare l&#39;_amministratore_, l&#39;_utente con accesso completo_ e l&#39;_utente con accesso in sola lettura_ [tipi di utente suggeriti](./permissions-reference.md#suggested-user-types). Per ogni tipo di utente, si crea un gruppo di utenti in Admin Console e un ruolo in Experience Platform, quindi si aggiunge il gruppo al ruolo. Le autorizzazioni suggerite per ogni tipo di utente sono elencate in [_Autorizzazioni prodotto_](./permissions-reference.md).
+
+#### Creare il gruppo utenti e il ruolo Amministratore {#create-admin-group}
+
+![Icona che indica che per completare questa procedura è necessario l&#39;accesso dell&#39;amministratore.](../assets/do-not-localize/icon-admin-user.svg){width="30"} Un amministratore di sistema può eseguire i seguenti passaggi.
+
+1. In Admin Console, [aggiungi un gruppo di utenti](#add-user-group) denominato _Gruppo di amministratori di Marketo Optimizer_ e [assegnagli il profilo di prodotto](#assign-profile).
+
+1. Aggiungere al gruppo gli utenti che hanno configurato e gestito [!DNL Marketo Optimizer].
+
+1. Assegna agli utenti il ruolo di amministratore del prodotto, in modo che possano gestire utenti e gruppi.
+
+1. In [!UICONTROL Experience Platform] _[!UICONTROL Autorizzazioni]_, seleziona **[!UICONTROL Ruoli]** > **[!UICONTROL Crea ruolo]**
+
+1. Immettere il nome, ad esempio _Amministratore Marketo Optimizer_, quindi fare clic su **[!UICONTROL Conferma]**.
+
+1. Selezionare la sandbox predisposta per l&#39;accesso [!DNL Marketo Optimizer] (`Mktoaep<Marketo subscription prefix>`).
+
+   >[!IMPORTANT]
+   >
+   >Questo passaggio è fondamentale per un accesso corretto.
+
+1. Per ciascuna delle categorie seguenti, fare clic sull&#39;icona _Aggiungi_ (**+**) e selezionare **[!UICONTROL Aggiungi tutto]**:
+
+   * _[!UICONTROL Configurazioni amministratore B2B]_
+   * _[!UICONTROL Assets B2B]_
+   * _[!UICONTROL Configurazioni canale B2B]_
+   * _[!UICONTROL Esperienza conversazionale B2B]_
+   * _[!UICONTROL Destinazioni B2B]_
+   * _[!UICONTROL Token cartella B2B]_
+   * _[!UICONTROL Cartelle B2B]_
+   * _[!UICONTROL Configurazione intento B2B]_
+   * _[!UICONTROL Percorsi B2B]_
+   * _[!UICONTROL Laboratori B2B]_
+   * _[!UICONTROL Regole organizzazione B2B]_
+   * _[!UICONTROL Elenchi di persone B2B]_
+   * _[!UICONTROL Token programma B2B]_
+   * _[!UICONTROL Tipi di programmi B2B]_
+   * _[!UICONTROL Programmi B2B]_
+   * _[!UICONTROL Generazione rapporti B2B]_
+   * _[!UICONTROL Dashboard]_
+   * _[!UICONTROL Destinazioni]_
+   * _[!UICONTROL Governance dei dati]_
+   * _[!UICONTROL Acquisizione dei dati]_
+   * _[!UICONTROL Gestione profilo]_
+
+   >[!TIP]
+   >
+   >Usa **[!UICONTROL Aggiungi tutti]** solo per il ruolo Amministratore. Quando vengono rilasciate nuove funzioni, le autorizzazioni preparate per esse vengono applicate automaticamente al ruolo Amministratore, pertanto non è necessario modificare il ruolo. Per gli altri tipi di utenti, selezionare solo le autorizzazioni consigliate per quel tipo in [_Autorizzazioni prodotto_](./permissions-reference.md).
+
+1. Fai clic su **[!UICONTROL Salva]**.
+
+1. Nei dettagli del ruolo, seleziona la scheda **[!UICONTROL Gruppi utenti]**, fai clic su **[!UICONTROL Aggiungi gruppi]**, seleziona _Gruppo amministratori Marketo Optimizer_, quindi fai clic su **[!UICONTROL Salva]**.
+
+#### Creare il gruppo di utenti e il ruolo Tutti gli accessi {#create-all-access-group}
+
+![Icona che indica che per completare questa procedura è necessario l&#39;accesso dell&#39;amministratore.](../assets/do-not-localize/icon-admin-user.svg){width="30"} Un amministratore di sistema può eseguire i seguenti passaggi.
+
+1. In Admin Console, [aggiungi un gruppo di utenti](#add-user-group) denominato _Gruppo di utenti Marketo Optimizer_, [assegna il profilo di prodotto](#assign-profile) e [aggiungi utenti](#add-users) al gruppo.
+
+1. In Autorizzazioni Experience Platform [crea un ruolo personalizzato](#create-a-custom-role) denominato _Utente con accesso a Marketo Optimizer_.
+
+1. Selezionare la sandbox predisposta per l&#39;accesso [!DNL Marketo Optimizer] (`Mktoaep<Marketo subscription prefix>`).
+
+1. Per ogni categoria in [Autorizzazioni prodotto](./permissions-reference.md), fare clic sull&#39;icona _Aggiungi_ (**+**) e selezionare solo le autorizzazioni consigliate per tutti gli utenti di Access.
+
+   Tutti gli utenti di Access possono lavorare quotidianamente in ogni funzione, ma non ricevono le autorizzazioni di amministratore, canale o configurazione.
+
+1. Fai clic su **[!UICONTROL Salva]**.
+
+1. Nei dettagli del ruolo, seleziona la scheda **[!UICONTROL Gruppi utenti]**, fai clic su **[!UICONTROL Aggiungi gruppi]**, seleziona _Gruppo utenti Marketo Optimizer_, quindi fai clic su **[!UICONTROL Salva]**.
+
+#### Creare il gruppo utenti e il ruolo di accesso in sola lettura {#create-read-only-group}
+
+![Icona che indica che per completare questa procedura è necessario l&#39;accesso dell&#39;amministratore.](../assets/do-not-localize/icon-admin-user.svg){width="30"} Un amministratore di sistema può eseguire i seguenti passaggi.
+
+1. In Admin Console, [aggiungi un gruppo di utenti](#add-user-group) denominato _Gruppo di utenti di sola lettura di Marketo Optimizer_, [assegna il profilo di prodotto](#assign-profile) e [aggiungi utenti](#add-users) al gruppo.
+
+1. In Autorizzazioni Experience Platform [crea un ruolo personalizzato](#create-a-custom-role) denominato _Utente di accesso in sola lettura Marketo Optimizer_.
+
+1. Selezionare la sandbox predisposta per l&#39;accesso [!DNL Marketo Optimizer] (`Mktoaep<Marketo subscription prefix>`).
+
+1. Per ogni categoria in [Autorizzazioni prodotto](./permissions-reference.md), fare clic sull&#39;icona _Aggiungi_ (**+**) e selezionare solo le autorizzazioni consigliate per gli utenti con accesso in sola lettura.
+
+   Accesso in sola lettura Gli utenti possono visualizzare solo le funzionalità.
+
+1. Fai clic su **[!UICONTROL Salva]**.
+
+1. Nei dettagli del ruolo, seleziona la scheda **[!UICONTROL Gruppi utenti]**, fai clic su **[!UICONTROL Aggiungi gruppi]**, seleziona _Gruppo utenti di sola lettura Marketo Optimizer_, quindi fai clic su **[!UICONTROL Salva]**.

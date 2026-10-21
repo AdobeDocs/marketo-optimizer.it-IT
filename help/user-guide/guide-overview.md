@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7a4e898b64751d5b912e6468d318083c571eff1b
+source-git-commit: e2577dd31c38f55f4dc2ce32119315ad7f9fe6f6
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 3%
+source-wordcount: '498'
+ht-degree: 2%
 ---
 # Documentazione di Adobe Marketo Optimizer
 
@@ -146,6 +146,16 @@ Author emails and WhatsApp messages, manage templates and assets, create landing
 ::::
 
 -->
+
+>[!BEGINSHADEBOX]
+
+## Marketo Qualifier
+
+[!DNL Adobe Marketo Qualifier] è un&#39;applicazione basata su IA che è possibile utilizzare con [!DNL Marketo Optimizer]. Implementa l’abilità di qualificazione dell’account ed è progettata per semplificare i flussi di lavoro per i rappresentanti per lo sviluppo aziendale (BDR, Business Development Representative). [!DNL Marketo Qualifier] automatizza i flussi di lavoro di qualificazione dei potenziali clienti, di estensione e di coinvolgimento degli acquirenti tra i canali. Riduce il carico BDR manuale e accelera la velocità della pipeline per le aziende B2B aziendali.
+
+Per ulteriori informazioni, consulta la [documentazione di Marketo Qualifier](https://experienceleague.adobe.com/it/docs/marketo-qualifier/using/home){target="_blank"}.
+
+>[!ENDSHADEBOX]
 
 ## Esplora la documentazione
 

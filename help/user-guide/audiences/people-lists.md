@@ -1,29 +1,43 @@
 ---
 title: Elenchi persone
-description: Consente di creare e gestire gli elenchi di persone in Marketo Optimizer per il targeting di percorso, l’appartenenza dinamica basata su regole e l’attivazione della destinazione di elenco statica.
+description: Crea e gestisci gli elenchi di persone in Marketo Optimizer per il targeting di percorso, l’iscrizione dinamica basata su regole e l’attivazione della destinazione di elenco statica.
 TQID: 'https://experienceleague.adobe.com/wxkyF1364PPDTHuEzXoshtCbVse-Fc-XdQvrEwPHJZc'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
+    internal-label: Reporting
   - id: 46e599c6-e20f-5f67-9824-93415016f66b
+    internal-label: Audiences
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Insights
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 1145
+source-wordcount: '1181'
 ht-degree: 1%
-
 ---
-
 # Elenchi di persone
 
 In [!DNL Adobe Marketo Optimizer] gli elenchi persone sono i contenitori di pubblico a livello di persona per il targeting e la voce percorso di persone, con elenchi dinamici per la qualifica live basata su regole ed elenchi statici per l&#39;iscrizione fissa o gestita dal percorso.
+
+>[!PREREQUISITES]
+>
+>L&#39;utilizzo degli elenchi delle persone richiede le [autorizzazioni](../start/permissions-reference.md) seguenti:
+>
+>* **[!UICONTROL Visualizza elenchi di persone B2B]** - Necessario per visualizzare gli elenchi di persone statici e dinamici.
+>* **[!UICONTROL Gestisci elenchi persone B2B]**: necessario per creare, modificare ed eliminare elenchi di persone e gestire l&#39;appartenenza agli elenchi.
 
 ## Accedere e sfogliare gli elenchi di persone {#access-browse}
 
