@@ -1,28 +1,35 @@
 ---
 title: Decisioning IA
-description: Comprendi le decisioni basate sull’intelligenza artificiale in Marketo Optimizer, il livello di intelligence dietro il controllo del traffico del percorso, il percorso migliore successivo, l’ottimizzazione dell’ora di invio e altre funzionalità che sostituiscono le regole statiche con l’automazione basata sui risultati.
+description: Comprendi le decisioni basate sull’intelligenza artificiale in Marketo Optimizer, il livello di intelligence dietro il controllo del traffico del percorso, il percorso migliore successivo, l’ottimizzazione del tempo di invio e altre funzionalità che sostituiscono le regole statiche con l’automazione basata sui risultati.
 TQID: 'https://experienceleague.adobe.com/biPd2Zv3z75i7imGqRNuKXvgoD0sIcwrFrjWmSO7FpU'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
   - id: 5229c72e-d79b-574f-a03e-5c4bf48172c3
+    internal-label: AI Decisioning
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Optimization
+source-git-commit: 8a41dd1e42f5c39a2e9a5b54518fb88392776afe
 workflow-type: tm+mt
-source-wordcount: 808
+source-wordcount: '829'
 ht-degree: 2%
-
 ---
-
 
 # Decisioning IA
 
-Le decisioni basate sull’intelligenza artificiale sono il livello di intelligenza dietro Adobe Marketo Optimizer. Invece di pre-creare ogni ramo come regola statica, le decisioni basate sull’intelligenza artificiale valutano continuamente il contesto di un profilo, tra cui l’iscrizione al percorso, la cronologia del coinvolgimento, i punteggi di intento e il comportamento in tempo reale, per determinare l’azione o il percorso migliore successivo per quella persona.
+Le decisioni basate sull’intelligenza artificiale sono il livello di intelligenza dietro a Adobe Marketo Optimizer. Invece di pre-creare ogni ramo come regola statica, le decisioni basate sull’intelligenza artificiale valutano continuamente il contesto di un profilo, tra cui l’iscrizione al percorso, la cronologia del coinvolgimento, i punteggi di intento e il comportamento in tempo reale, per determinare l’azione o il percorso migliore successivo per quella persona.
 
 Questa valutazione continua sposta l’orchestrazione da regole statiche verso un’automazione basata sui risultati: anziché definire in anticipo ogni condizione, descrivi il risultato desiderato e il sistema determina come raggiungerlo per ogni persona.
+
+Guarda questa breve panoramica per vedere come il ragionamento dell&#39;intelligenza artificiale in [!DNL Adobe Marketo Optimizer] utilizza i dati di Marketo Engage per ottimizzare i flussi di lavoro e i risultati.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3504789?quality=12)
 
 ## Funzionalità {#capabilities}
 
