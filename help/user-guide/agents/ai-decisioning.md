@@ -29,7 +29,7 @@ Questa valutazione continua sposta l’orchestrazione da regole statiche verso u
 
 Guarda questa breve panoramica per vedere come il ragionamento dell&#39;intelligenza artificiale in [!DNL Adobe Marketo Optimizer] utilizza i dati di Marketo Engage per ottimizzare i flussi di lavoro e i risultati.
 
->[!VIDEO](https://video.tv.adobe.com/v/3504789?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3504804?captions=ita&quality=12)
 
 ## Funzionalità {#capabilities}
 

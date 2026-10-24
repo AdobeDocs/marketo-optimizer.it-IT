@@ -42,7 +42,7 @@ ht-degree: 2%
 
 Guarda questa breve panoramica per vedere come [!DNL Adobe Marketo Optimizer] utilizza il ragionamento basato sull&#39;intelligenza artificiale per coinvolgere ogni lead con l&#39;azione migliore alternativa giusta.
 
->[!VIDEO](https://video.tv.adobe.com/v/3504788?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3504795?captions=ita&quality=12)
 
 ## Inizia con le nozioni di base {#basics}
 
