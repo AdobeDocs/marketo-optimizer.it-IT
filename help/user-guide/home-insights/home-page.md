@@ -46,7 +46,7 @@ La home page fornisce inoltre quattro opzioni di intento per avviare il lavoro.
 | Opzione | Obiettivo |
 | -------- | ------ |
 | [!UICONTROL Piano] | Pianificare attività di marketing. |
-| [!UICONTROL Creare ] | Creare contenuti o risorse di marketing. |
+| [!UICONTROL Creare &#x200B;] | Creare contenuti o risorse di marketing. |
 | [!UICONTROL Misura] | Verifica le prestazioni di marketing. |
 | [!UICONTROL Ottimizza] | Ottimizza le attività di marketing esistenti. |
 
