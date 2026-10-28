@@ -1,61 +1,103 @@
 ---
 title: Pagina Home
-description: Utilizza la pagina Home di Marketo Optimizer per avviare conversazioni AI, avviare competenze e passare a Marketing, Assets, Rapporti e Destinazioni.
+description: Scopri come utilizzare la pagina Home di Adobe Marketo Optimizer per avviare conversazioni AI, avviare competenze e passare ad aree di lavoro di marketing, contenuti e rapporti.
+autotag-review: '2026-10-27T19:17:10.631Z'
 TQID: 'https://experienceleague.adobe.com/QdAQalH-ETbVtJL3O4rPC8z70Yzm1gvnx9DYhJP9Bb0'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
-  - id: 46e599c6-e20f-5f67-9824-93415016f66b
-  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+  - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+    internal-label: Chat Interface
+  - id: 5229c72e-d79b-574f-a03e-5c4bf48172c3
+    internal-label: AI Decisioning
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Programs
+  - id: a659ad61-de21-559d-a901-02e2fb329ff5
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: bbaa78961556e8cb320f9e9ead2127de3ce5341c
 workflow-type: tm+mt
-source-wordcount: 371
+source-wordcount: '556'
 ht-degree: 2%
-
 ---
-
 # Pagina Home
 
-La pagina _Home_ è il riquadro di lancio in Adobe Marketo Optimizer. Seleziona l&#39;icona _Home_ nella parte superiore della barra di navigazione a sinistra per aprirla. La pagina ti accoglie con **Benvenuto [nome], cosa possiamo creare oggi?** ed è progettato per portarti da un&#39;idea all&#39;altra con un solo clic.
+Utilizza la pagina [!UICONTROL Home] in [!DNL Adobe Marketo Optimizer] per avviare conversazioni AI, avviare abilità e aprire aree di lavoro di marketing. Seleziona **[!UICONTROL Home]** nella navigazione per tornare a questa pagina.
 
-![Home page](./assets/home-page.png){width="800" zoomable="yes"}
+Il messaggio di benvenuto personalizzato richiede informazioni sulle attività correnti. Scegli come iniziare con l’input della conversazione, le opzioni di intento, le schede di accesso rapido o le schede di abilità.
 
-## Casella di input
+Guarda il video per una presentazione della pagina principale e dell’area di lavoro di marketing. Le sezioni seguenti forniscono istruzioni scritte.
 
-Un grande _Poni una domanda o avvia un&#39;attività_ è al centro della home page. Inserisci qui qualsiasi cosa per iniziare a lavorare con il pannello di conversazione AI, oppure utilizza l&#39;icona _Allega_ ( **+**) per aggiungere un file (ad esempio un resoconto della campagna o un file CSV) prima di inviare. Questo è lo stesso Collaboratore disponibile in tutto Marketing Management, ma partendo da qui si apre una nuova conversazione.
+>[!VIDEO](https://video.tv.adobe.com/v/3505360/?quality=12&learn=on)
 
-## Pulsanti intento
+## Avviare una conversazione AI
 
-Nella casella di input, quattro pulsanti di avvio rapido indicano ciò che si desidera eseguire:
+Utilizza l&#39;input [!UICONTROL Fai una domanda o avvia un&#39;attività] per iniziare a lavorare con [!UICONTROL Collaboratore]. Immetti `/` per sfogliare abilità e comandi.
 
-| Pulsante | Utilizzo |
-|--------|------------|
-| **Piano** | Strategia forma: pianificare campagne, programmi e tipi di pubblico prima di creare. |
-| **Creare** | Costruisci cose — programmi, percorsi, email, elenchi di persone. |
-| **Misura** | Osserva le prestazioni: report, coinvolgimento, risultati dell’ora di invio. |
-| **Ottimizza** | Migliora i contenuti live: controllo del traffico, punteggio, personalizzazione. |
+1. Immettere una domanda o descrivere l&#39;attività che si desidera completare.
+1. Per fornire materiale di supporto, selezionare **[!UICONTROL Allega]** nell&#39;input e allegare un file.
+1. Invia la richiesta di continuare nel pannello [!UICONTROL Collaboratore].
+
+La home page fornisce inoltre quattro opzioni di intento per avviare il lavoro.
+
+| Opzione | Obiettivo |
+| -------- | ------ |
+| [!UICONTROL Piano] | Pianificare attività di marketing. |
+| [!UICONTROL Creare &#x200B;] | Creare contenuti o risorse di marketing. |
+| [!UICONTROL Misura] | Verifica le prestazioni di marketing. |
+| [!UICONTROL Ottimizza] | Ottimizza le attività di marketing esistenti. |
+
+Per ulteriori informazioni, vedere Informazioni sull&#39;[interfaccia chat](/help/user-guide/agents/chat-interface.md).
 
 ## Accesso rapido
 
-Per passare rapidamente direttamente a un&#39;area di lavoro, è possibile utilizzare quattro schede di scelta rapida:
+Seleziona una scheda [!UICONTROL Accesso rapido] per aprire un&#39;area di lavoro o rivedere l&#39;integrità del decisioning di IA.
 
 | Scheda | Accesso consentito |
-|------|-----------------|
-| [Integrità delle decisioni basate sull&#39;intelligenza artificiale](../agents/ai-decisioning-health.md) | Copertura del volume della storia e della classificazione dell’utente, con un rapporto di stato completo nell’area di lavoro. |
-| **Marketing** | Programmi, percorsi, pubblico (Marketing Management). |
-| **Assets** | E-mail, pagine, modelli, token. |
-| **Rapporti** | Metriche di prestazioni e coinvolgimento. |
+| ------ | --------------------- |
+| [Integrità delle decisioni basate sull&#39;intelligenza artificiale](/help/user-guide/agents/ai-decisioning-health.md) | Volume della storia e percentuale di persone classificate per persona. |
+| [Marketing](/help/user-guide/marketing/marketing-management.md) | Programmi, percorsi di persone ed elenchi di persone nell’area di lavoro di marketing. |
+| [!UICONTROL Assets] | Risorse di contenuto per e-mail e pagine. |
+| [!UICONTROL Rapporti] | Rapporti sulle prestazioni e sul coinvolgimento. |
 
-## Competenza
+## Competenze
 
-Una riga di schede _Abilità_ mostra flussi di lavoro di intelligenza artificiale di alto valore che puoi avviare immediatamente:
+Seleziona una scheda in [!UICONTROL Abilità] per iniziare un flusso di lavoro di intelligenza artificiale specifico.
 
-- **Crea tipi di pubblico basati su utenti tipo**: genera segmenti raggruppati per segnali utente tipo e adattamento firmografico, pronti per essere inseriti in un programma.
-- **Generare programmi omni-channel**: comporre programmi che si estendono su destinazioni e-mail, web e downstream da un&#39;unica descrizione.
-- **Crea e-mail iper-personalizzate**: bozze di e-mail nel brand personalizzate per destinatario con token e blocchi di contenuto dinamici.
-- **Controllo del traffico di percorso basato su intento e adattamento** - Indirizza i contatti tra i percorsi in base all&#39;adattamento dell&#39;account e ai segnali di intento del buyer attivi.
+| Competenza | Obiettivo |
+| ------- | ------ |
+| [!UICONTROL Crea tipi di pubblico basati su utenti tipo] | Genera tipi di pubblico utilizzando segnali utente e adattamento firmografico. |
+| [!UICONTROL Generare programmi omni-channel] | Componi i programmi tramite e-mail, web e destinazioni in poche parole. |
+| [!UICONTROL Creare e-mail iper-personalizzate] | Creare e-mail personalizzate con token e blocchi di contenuto dinamici. |
+| [!UICONTROL Adatta e controllo del traffico di percorso basato su intento] | Indirizza i contatti tra i percorsi utilizzando i segnali di intenti e di adattamento dell&#39;account. |
 
-Fai clic su una scheda delle abilità per avviare una conversazione avviata per quel flusso di lavoro. Le abilità sono gli stessi elementi di base disponibili nel pannello della chat: le schede sono un punto di ingresso individuabile.
+Puoi anche sfogliare le abilità degli agenti da [!UICONTROL Collaboratore]. Il video mostra la finestra di dialogo [!UICONTROL Utilizza un&#39;abilità agente], con un campo di ricerca e filtri di categoria. Per ulteriori dettagli, leggi le [abilità agente](/help/user-guide/agents/skills.md).
+
+## Passare alle aree di lavoro
+
+Utilizza la navigazione dell’applicazione per aprire le seguenti aree di lavoro dalla pagina Home o dall’area di lavoro di marketing.
+
+| Area di lavoro | Accesso consentito |
+| ----------- | --------------------- |
+| [!UICONTROL Gestione marketing] | Programmi, percorsi di persone ed elenchi di persone. |
+| [!UICONTROL Controllo del traffico di Percorso] | [Controllo del traffico di Percorso](/help/user-guide/marketing/journey-traffic-control.md). |
+| [!UICONTROL Rapporti] | Rapporti sulle prestazioni di marketing. |
+| [!UICONTROL Gestione dei contenuti] | [!UICONTROL Modelli], [!UICONTROL Assets], [!UICONTROL Frammenti], [!UICONTROL Forms], [!UICONTROL Pagine di destinazione] e [!UICONTROL Webinar]. |
+| [!UICONTROL Connessioni] | [Destinazioni](/help/user-guide/audiences/destinations.md). |
+| [!UICONTROL Labs] | [Studio punteggio](/help/user-guide/labs/scoring-studio.md). |
+| [!UICONTROL Amministrazione] | [!UICONTROL Canali] e [!UICONTROL Tipi di programmi]. |
+
+## Esplorare l’area di lavoro di marketing
+
+Seleziona la scheda di accesso rapido **[!UICONTROL Marketing]** o **[!UICONTROL Gestione marketing]** nella navigazione per aprire l&#39;area di lavoro marketing. Lavora con [!UICONTROL Collaboratore], apri le risorse di marketing e torna agli elementi a cui hai effettuato l&#39;accesso di recente senza tornare alla home page.
+
+1. Seleziona **[!UICONTROL Programmi]**, **[!UICONTROL percorsi di persone]** o **[!UICONTROL Elenchi di persone]** nel pannello **[!UICONTROL Marketing]** per sfogliare le risorse.
+1. Seleziona una risorsa per aprirla in una scheda dell’area di lavoro. In alternativa, selezionare un elemento in **[!UICONTROL Accesso recente]**.
+1. Per continuare a lavorare con risorse diverse, passa da una scheda aperta all’altra.
+
+Il pannello [!UICONTROL Collaboratore] riflette la risorsa aperta. Le relative richieste possono essere indirizzate a un programma selezionato, un elenco di persone o una persona. Ad esempio, l’apertura di un record persona fornisce prompt per esplorare la persona e l’attività di coinvolgimento di tale persona.
+
+Seleziona **[!UICONTROL Comprimi]** per nascondere il pannello [!UICONTROL Collaboratore] o **[!UICONTROL Scambia pannelli]** per modificarne la posizione. Per ulteriori informazioni, leggere [Gestione marketing](/help/user-guide/marketing/marketing-management.md) e [Dettagli persona](/help/user-guide/audiences/person-details.md).
