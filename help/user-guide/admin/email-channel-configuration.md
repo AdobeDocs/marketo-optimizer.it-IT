@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b6253400e2c9fc5b7f277add102367743981ce8a
+source-git-commit: d46d6ad64726b6a4fb07e10c081b08e7336f151a
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '641'
 ht-degree: 0%
 ---
 # Configurazione del canale e-mail
@@ -89,7 +89,7 @@ Quando modifichi una configurazione in uso:
 >
 >L’eliminazione di una configurazione di canale è permanente. Non è possibile eliminare una configurazione a cui fa riferimento un percorso attivo. Rimuovi o riassegna prima tutte le azioni e-mail.
 
-Per eliminare una configurazione, rimuovi o aggiorna innanzitutto ogni azione e-mail che vi fa riferimento in [Aggiungi e-mail ai percorsi](../marketing/email-channel.md#define-email-properties). [!DNL Marketo Optimizer] non elimina una configurazione attualmente utilizzata da un percorso attivo.
+Per eliminare una configurazione, rimuovere o aggiornare ogni azione e-mail che vi fa riferimento in [Creare e-mail e aggiungerle ai percorsi](../marketing/email-channel.md#define-email-properties). [!DNL Marketo Optimizer] non elimina una configurazione attualmente utilizzata da un percorso attivo.
 
 ## Configurazioni multicanale {#multiple-channel-configurations}
 

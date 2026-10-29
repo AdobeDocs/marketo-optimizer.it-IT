@@ -19,26 +19,24 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+source-git-commit: d46d6ad64726b6a4fb07e10c081b08e7336f151a
 workflow-type: tm+mt
-source-wordcount: 1236
+source-wordcount: '1238'
 ht-degree: 0%
-
 ---
-
 
 # Personalizzare il contenuto delle e-mail per persona
 
-L&#39;abilità _Content Personalization_ trasforma un&#39;e-mail in varianti basate su dati personali, pertanto non è necessario creare un&#39;e-mail separata per ogni pubblico. Invece di inviare un messaggio dopo un evento, l&#39;abilità risolve il pubblico in [coorti tipo derivato](../audiences/personas.md), genera insights e genera varianti personalizzate. Ogni variante viene salvata come contenuto condizionale all’interno di una singola e-mail, in modo che ogni persona riceva automaticamente la versione che corrisponde al proprio utente tipo quando un percorso la invia.
+L&#39;abilità _Content Personalization_ trasforma un&#39;e-mail in varianti basate su dati personali, in modo da non dover creare un&#39;e-mail separata per ogni pubblico. Invece di inviare un messaggio dopo un evento, l&#39;abilità risolve il pubblico in [coorti tipo derivato](../audiences/personas.md), genera insights e genera varianti personalizzate. Ogni variante viene salvata come contenuto condizionale all’interno di una singola e-mail, in modo che ogni persona riceva automaticamente la versione che corrisponde al proprio utente tipo quando un percorso la invia.
 
 * **Abilità** - `content-personalization`
-* **Chiamata** - Dall&#39;[interfaccia chat](./chat-interface.md), descrivere un pubblico di destinazione per una nuova e-mail oppure selezionare **[!UICONTROL Personalizza questa e-mail]** o **[!UICONTROL Analizza questa e-mail]** in un&#39;e-mail esistente in un [Invia nodo e-mail](../marketing/action-nodes.md)
+* **Chiamata** - Dall&#39;[interfaccia chat](./chat-interface.md), descrivere un pubblico di destinazione per una nuova e-mail oppure selezionare **[!UICONTROL Personalizza e-mail]** o **[!UICONTROL Analizza e-mail]** dal menu _Altro_ di una bozza di e-mail [nella struttura dei programmi](../marketing/email-channel.md#personalize-analyze)
 * **Lettura da/scrittura in** - [!DNL Marketo Optimizer]
 
 ## Concetti chiave {#key-concepts}
 
 | Termine | Definizione |
-|---|---|
+| --- | --- |
 | **Coorte personale** | Un gruppo di persone che condividono un [utente tipo derivato](../audiences/personas.md), ad esempio _CXO/EVP_ o _Collaboratore singolo_. |
 | **Segmento** | Un gruppo di persone definito in base a qualsiasi criterio, ad esempio utente tipo, settore o livello di coinvolgimento. Una coorte tipo è un segmento definito in modo specifico dall’utente tipo derivato condiviso. |
 | **Gruppo di destinazione** | Il pubblico che descrivi in linguaggio naturale. L’abilità lo risolve in coorti di utenti tipo corrispondenti. |
@@ -49,23 +47,27 @@ L&#39;abilità _Content Personalization_ trasforma un&#39;e-mail in varianti bas
 
 ## Prerequisiti {#prerequisites}
 
-* Accesso a [!DNL Marketo Optimizer] con Collaboratore abilitato.
+* Accesso a [!DNL Marketo Optimizer] con [!DNL CX Coworker] abilitato.
 * [Persone derivate](../audiences/personas.md) risolte nei tuoi dati. L’abilità si basa su queste classificazioni per creare coorti tipo. Il supporto personalizzato per l’utente è pianificato per una versione futura.
 * Dati storici sufficienti per le informazioni. Se gli insights non sono disponibili per una coorte tipo, l’abilità indica che i dati sono insufficienti e si basa sulle best practice generali per tale persona.
-* Un [modello e-mail](../content/templates.md) o un messaggio e-mail esistente a cui fa riferimento un nodo azione [_Invia e-mail_](../marketing/action-nodes.md).
+* Un [modello e-mail](../content/templates.md) o una bozza di [e-mail](../marketing/email-channel.md) esistente in un programma.
 * Un percorso di [persone](../marketing/person-journeys.md) contenente il nodo azione _Invia e-mail_ utilizzato per recapitare l&#39;e-mail personalizzata.
 
 ## Creare e personalizzare un’e-mail da un modello {#create-personalize-from-template}
 
 Questo flusso crea una nuova e-mail e la personalizza nella stessa conversazione.
 
-1. **Fornisci il contenuto.** Carica una descrizione del contenuto o descrivi il contenuto desiderato in un linguaggio naturale.
+1. **Richiama l&#39;abilità `/content-personalization`** nell&#39;interfaccia chat di [!DNL Coworker].
 
-1. **Seleziona un [modello](../content/templates.md)** dalla libreria di modelli.
+1. **Fornisci il contenuto.**
+
+   Carica una descrizione del contenuto o descrivi il contenuto desiderato in un linguaggio naturale.
+
+1. **Seleziona un modello** dalla libreria [template](../content/templates.md).
 
 1. **Rivedi la bozza.**
 
-   Il collaboratore mappa il contenuto sul modello e genera una bozza di e-mail. È possibile apportare modifiche di base al testo in linea.
+   [!DNL Coworker] associa il contenuto al modello e genera una bozza di messaggio e-mail. È possibile apportare modifiche di base al testo in linea.
 
    >[!WARNING]
    >
@@ -75,11 +77,11 @@ Questo flusso crea una nuova e-mail e la personalizza nella stessa conversazione
 
 1. **Rivedi le coorti persona risolte**.
 
-   Collabora esamina i tuoi dati e restituisce le coorti tipo che corrispondono alla tua descrizione, con un conteggio per ciascuna. Rivedi la descrizione del gruppo target e riprova, se necessario.
+   [!DNL Coworker] esamina i tuoi dati e restituisce le coorti tipo corrispondenti alla tua descrizione, con un conteggio per ciascuna. Rivedi la descrizione del gruppo target e riprova, se necessario.
 
 1. **Conferma il gruppo di destinazione**.
 
-   Quindi Collaboratore recupera informazioni approfondite per ogni coorte persona risolta.
+   Quindi [!DNL Coworker] recupera informazioni approfondite per ogni coorte persona risolta.
 
 1. **Selezionare le sezioni da personalizzare**, ad esempio la sezione dell&#39;oggetto o del corpo, ed esaminare le varianti generate.
 
@@ -93,11 +95,11 @@ Questo flusso crea una nuova e-mail e la personalizza nella stessa conversazione
 
 ## Analizzare un’e-mail esistente {#analyze-existing-email}
 
-In un percorso [_Invia e-mail_ nodo](../marketing/action-nodes.md) che fa riferimento a un indirizzo e-mail esistente, il pannello **[!UICONTROL Esegui un&#39;azione]** mostra il nome dell&#39;indirizzo e-mail con due opzioni: **[!UICONTROL Personalizza questo indirizzo e-mail]** e **[!UICONTROL Analizza questo indirizzo e-mail]**.
+Lo strumento _Analizza_ è disponibile solo per le bozze di e-mail. Una volta pubblicata, l’e-mail non può più essere modificata. Nella struttura dei programmi fare clic sull&#39;icona _Altro_ (**...**) accanto a una bozza di [email](../marketing/email-channel.md#manage-emails) e scegliere **[!UICONTROL Analizza e-mail]**.
 
-<!-- screenshot: Send Email node "Take an action" panel showing the email name and the Personalize this email / Analyze this Email options -->
+![Menu Altro della struttura dei programmi](../marketing/assets/email-tree-more-menu.png){width="400"}
 
-Seleziona **[!UICONTROL Analizza questa e-mail]** per eseguire un controllo e-mail:
+Per eseguire un controllo e-mail:
 
 1. **Descrivi il gruppo target** per il quale desideri effettuare la personalizzazione, in termini di tipo di utente.
 
@@ -105,9 +107,9 @@ Seleziona **[!UICONTROL Analizza questa e-mail]** per eseguire un controllo e-ma
 
 1. **Verifica il controllo delle e-mail.**
 
-   Coworker risolve la descrizione in segmenti personali e mostra una scheda di **Verifica e-mail** in cui sono elencati tutti i segmenti, quindi rivede l&#39;e-mail rispetto a ciascuno per evidenziare le ripercussioni e cosa migliorare.
+   [!DNL Coworker] risolve la tua descrizione in segmenti personali e mostra una scheda di **Controllo e-mail** in cui sono elencati tutti i segmenti, quindi rivede l&#39;e-mail rispetto a ciascuno per evidenziare le ripercussioni e i miglioramenti da apportare.
 
-1. Il collaboratore chiede cosa fare dopo, incluso **[!UICONTROL Vedere controllo sezione per sezione]** e **[!UICONTROL Personalizzare questa e-mail]**.
+1. [!DNL Coworker] chiede cosa fare dopo, incluso **[!UICONTROL Consulta controllo sezione per sezione]** e **[!UICONTROL Personalizza questa e-mail]**.
 
 1. Seleziona **[!UICONTROL Consulta controllo sezione per sezione]** per aprire una visualizzazione **_Analisi e-mail_** con un selettore persona e raccomandazioni specifiche per ogni sezione.
 
@@ -121,37 +123,39 @@ Seleziona **[!UICONTROL Analizza questa e-mail]** per eseguire un controllo e-ma
 
 ## Personalizzare un’e-mail esistente {#personalize-existing-email}
 
-Seleziona **[!UICONTROL Personalizza questa e-mail]** in un nodo di azione _Invia e-mail_ o continua da un [controllo e-mail](#analyze-existing-email), per personalizzare un e-mail già creato.
+Seleziona **[!UICONTROL Personalizza e-mail]** dal menu _Altro_ di una bozza di e-mail nella struttura dei programmi oppure continua da un [controllo e-mail](#analyze-existing-email), per personalizzare un&#39;e-mail già generata.
 
 1. **Rivedi le coorti persona risolte.**
 
-   Collabora esamina i tuoi dati e restituisce le coorti tipo che corrispondono alla tua descrizione, con un conteggio per ciascuna. Rivedi la descrizione del gruppo target e riprova, se necessario.
+   [!DNL Coworker] esamina i tuoi dati e restituisce le coorti tipo corrispondenti alla tua descrizione, con un conteggio per ciascuna. Rivedi la descrizione del gruppo target e riprova, se necessario.
 
-   Se sei arrivato a questo passaggio da un controllo e-mail, Collaborator continua direttamente dagli approfondimenti del controllo.
+   Se sei arrivato a questo passaggio da un controllo e-mail, [!DNL Coworker] continua direttamente dagli approfondimenti del controllo.
 
 1. **Selezionare le sezioni da personalizzare** nell&#39;anteprima del messaggio di posta elettronica, ad esempio l&#39;oggetto e le sezioni di contenuto specifico, e confermare.
 
 1. **Rivedi le varianti generate.**
 
-   Oltre alla persona, le varianti possono anche variare in base al settore, ad esempio un CXO nel settore sanitario rispetto a un CXO nei servizi finanziari. Collaboratore presenta una griglia di **[!UICONTROL varianti personalizzate]**, una scheda per coorte tipo, ciascuna con oggetto, titolo, corpo e un&#39;opzione **[!UICONTROL Anteprima]**.
+   Le varianti possono anche variare a seconda del settore, come un CXO nel settore sanitario rispetto ai servizi finanziari. [!DNL Coworker] presenta una griglia di **[!UICONTROL varianti personalizzate]**, una scheda per coorte tipo, con oggetto, titolo, corpo e un&#39;opzione **[!UICONTROL Anteprima]**.
 
-   Seleziona l&#39;icona _Informazioni_ su una scheda per visualizzare l&#39;insight dietro quella variante (l&#39;utente tipo su cui si basa e l&#39;insight di coinvolgimento che l&#39;ha modellata) e se necessario rigenera una variante.
+   Seleziona l&#39;icona _Informazioni_ su una scheda per visualizzare l&#39;insight per quella variante (l&#39;utente su cui si basa e l&#39;insight di coinvolgimento che l&#39;ha informata) e se necessario rigenera una variante.
 
    Puoi filtrare la griglia per persona.
 
 1. **Salva il set.**
 
-   Fai clic su **[!UICONTROL Salva]** e conferma. Il collaboratore conferma che l’e-mail è ora disponibile nella Libreria di intelligenza artificiale, quindi chiede se applicare le modifiche anche all’e-mail originale, che la aggiorna automaticamente.
+   Fai clic su **[!UICONTROL Salva]** e conferma. [!DNL Coworker] conferma che l&#39;e-mail è ora disponibile nella libreria AI, quindi chiede se applicare le modifiche anche all&#39;e-mail originale, che la aggiorna in posizione.
 
 <!-- screenshot: "Personalized variants" grid showing persona cards with subject, headline, body, Preview, and the info-icon insight tooltip -->
 
 ## Output salvato e utilizzo in un percorso {#saved-output}
 
-Indipendentemente dal flusso da cui inizi, la personalizzazione produce un singolo messaggio e-mail **AI personalizzato** archiviato nella libreria di intelligenza artificiale. L&#39;e-mail contiene [contenuti condizionali](../content/conditional-content.md) blocchi impostati dall&#39;utente tipo. Per modificare le sezioni, aprirle nello [spazio di progettazione visivo](../content/email-authoring.md) e per visualizzare in anteprima la risoluzione di ogni blocco con chiave utente tipo, utilizzare **[!UICONTROL Simula contenuto]**.
+A prescindere dal flusso da cui inizi, la personalizzazione produce un singolo messaggio e-mail _personalizzato dall&#39;intelligenza artificiale_ archiviato nella libreria di intelligenza artificiale. L&#39;e-mail contiene [contenuti condizionali](../content/conditional-content.md) blocchi impostati dall&#39;utente tipo. Per modificare le sezioni, aprirle nello [spazio di progettazione visivo](../content/email-authoring.md) e per visualizzare in anteprima la risoluzione di ogni blocco con chiave utente tipo, utilizzare **[!UICONTROL Simula contenuto]**.
 
-Per utilizzare l&#39;e-mail in un percorso, aggiungi un [Invia nodo e-mail](../marketing/action-nodes.md) e seleziona **[!UICONTROL E-mail personalizzate AI]** invece di **[!UICONTROL Crea un&#39;e-mail]**, quindi scegli l&#39;e-mail salvata. Applica normalmente la configurazione e le regole aziendali al nodo.
+Per utilizzare l&#39;e-mail in un percorso, aggiungi un [Invia nodo e-mail](../marketing/action-nodes.md) e seleziona **[!UICONTROL Utilizza un&#39;e-mail personalizzata con IA]**.
 
-<!-- screenshot: Send Email node configuration with "AI Personalized Emails" selected and the saved email applied -->
+![Azione - Invia e-mail - Utilizza un&#39;e-mail personalizzata con IA](../marketing/assets/person-action-node-email-source-personalized.png){width="450"}
+
+Quindi scegli l’e-mail salvata. Applica normalmente la configurazione e le regole aziendali al nodo.
 
 ## Comportamento in fase di esecuzione {#run-time-behavior}
 
@@ -160,8 +164,8 @@ Seleziona l’e-mail personalizzata con IA singola nel percorso, non una variant
 ## Limitazioni {#limitations}
 
 | Limitazione | Dettaglio |
-|---|---|
+| --- | --- |
 | **Utenti tipo personalizzati** | Non ancora supportato. L&#39;abilità classifica le coorti tipo solo da [persone derivate](../audiences/personas.md) pronte all&#39;uso. |
 | **Dati insufficienti per approfondimenti** | Se i dati non supportano una coorte insight per utente tipo, l’abilità lo indica e si basa sulle best practice generali per tale utente tipo. |
 | **Modifica in linea durante la creazione** | Quando [crei e personalizzi un&#39;e-mail da un modello](#create-personalize-from-template), sono disponibili solo le modifiche di testo di base in linea. Le modifiche avanzate richiedono [spazio di progettazione visivo](../content/email-authoring.md). |
-| **Punto iniziale richiesto** | La personalizzazione di un’e-mail richiede un modello o un’e-mail esistente a cui fa riferimento un nodo Invia e-mail. |
+| **Punto iniziale richiesto** | La personalizzazione di un’e-mail richiede un modello o una bozza di e-mail esistente in un programma. |

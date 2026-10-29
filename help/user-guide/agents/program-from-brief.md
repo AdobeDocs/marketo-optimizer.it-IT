@@ -17,13 +17,11 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+source-git-commit: d46d6ad64726b6a4fb07e10c081b08e7336f151a
 workflow-type: tm+mt
-source-wordcount: 1110
+source-wordcount: '1110'
 ht-degree: 4%
-
 ---
-
 # Creare un programma da una descrizione
 
 In [!DNL Adobe Marketo Optimizer], [_programma_](../marketing/programs.md) è il contenitore principale per percorsi, elenchi di persone, token e configurazione all&#39;interno di una campagna. Dall&#39;[interfaccia chat](./chat-interface.md), l&#39;abilità di creazione del programma crea l&#39;intera struttura in modo completo, partendo dalla tua descrizione, ovvero il programma stesso, le sottocartelle, i token, gli elenchi di persone e i percorsi di persone, in un&#39;unica conversazione guidata.
@@ -39,7 +37,7 @@ Fai clic sull&#39;icona _Allega_ nell&#39;input della chat per caricare il file,
 ### Tipi di file supportati
 
 | Formato | Comportamento |
-|---|---|
+| --- | --- |
 | `.txt`, `.md` | Leggi direttamente nel browser |
 | `.pdf`, `.docx`, `.xlsx`, `.json`, `.csv` | Inviato al servizio di estrazione del testo back-end |
 
@@ -90,7 +88,7 @@ Nessuno strumento di creazione viene chiamato finché non rispondi con un via li
 I passaggi della build vengono eseguiti in ordine fisso; ciascuno di essi dipende dagli ID prodotti dal passaggio precedente.
 
 | Passaggio | Descrizione | Strumenti | Output |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **1. Cartella** | Risolve la cartella padre per nome o utilizza la directory principale del workspace; può creare una nuova sottocartella | `getRootTree`, `browseFolders`, `createFolder` | Nome cartella + ID |
 | **1.5. Tipo di programma** | Cerca i tipi di programma tenant e seleziona la corrispondenza per la descrizione | `browseProgramTypes` | Nome tipo + `programTypeId` |
 | **2. Programma** | Crea il programma nella cartella risolta, associato al tipo scelto | `createProgram` | Nome, ID e tipo del programma |
@@ -113,7 +111,7 @@ I passaggi della build vengono eseguiti in ordine fisso; ciascuno di essi dipend
 Il contenitore principale. La vista Dettaglio presenta le seguenti schede:
 
 | Scheda | Contenuti |
-|---|---|
+| --- | --- |
 | **Panoramica** | Nome, descrizione, tipo di programma, stato, posizione della cartella, timestamp |
 | **Attributi** | Campi personalizzati definiti dal tipo (solo se il tipo di programma li abilita) |
 | **Token** | `my.*` token con ambito in questo programma |
@@ -136,7 +134,7 @@ Un percorso di persone che inizia con un nodo di ingresso del pubblico Persona a
 I programmi sono **associati in modo permanente** a un tipo di programma definito dal tenant al momento della creazione. Non è possibile modificarlo in seguito. Il flusso risolve il tipo in modo esplicito tramite `browseProgramTypes` in ogni caso.
 
 | Caso | Comportamento |
-|---|---|
+| --- | --- |
 | **Più tipi disponibili** | Corrisponde a un tipo di testo breve (ad esempio fiera/stand/expo = *fiera*/*evento*; webinar = *webinar*/*evento*; crescita/espansione = *crescita*; nessun segnale chiaro = *predefinito*). Se non viene trovata alcuna corrispondenza, in Collaboratore vengono elencati i tipi e le richieste disponibili. |
 | **Tenant di sola impostazione predefinita** | Utilizza *Default* e nota che un amministratore può aggiungere [tipi di programma](../admin/program-types.md) personalizzati. |
 | **Nessun tipo configurato** | Fermate — la creazione non riuscirà. Chiede a un amministratore di eseguire il provisioning dei tipi di programma prima di riprovare. |
@@ -144,7 +142,7 @@ I programmi sono **associati in modo permanente** a un tipo di programma definit
 ## Valori predefiniti
 
 | Impostazione | Predefinito |
-|---|---|
+| --- | --- |
 | **Cartella** | Directory principale Workspace (se non è specificata alcuna cartella) |
 | **Tipo di programma** | *Predefinito* (se non viene visualizzato alcun breve segnale e non viene eseguita alcuna selezione manuale) |
 | **Attributi Personalization** | Persona derivata, intento derivato, livello di coinvolgimento incluso per impostazione predefinita (rinuncia disponibile) |
@@ -154,7 +152,7 @@ I programmi sono **associati in modo permanente** a un tipo di programma definit
 ## Limitazioni
 
 | Limitazione | Dettaglio |
-|---|---|
+| --- | --- |
 | **Limite breve** | ~30.000 caratteri; i documenti troncati perdono i contenuti finali e pongono al primo posto gli elementi essenziali |
 | **Tipo di programma immutabile** | Non può essere modificato dopo la creazione; verifica il tipo corretto prima di approvare |
 | **Campi interni richiesti** | `parent` e `programTypeId` sono sempre impostati. Se si omette `parent`, verrà negato l&#39;accesso. Se si omette il tipo, verrà automaticamente ripristinato il valore *Predefinito* |
