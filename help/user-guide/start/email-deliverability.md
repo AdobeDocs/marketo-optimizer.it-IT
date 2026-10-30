@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
+source-git-commit: 6311ce00a5c7666c07fb1a523c954637d2e86e46
 workflow-type: tm+mt
-source-wordcount: '2694'
+source-wordcount: '2697'
 ht-degree: 0%
 ---
 # Recapitabilità delle e-mail
@@ -53,7 +53,7 @@ Utilizza i seguenti blocchi predefiniti, configurati da un amministratore, in ge
 > Per ulteriori informazioni sui canali e-mail, consulta i seguenti argomenti:
 >
 >* Configurazione dei canali e-mail - [Configurazione del canale e-mail](../admin/email-channel-configuration.md)
->* Creazione di e-mail - [Aggiungi e-mail ai percorsi](../marketing/email-channel.md)
+>* Creazione di e-mail - [Creazione di e-mail e aggiunta ai percorsi](../marketing/email-channel.md)
 >* Progettazione di contenuti e-mail - [Authoring di contenuti e-mail](../content/email-authoring.md)
 
 ## Limitazioni attuali {#limitations}

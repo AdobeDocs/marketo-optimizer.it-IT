@@ -1,22 +1,25 @@
 ---
 title: Crea un nodo azione
-description: Configurare un nodo Azioni in Marketo Optimizer per aggiungere, rimuovere o aggiornare persone, elenchi, programmi e destinazioni o per inviare messaggi quando raggiungono il nodo in un percorso di persone.
+description: Configurare un nodo Azione in Marketo Optimizer per aggiungere, rimuovere o aggiornare persone, elenchi, programmi e destinazioni o per inviare messaggi quando raggiungono il nodo in un percorso di persone.
 TQID: 'https://experienceleague.adobe.com/KmYvfJm9d5YZdC7ZWQiybjNsFmnt0GLReJIL8nDQF-k'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 46e599c6-e20f-5f67-9824-93415016f66b
+    internal-label: Audiences
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Optimization
+source-git-commit: d46d6ad64726b6a4fb07e10c081b08e7336f151a
 workflow-type: tm+mt
-source-wordcount: 1145
+source-wordcount: '1167'
 ht-degree: 0%
-
 ---
-
 # Crea un nodo di azione
 
 In un percorso di persone, utilizza un’azione sulle persone quando desideri applicare una modifica a tutte le persone nel percorso del nodo.
@@ -183,9 +186,9 @@ Utilizza questa azione per aggiungere persone a una campagna di richieste in un�
 
 Utilizza questa azione per inviare un’e-mail alle persone che hanno prestato il consenso. Le persone che hanno annullato l’abbonamento, sono state inserite nell’elenco Bloccati, hanno sospeso l’e-mail o il marketing saltano questa azione.
 
-![Azione - Invia e-mail](./assets/person-action-node-send-email.png){width="450"}
+![Azione - Invia e-mail](./assets/person-action-node-email-source.png){width="450"}
 
-Puoi creare un’e-mail, modificare un’e-mail esistente o utilizzare un’e-mail personalizzata con IA. Per informazioni sulla creazione e la modifica delle e-mail, consulta [Canale e-mail](./email-channel.md). Per generare varianti basate su persona per un indirizzo e-mail esistente, vedi [Personalizzare il contenuto delle e-mail per persona](../agents/personalize-content.md).
+Puoi scegliere un’e-mail pubblicata dalla struttura del programma, che aggiunge una copia dell’e-mail al percorso, oppure utilizzare un’e-mail personalizzata in base all’intelligenza artificiale. Copia di sola lettura. Per informazioni sulla creazione, la pubblicazione e la duplicazione delle e-mail, vedere [_Creare e-mail e aggiungerle ai percorsi_](./email-channel.md). Per generare varianti basate su persona per una bozza di e-mail, consulta [_Personalizzare il contenuto delle e-mail per persona_](../agents/personalize-content.md).
 
 Puoi utilizzare [Ottimizzazione del tempo di invio](./email-send-time-optimization.md) per personalizzare la tempistica di consegna delle e-mail prevedendo quando è più probabile che ogni profilo sia coinvolto.
 
