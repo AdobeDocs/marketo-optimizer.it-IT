@@ -17,10 +17,10 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: b6253400e2c9fc5b7f277add102367743981ce8a
+source-git-commit: 407092d59071fb4fdf49de4ed91455637979643b
 workflow-type: tm+mt
-source-wordcount: '1554'
-ht-degree: 13%
+source-wordcount: '1571'
+ht-degree: 12%
 ---
 # Creare e pubblicare pagine di destinazione
 
@@ -57,11 +57,17 @@ Per indirizzare i membri di un pubblico di percorso a una pagina Web definita qu
 
 _Per creare una pagina di destinazione :_
 
-1. Vai alla navigazione a sinistra e seleziona **[!UICONTROL Gestione contenuto]** > **[!UICONTROL Pagine di destinazione]**.
+1. Nella barra di navigazione a sinistra, espandere **[!UICONTROL Gestione marketing]** e selezionare **[!UICONTROL Programmi]**.
 
-1. Nell&#39;elenco delle pagine di destinazione fare clic su **[!UICONTROL Crea pagina di destinazione]**.
+1. Nella struttura ad albero _[!UICONTROL Programmi]_, individuare il programma o una cartella all&#39;interno del programma in cui si desidera creare la pagina di destinazione.
 
-1. Immetti un **[!UICONTROL Titolo]** (obbligatorio) e una **[!UICONTROL Descrizione]** (facoltativo).
+   Se necessario, [crea prima un programma](../marketing/programs.md#create-program).
+
+1. Fai clic sull&#39;icona _Altro_ (**...**) accanto al nome del programma o della cartella e seleziona **[!UICONTROL Crea pagina di destinazione]**.
+
+   ![Crea una nuova pagina di destinazione dalla struttura dei programmi](../marketing/assets/email-create-from-programs-tree.png){width="400"}
+
+1. Nella finestra di dialogo _[!UICONTROL Crea pagina di destinazione]_, immetti un **[!UICONTROL Titolo]** (obbligatorio) e **[!UICONTROL Descrizione]** (facoltativo).
 
    Criteri di titolo e descrizione:
 
@@ -70,7 +76,7 @@ _Per creare una pagina di destinazione :_
    * Sono consentiti caratteri Alpha, numerici e speciali.
    * I caratteri riservati sono **_non consentiti_**: `\ / : * ? " < > |`
 
-   ![Crea pagina di destinazione](assets/landing-page-create.png){width="600"}
+   ![Crea pagina di destinazione](assets/landing-page-create.png){width="425"}
 
 1. Seleziona un **[!UICONTROL predefinito]**.
 
@@ -82,11 +88,13 @@ _Per creare una pagina di destinazione :_
 
    ![Nuova pagina di destinazione - proprietà pagina principale](assets/landing-page-primary-new-properties.png){width="700" zoomable="yes"}
 
-1. Per aggiungere una pagina secondaria, ad esempio una pagina di ringraziamento o di errore, fare clic sull&#39;icona **+**.
+<!--
+1. To add a subpage (for example, a thank-you or error page), click the **+** icon.
 
-   Puoi aggiungere fino a due pagine secondarie per pagina di destinazione.
+   You can add up to two subpages per landing page.
+-->
 
-Dopo aver configurato e progettato la pagina principale e le eventuali pagine secondarie, [verifica la pagina di destinazione](#test-landing-page) prima di pubblicarla.
+Dopo aver configurato e progettato la pagina, [verifica la pagina di destinazione](#test-landing-page) prima di pubblicarla.
 
 >[!CAUTION]
 >
@@ -147,7 +155,7 @@ Dopo aver selezionato il metodo preferito per avviare la progettazione della pag
 
 ### Creare da zero {#design-from-scratch}
 
-Utilizza lo spazio di progettazione del contenuto visivo per definire la struttura e il contenuto della pagina di destinazione. Aggiungendo e spostando componenti strutturali con semplici azioni di trascinamento della selezione, puoi progettare il layout e l’organizzazione del contenuto della pagina in pochi secondi.
+Utilizza lo spazio di progettazione del contenuto visivo per definire la struttura e il contenuto della pagina di destinazione. Aggiungendo e spostando componenti strutturali con semplici azioni di trascinamento, puoi progettare rapidamente il layout e l’organizzazione del contenuto della pagina.
 
 1. Dalla home page di progettazione, selezionare l&#39;opzione **[!UICONTROL Progetta da zero]**.
 
@@ -235,11 +243,11 @@ Una volta definiti le impostazioni e il contenuto della pagina di destinazione, 
 
    +++Aggiungere profili di test
 
-   Per **[!UICONTROL Spazio dei nomi identità]**, fai clic sull&#39;icona _Seleziona_ ( ![Seleziona icona](../assets/do-not-localize/icon-select-data.svg) ) e scegli lo spazio dei nomi `Email` da utilizzare per testare i profili.
+   Per **[!UICONTROL Spazio dei nomi identità]**, fai clic sull&#39;icona _Seleziona_ ( ![Seleziona icona](../assets/do-not-localize/icon-select-data.svg) ) e scegli lo spazio dei nomi `Email` per testare i profili.
 
    ![Gestione dei profili di test impostati Spazio dei nomi identità e-mail](assets/manage-test-profiles.png){width="700" zoomable="yes"}
 
-   Nel campo **[!UICONTROL Valore identità]** immettere l&#39;indirizzo di posta elettronica per identificare il profilo di test e fare clic su **[!UICONTROL Aggiungi profilo]**. Puoi ripetere questa operazione per aggiungere più profili.
+   Nel campo **[!UICONTROL Valore identità]** immettere l&#39;indirizzo di posta elettronica per identificare il profilo di test e fare clic su **[!UICONTROL Aggiungi profilo]**. Per aggiungere più profili, puoi ripetere questa operazione.
 
    ![Gestire i profili di test e aggiungere i profili](assets/manage-test-profiles-add.png){width="700" zoomable="yes"}
 

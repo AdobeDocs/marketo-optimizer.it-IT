@@ -17,9 +17,9 @@ topic_v2:
     internal-label: Data collection
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
+source-git-commit: 407092d59071fb4fdf49de4ed91455637979643b
 workflow-type: tm+mt
-source-wordcount: '2473'
+source-wordcount: '2528'
 ht-degree: 2%
 ---
 # Moduli
@@ -41,6 +41,8 @@ La quantità di informazioni che il modulo deve acquisire dipende dal valore del
 ## Accedere e gestire i moduli {#view-forms}
 
 Per accedere ai moduli in [!DNL Marketo Optimizer], passa alla navigazione a sinistra e fai clic su **[!UICONTROL Gestione contenuto]** > **[!UICONTROL Forms]**. Questa azione consente di aprire una pagina di elenco in cui vengono visualizzati tutti i moduli creati nell’istanza.
+
+Utilizzare questo elenco per accedere e gestire i moduli esistenti. Per [creare un modulo](#new-form), utilizzare la struttura _[!UICONTROL Programmi]_.
 
 ![Accedere alla raccolta moduli](./assets/forms-list.png){width="800" zoomable="yes"}
 
@@ -78,7 +80,7 @@ Prima di iniziare a creare moduli riutilizzabili in [!DNL Marketo Optimizer], è
 
 * Determinare i moduli necessari.
 
-  Può essere possibile utilizzare solo quattro moduli standard. Uno per accedere ai contenuti scaricabili, uno per accedere alle pagine web premium, uno per visualizzare i video e uno per registrarsi per elementi come i webinar. Se hai bisogno di modificare un campo in un modulo, è più semplice aggiornare quattro moduli standard utilizzati a livello globale invece di modificare più moduli distribuiti in tutti i programmi di marketing.
+  Potrebbe essere necessario utilizzare solo quattro moduli standard. Uno per accedere ai contenuti scaricabili, uno per accedere alle pagine web premium, uno per visualizzare i video e uno per registrarsi per elementi come i webinar. Se hai bisogno di modificare un campo in un modulo, è più semplice aggiornare quattro moduli standard utilizzati a livello globale invece di modificare più moduli distribuiti in tutti i programmi di marketing.
 
   <!-- Global forms also make progressive profiling much easier to implement. -->
 
@@ -86,15 +88,15 @@ Prima di iniziare a creare moduli riutilizzabili in [!DNL Marketo Optimizer], è
 
   Considera l’utilizzo di forme più brevi, in quanto si è dimostrato che sono migliori per le conversioni. Quando si analizza ogni modulo, stabilire quali campi sono ragionevoli e necessari per il relativo scopo.
 
-  Valuta se precompilare i campi del modulo in modo che le informazioni di base, come nome e e-mail, siano precompilate. Ma altre informazioni, come la qualifica e le dimensioni dell&#39;organizzazione, non lo sono. In questo modo, il visitatore deve compilare solo due campi e inviare il modulo. Puoi anche utilizzare un modulo social compilato con dati provenienti da Facebook o Twitter.
+  Valuta se precompilare i campi del modulo in modo che le informazioni di base, come nome e e-mail, siano precompilate. Ma altre informazioni, come la qualifica e le dimensioni dell&#39;organizzazione, non lo sono. In questo modo, il visitatore deve compilare solo due campi e inviare il modulo. Puoi anche utilizzare un modulo per social network con dati provenienti da piattaforme di social media.
 
 * Pianifica la pagina di follow-up visualizzata dopo l&#39;invio di un modulo da parte di un visitatore (_grazie_).
 
-  Tutti ottengono la stessa pagina o è dinamica e basata sui loro dati? Ad esempio, un utente del settore sanitario potrebbe visualizzare una pagina con un contenuto diverso rispetto a un utente del settore tecnologico.
+  Tutti ottengono la stessa pagina o è dinamica e basata sui loro dati? Ad esempio, nel settore sanitario i contenuti delle pagine vengono visualizzati in modo diverso rispetto a quelli del settore tecnologico.
 
 * Valutare se ignorare completamente un modulo se si dispone già delle informazioni necessarie.
 
-  Quando consenti il bypass di un modulo a una persona nota che visita la pagina di destinazione, può semplicemente accedere al contenuto direttamente. Ignorando il modulo si ottiene un’esperienza del visitatore più semplice.
+  Se consenti il bypass di un modulo a una persona nota che visita la pagina di destinazione, può accedere direttamente al contenuto. Ignorando il modulo si ottiene un’esperienza del visitatore più semplice.
 
 ### Aggiungere un nuovo modulo {#new-form}
 
@@ -102,9 +104,19 @@ Prima di iniziare a creare moduli riutilizzabili in [!DNL Marketo Optimizer], è
 >id="ajo-b2b-prime_lp_form_preset"
 >title="Selezionare un predefinito"
 >abstract="Scegli un predefinito preimpostato contenente la connessione da utilizzare e un set di dati preimpostato per il modulo."
->additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer-b2b/prime/admin/channels/configuration-presets-forms#create-preset" text="Creare un predefinito di modulo"
+>additional-url="https://experienceleague.adobe.com/en/docs/marketo-optimizer/user/admin/channels/configuration-presets-forms#create-preset" text="Creare un predefinito di modulo"
 
-Puoi creare un modulo in [!DNL Marketo Optimizer] facendo clic su **[!UICONTROL Crea modulo]** in alto a destra nella pagina dell&#39;elenco _[!UICONTROL Forms]_.
+Creare un modulo in un programma o in una cartella all&#39;interno di un programma dalla struttura ad albero _[!UICONTROL Programmi]_.
+
+1. Nella barra di navigazione a sinistra, espandere **[!UICONTROL Gestione marketing]** e selezionare **[!UICONTROL Programmi]**.
+
+1. Individuare il programma o una cartella all&#39;interno del programma in cui si desidera creare il modulo.
+
+   Se necessario, [crea prima un programma](../marketing/programs.md#create-program).
+
+1. Fai clic sull&#39;icona _Altro_ (**...**) accanto al nome del programma o della cartella e selezionare **[!UICONTROL Crea modulo]**.
+
+   ![Crea un nuovo modulo dalla struttura dei programmi](../marketing/assets/email-create-from-programs-tree.png){width="425"}
 
 1. Nella finestra di dialogo _[!UICONTROL Crea modulo]_, immetti un **[!UICONTROL Nome]** (obbligatorio) e una **[!UICONTROL Descrizione]** (facoltativo) utili.
 
@@ -123,21 +135,19 @@ Puoi creare un modulo in [!DNL Marketo Optimizer] facendo clic su **[!UICONTROL 
 
 1. Fai clic su **[!UICONTROL Crea]**.
 
-   Viene visualizzata la pagina dei dettagli del modulo con una definizione di base predefinita.
+   Viene visualizzata la pagina dei dettagli del modulo.
 
    ![Contenuto modulo predefinito](assets/form-new-default-content.png){width="700" zoomable="yes"}
 
-### Modificare la struttura predefinita del modulo {#design}
+1. Fai clic su **[!UICONTROL Modifica modulo]** e utilizza gli strumenti di progettazione visiva per definire il contenuto del modulo in base alle esigenze:
 
-Utilizza gli strumenti di progettazione visiva per modificare il contenuto del modulo in base alle esigenze:
+   * [Aggiungi campi](./form-design.md#add-field)
+   * [Modificare lo stile dei campi](./form-design.md#field-styling)
+   * [Riordina campi](./form-design.md#field-reorder)
+   * [Modificare il testo e lo stile del pulsante di invio](./form-design.md#submit-button)
+   * [Modificare lo stile del modulo](./form-design.md#form-styling)
 
-* [Aggiungi campi](./form-design.md#add-field)
-* [Modificare lo stile dei campi](./form-design.md#field-styling)
-* [Riordina campi](./form-design.md#field-reorder)
-* [Modificare il testo e lo stile del pulsante di invio](./form-design.md#submit-button)
-* [Modificare lo stile del modulo](./form-design.md#form-styling)
-
-Fai clic su **[!UICONTROL Salva e chiudi]** per salvare le modifiche alla struttura del contenuto del modulo e passare ai dettagli del modulo.
+   Fai clic su **[!UICONTROL Salva e chiudi]** per salvare le modifiche alla struttura del contenuto del modulo e tornare ai dettagli del modulo.
 
 ### Impostare la pagina di ringraziamento {#thank-you-page}
 
@@ -204,7 +214,7 @@ Se il modulo è attualmente in uso, l&#39;azione apre una finestra di dialogo in
 
 ## Duplicare i moduli {#duplicate-forms}
 
-Duplicare un modulo come metodo rapido e semplice per creare un nuovo modulo utilizzando un modulo esistente come punto di partenza per la progettazione del modulo.
+Duplicare un modulo per creare un nuovo modulo utilizzando un modulo esistente come punto di partenza per la progettazione del modulo.
 
 È possibile duplicare un modulo utilizzando uno dei metodi seguenti:
 
@@ -217,7 +227,7 @@ Nella finestra di dialogo, inserisci un nome utile (univoco) e una descrizione. 
 
 ![Nome e descrizione del modulo duplicato](assets/form-duplicate-dialog.png){width="400"}
 
-Modificate il modulo duplicato per modificare il nome in base alle esigenze e modificare il modulo per l&#39;uso previsto.
+Per modificare il nome in base alle esigenze e modificare il modulo per l&#39;uso previsto, modificare il modulo duplicato.
 
 ## Modifica moduli {#edit-forms}
 

@@ -8,20 +8,18 @@ product_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+source-git-commit: 407092d59071fb4fdf49de4ed91455637979643b
 workflow-type: tm+mt
-source-wordcount: 2177
+source-wordcount: '2175'
 ht-degree: 1%
-
 ---
-
 # Progettazione del modulo
 
 Dopo aver [creato un modulo](./forms.md#create-forms), lo spazio di progettazione visiva apre una bozza con una definizione di modulo di base predefinita. Nel pannello _[!UICONTROL Riepilogo]_ a destra, fai clic su **[!UICONTROL Modifica modulo]** e utilizza lo spazio di progettazione visiva per definire lo stile del modulo e i componenti campo.
 
 ![Spazio di progettazione modulo](assets/form-new-design-space.png){width="700" zoomable="yes"}
 
-Per impostazione predefinita, il pulsante _&#x200B;**Invia**&#x200B;_ (campo piè di pagina) fa parte del modulo e non può essere rimosso. È possibile selezionare il componente pulsante/piè di pagina nel modulo per [modificare il testo e lo stile del pulsante](#submit-button).
+Per impostazione predefinita, il pulsante _**Invia**_ (campo piè di pagina) fa parte del modulo e non può essere rimosso. È possibile selezionare il componente pulsante/piè di pagina nel modulo per [modificare il testo e lo stile del pulsante](#submit-button).
 
 ## Campi {#fields}
 
@@ -94,7 +92,7 @@ I campi modulo vengono utilizzati per acquisire i dati del profilo della persona
 
    * **[!UICONTROL Valore predefinito]** - Utilizzare questa opzione per specificare un valore predefinito per il campo.
 
-   * **[!UICONTROL Messaggio di convalida]** - Utilizzare questa opzione per specificare un messaggio di convalida per il campo. Questo messaggio viene visualizzato se il visitatore immette un valore non valido per il campo. Il messaggio _[!UICONTROL Standard]_ è impostato per impostazione predefinita. Scegli **[!UICONTROL Personalizzato]** e immetti il tuo messaggio.
+   * **[!UICONTROL Messaggio di convalida]** - Utilizzare questa opzione per specificare un messaggio di convalida per il campo. Questo messaggio viene visualizzato se il visitatore immette un valore non valido per il campo. Il sistema imposta il messaggio _[!UICONTROL Standard]_ per impostazione predefinita. Scegli **[!UICONTROL Personalizzato]** e immetti il tuo messaggio.
 
    * **[!UICONTROL Lunghezza massima]** - Immettere il numero massimo di caratteri che è possibile immettere nel campo.
 
@@ -124,7 +122,7 @@ Seleziona la scheda **[!UICONTROL Stili]** nel pannello di destra per modificare
 
   ![Impostare gli stili delle etichette per il campo modulo](assets/form-field-styles-label.png){width="600" zoomable="yes"}
 
-* **[!UICONTROL Bordo]** - Fare clic sul quadrato **[!UICONTROL Colore bordo]** per aprire il selettore colore popup e scegliere un colore per il bordo. È possibile definire un bordo per il campo, inclusi il colore e lo spessore della linea. Deselezionare la casella di controllo per rimuovere il bordo del campo visualizzato. È inoltre possibile modificare le impostazioni relative alla dimensione del bordo (larghezza in pixel), allo stile e al raggio degli angoli.
+* **[!UICONTROL Bordo]** - Fare clic sul quadrato **[!UICONTROL Colore bordo]** per aprire il selettore colore popup e scegliere un colore per il bordo. È possibile definire un bordo per il campo, inclusi il colore e lo spessore della linea. Per rimuovere il bordo del campo visualizzato, deselezionare la casella di controllo. È inoltre possibile modificare le impostazioni relative alla dimensione del bordo (larghezza in pixel), allo stile e al raggio degli angoli.
 
   ![Impostare gli stili del bordo per il campo modulo](assets/form-field-styles-border.png){width="600" zoomable="yes"}
 
@@ -148,7 +146,7 @@ Aggiungi [componenti strutturali](./structure-components.md) al modulo e sposta 
 
 Fai clic sull&#39;icona _Elimina_ ( ![Elimina icona](../assets/do-not-localize/icon-delete.svg) ) nella barra degli strumenti o nel pannello di destra per eliminare un campo selezionato. Nella finestra di dialogo di conferma, fai clic su **[!UICONTROL Elimina]**.
 
-Fai clic sull&#39;icona _Duplica_ ( ![Icona Duplica](../assets/do-not-localize/icon-duplicate.svg) ) nella barra degli strumenti o nel pannello di destra per duplicare un campo selezionato. Il nuovo campo viene visualizzato immediatamente sotto il campo originale. Fare clic su **[!UICONTROL Seleziona attributo campo]** per impostare l&#39;attributo per il campo. Imposta il tipo di campo, i dettagli e gli stili in base alle esigenze.
+Fai clic sull&#39;icona _Duplica_ ( ![Icona Duplica](../assets/do-not-localize/icon-duplicate.svg) ) nella barra degli strumenti o nel pannello di destra per duplicare un campo selezionato. Il nuovo campo viene visualizzato sotto il campo originale. Fare clic su **[!UICONTROL Seleziona attributo campo]** per impostare l&#39;attributo per il campo. Imposta il tipo di campo, i dettagli e gli stili in base alle esigenze.
 
 ![Icone duplicate ed eliminate per i campi modulo](assets/form-field-delete-duplicate.png){width="600" zoomable="yes"}
 
@@ -172,7 +170,7 @@ Seleziona la scheda **[!UICONTROL Stili]** nel pannello di destra per modificare
 
 * **[!UICONTROL Etichetta]** - Lo stile dell&#39;etichetta controlla le caratteristiche visive del testo all&#39;interno del pulsante. È possibile impostare la dimensione del carattere, l&#39;altezza della linea, lo stile e l&#39;allineamento del testo. Fare clic sul quadrato **[!UICONTROL Colore carattere]** per aprire il selettore colore popup e scegliere un colore per il testo dell&#39;etichetta.
 
-* **[!UICONTROL Bordo]** - Fare clic sul quadrato **[!UICONTROL Colore bordo]** per aprire il selettore colore popup e scegliere un colore per il bordo. È possibile definire un bordo per il pulsante, inclusi il colore e lo spessore della linea. Deselezionare la casella di controllo per rimuovere il bordo del pulsante visualizzato. È inoltre possibile modificare le dimensioni del bordo (larghezza in pixel), lo stile e l&#39;impostazione del raggio per gli angoli arrotondati.
+* **[!UICONTROL Bordo]** - Fare clic sul quadrato **[!UICONTROL Colore bordo]** per aprire il selettore colore popup e scegliere un colore per il bordo. È possibile definire un bordo per il pulsante, inclusi il colore e lo spessore della linea. Per rimuovere il bordo del pulsante visualizzato, deselezionare la casella di controllo. È inoltre possibile modificare le dimensioni del bordo (larghezza in pixel), lo stile e l&#39;impostazione del raggio per gli angoli arrotondati.
 
 * **[!UICONTROL Dimensioni]** - Selezionare un&#39;impostazione di dimensione per determinare la larghezza di visualizzazione del pulsante. Scegliere _[!UICONTROL Larghezza intera]_, _[!UICONTROL Larghezza dimezzata]_ o _[!UICONTROL Automatica]_. La spaziatura viene regolata in base alle impostazioni di dimensione e allineamento.
 
@@ -206,7 +204,7 @@ _Per definire un CSS personalizzato per il modulo :_
 
 1. Fai clic su **[!UICONTROL Chiudi]**.
 
-1. (Facoltativo) Incolla il codice copiato nello strumento CSS preferito e modifica il CSS in base allo stile desiderato.
+1. (Facoltativo) Incolla il codice copiato nello strumento CSS e modifica il CSS in base allo stile desiderato.
 
 1. Fai clic su **[!UICONTROL Aggiungi CSS personalizzato]** nel pannello di destra.
 
@@ -220,7 +218,7 @@ _Per definire un CSS personalizzato per il modulo :_
 
 ### Stile manuale {#manual-styling}
 
-Modificate le impostazioni nel pannello di destra per definire la visualizzazione per l&#39;intero modulo.
+Per definire la visualizzazione dell&#39;intero modulo, modificate le impostazioni nel pannello di destra.
 
 * **[!UICONTROL Colore di sfondo]** - Selezionare la casella di controllo per applicare un colore di sfondo attorno all&#39;area del modulo. Il bianco è il colore predefinito. Fare clic sul quadrato del colore per aprire il selettore colore popup e scegliere un colore per lo sfondo del modulo.
 

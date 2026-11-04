@@ -19,9 +19,9 @@ topic_v2:
     internal-label: Accessibility
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 6311ce00a5c7666c07fb1a523c954637d2e86e46
+source-git-commit: 8c2e4b17decc42fe5efe36f5bd50ebceacb5d8a1
 workflow-type: tm+mt
-source-wordcount: '2402'
+source-wordcount: '2583'
 ht-degree: 3%
 ---
 # Authoring dei contenuti e-mail
@@ -78,8 +78,7 @@ L’aderenza alle best practice HTML e CSS consente di garantire un rendering co
 
 Utilizza lo spazio di progettazione del contenuto visivo per definire la struttura e il contenuto dell’e-mail. Aggiungendo e spostando componenti strutturali con semplici azioni di trascinamento della selezione, puoi progettare il layout e l’organizzazione del contenuto dell’e-mail in pochi secondi.
 
-1. Dalla pagina _[!UICONTROL Progetta la tua e-mail]_, seleziona l&#39;opzione **[!UICONTROL Progetta da zero]**.
-
+1. Dalla pagina _[!UICONTROL Crea messaggio e-mail]_, seleziona l&#39;opzione **[!UICONTROL Progetta da zero]**.
 
 1. Nella finestra di dialogo _[!UICONTROL Crea e-mail]_, scegli il tipo di contenuto e-mail che desideri creare.
 
@@ -126,9 +125,40 @@ Puoi personalizzare il contenuto importato in base alle esigenze con gli strumen
 
 Quando apri lo spazio di progettazione delle e-mail, utilizza la sezione **[!UICONTROL Seleziona modello di progettazione]** per iniziare da un modello di esempio incorporato o da un modello personalizzato salvato. Vedi [Utilizzare un modello in un messaggio e-mail](./templates.md#use-in-journey) per il flusso di lavoro completo.
 
+Puoi scegliere tra:
+
+* **Modelli di esempio** - Modelli e-mail incorporati forniti da Adobe.
+* **Modelli salvati** - Modelli personalizzati creati da zero o salvati da contenuti e-mail esistenti.
+
+>[!BEGINTABS]
+
+>[!TAB Modelli salvati]
+
+Nella pagina _[!UICONTROL Crea messaggio e-mail]_, la scheda _[!UICONTROL Modelli di esempio]_ è selezionata per impostazione predefinita. Per utilizzare un modello personalizzato, selezionare la scheda **[!UICONTROL Modelli salvati]**.
+
 >[!NOTE]
 >
 >Ai modelli salvati possono essere applicate le impostazioni di governance (blocco del contenuto) a uno o più componenti. Lo spazio di progettazione visivo fornisce indicazioni sui componenti bloccati quando si [crea un messaggio e-mail da un modello gestito](./template-content-governance.md).
+
+L’elenco mostra tutti i modelli e-mail creati nella sandbox corrente. Puoi ordinarli per **[!UICONTROL Nome]**, **[!UICONTROL Ultima modifica]** e **[!UICONTROL Ultima creazione]**.
+
+![Scegli un modello salvato](./assets/templates-design-saved-sort-by.png){width="800" zoomable="yes"}
+
+Selezionare dall&#39;elenco il modello che si desidera visualizzare in anteprima. In modalità anteprima, utilizza le frecce destra e sinistra per spostarti tra i modelli della categoria selezionata (campione o salvato).
+
+![Anteprima del modello salvato](./assets/templates-design-saved-preview.png){width="800" zoomable="yes"}
+
+Quando l&#39;anteprima corrisponde a quella che desideri utilizzare, fai clic su **[!UICONTROL Usa questo modello]** in alto a destra nella finestra di anteprima.
+
+Questa azione copia il contenuto nello spazio di progettazione dell’e-mail visiva, dove puoi modificarlo in base alle esigenze.
+
+>[!TAB Modelli di esempio]
+
+[!DNL Adobe Marketo Optimizer] fornisce una selezione di modelli incorporati che è possibile utilizzare per creare e-mail e modelli di posta elettronica.
+
+![Scegli un modello fornito da Adobe](./assets/templates-design-samples.png){width="800" zoomable="yes"}
+
+>[!ENDTABS]
 
 ## Aggiungere struttura e contenuto {#structure-content}
 
@@ -178,7 +208,7 @@ Consulta [Aggiungi CSS personalizzato per il contenuto](./design-custom-css.md) 
 
 >[!NOTE]
 >
->Se il messaggio di posta elettronica è progettato utilizzando un modello [&#x200B; con contenuto bloccato](./template-content-governance.md), non è possibile aggiungere CSS personalizzati al contenuto. L&#39;etichetta del pulsante diventa **[!UICONTROL Visualizza CSS personalizzato]** ed eventuali CSS personalizzati già presenti nel contenuto sono di sola lettura.
+>Se il messaggio di posta elettronica è progettato utilizzando un modello [ con contenuto bloccato](./template-content-governance.md), non è possibile aggiungere CSS personalizzati al contenuto. L&#39;etichetta del pulsante diventa **[!UICONTROL Visualizza CSS personalizzato]** ed eventuali CSS personalizzati già presenti nel contenuto sono di sola lettura.
 
 ### Aggiungi frammenti {#visual-fragments}
 
