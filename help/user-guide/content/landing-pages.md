@@ -10,14 +10,14 @@ feature_v2:
     internal-label: Journeys
   - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
     internal-label: Content Management
-source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
+source-git-commit: 407092d59071fb4fdf49de4ed91455637979643b
 workflow-type: tm+mt
-source-wordcount: '1627'
+source-wordcount: '1649'
 ht-degree: 2%
 ---
 # Pagine di destinazione
 
-Una pagina di destinazione è una pagina web indipendente in cui puoi indirizzare contatti e clienti dopo che hanno fatto clic su un elemento collegato in un’e-mail, un messaggio SMS o qualsiasi posizione digitale. Puoi incorporare queste pagine nei tuoi percorsi per consentire ai potenziali clienti e ai clienti di visualizzare i messaggi sul web e i progressi compiuti nei tuoi percorsi.
+Una pagina di destinazione è una pagina web indipendente in cui puoi indirizzare contatti e clienti dopo che hanno fatto clic su un elemento collegato in un’e-mail, un messaggio SMS o qualsiasi posizione digitale. Per consentire ai potenziali clienti e ai clienti di visualizzare i messaggi sul Web e i progressi nei percorsi, puoi incorporare queste pagine nei percorsi.
 
 Casi d’uso comuni per le pagine di destinazione:
 
@@ -39,17 +39,19 @@ Casi d’uso comuni per le pagine di destinazione:
 
 Per indirizzare i membri di un pubblico di percorso a una pagina Web definita quando fanno clic su un collegamento specifico, creare una pagina di destinazione in [!DNL Marketo Optimizer]:
 
-1. [Crea la pagina](./landing-pages-create-publish.md#create-landing-page) - Seleziona un predefinito, imposta la pagina principale e aggiungi eventuali pagine secondarie richieste.
+1. [Creare la pagina](./landing-pages-create-publish.md#create-landing-page) - Iniziare dalla struttura ad albero Programmi, selezionare un predefinito, impostare la pagina principale.
 1. [Progettare il contenuto della pagina di destinazione](./landing-page-design.md) - Creare il contenuto della pagina utilizzando i componenti di progettazione visiva trascinati.
 1. [Verifica la pagina di destinazione](./landing-pages-create-publish.md#test-landing-page) - Anteprima della pagina e verifica del comportamento del modulo.
 1. [Pubblica la pagina di destinazione](./landing-pages-create-publish.md#publish-landing-page) - Pubblica per rendere la pagina live e disponibile per il collegamento.
 1. [Collega alla pagina dal tuo percorso](#link-to-landing-page). Aggiungi l&#39;URL della pagina di destinazione a un&#39;azione e-mail, SMS o percorso in modo che i destinatari possano raggiungerla.
 
-Ad esempio, puoi creare e progettare pagine di destinazione per indirizzare gli utenti a informazioni online. La pagina potrebbe includere un modulo in cui gli utenti possono dare il consenso o rinunciare alla ricezione delle comunicazioni. Oppure potrebbe essere l&#39;opportunità di abbonarsi a una comunicazione ricorrente, ad esempio a una newsletter.
+Ad esempio, per indirizzare gli utenti alle informazioni online, puoi creare e progettare pagine di destinazione. La pagina potrebbe includere un modulo in cui gli utenti possono dare il consenso o rinunciare alla ricezione delle comunicazioni. Oppure potrebbe essere l&#39;opportunità di abbonarsi a una comunicazione ricorrente, ad esempio a una newsletter.
 
 ## Accedere e gestire le pagine di destinazione {#access-manage-landing-pages}
 
 Per accedere alle pagine di destinazione in [!DNL Marketo Optimizer], vai alla navigazione a sinistra ed espandi **[!UICONTROL Gestione contenuto]**. Quindi selezionare **[!UICONTROL Pagine di destinazione]**. Questa azione visualizza un elenco di tutte le pagine di destinazione create nell’istanza.
+
+Utilizza questo elenco per accedere e gestire le pagine di destinazione esistenti. Per [creare una pagina di destinazione](./landing-pages-create-publish.md#create-landing-page), utilizzare la struttura ad albero _[!UICONTROL Programmi]_.
 
 ![Accedi alla libreria delle pagine di destinazione](./assets/landing-pages-list.png){width="800" zoomable="yes"}
 
@@ -197,7 +199,7 @@ Questa azione apre una finestra di dialogo di conferma. È possibile interromper
 
 ## Collegamento a una pagina di destinazione {#link-to-landing-page}
 
-In qualità di addetto al marketing o creativo che produce contenuti per e-mail, frammenti e pagine, puoi incorporare collegamenti alle pagine di destinazione pubblicate (live) create nell&#39;istanza [!DNL Marketo Optimizer].
+In qualità di professionista del marketing o creativo che produce contenuti per e-mail, frammenti e pagine, puoi incorporare collegamenti alle pagine di destinazione pubblicate (live) create nell&#39;istanza [!DNL Marketo Optimizer].
 
 1. Quando lavori nello spazio di progettazione visiva per un frammento, un’e-mail, una pagina di destinazione o un modello, seleziona una parte di testo, un componente pulsante o un componente immagine per il collegamento.
 

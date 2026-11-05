@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 6311ce00a5c7666c07fb1a523c954637d2e86e46
+source-git-commit: 8c2e4b17decc42fe5efe36f5bd50ebceacb5d8a1
 workflow-type: tm+mt
 source-wordcount: '2734'
 ht-degree: 3%
@@ -50,7 +50,7 @@ Lo stato dell’e-mail determina la disponibilità dell’azione:
 | Modificare proprietà, azioni e contenuto | Sì | No | No |
 | Personalizzazione e-mail | Sì | No | No |
 | Analizza e-mail | Sì | No | No |
-| Pubblica | Sì, una volta risolti gli avvisi di blocco | Già pubblicato | Pubblicato automaticamente |
+| Pubblica | Sì, quando gli avvisi di blocco vengono risolti | Già pubblicato | Pubblicato automaticamente |
 | Duplica | Sì | Sì | No |
 | Rinomina | Sì | No | No. La copia viene denominata quando la si seleziona. |
 | Elimina | Sì | No | No. Elimina il nodo _Invia e-mail_. |
@@ -355,7 +355,7 @@ Poiché la copia del percorso è di sola lettura, è possibile sostituirla anzic
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_email_minification"
->title="Riduci la dimensionie dell’HTML"
+>title="Ridurre la dimensione dell’HTML"
 >abstract="Abilita questa opzione per comprimere l’HTML dell’e-mail durante la pubblicazione rimuovendo spazi vuoti, rientri e commenti non essenziali non necessari. Questo aiuta a prevenire il clipping delle e-mail in client come Gmail. Gmail tronca i messaggi superiori a 100 KB."
 
 [!DNL Marketo Optimizer] consente di comprimere la versione di e-mail HTML durante il processo di pubblicazione rimuovendo spazi vuoti, rientri e commenti non essenziali. Le dimensioni ridotte di HTML consentono di:
