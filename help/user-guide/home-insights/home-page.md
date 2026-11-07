@@ -31,7 +31,7 @@ Il messaggio di benvenuto personalizzato richiede informazioni sulle attività c
 
 Guarda il video per una presentazione della pagina principale e dell’area di lavoro di marketing. Le sezioni seguenti forniscono istruzioni scritte.
 
->[!VIDEO](https://video.tv.adobe.com/v/3505360/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3505367/?captions=ita&quality=12&learn=on)
 
 ## Avviare una conversazione AI
 
