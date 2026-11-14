@@ -7,17 +7,17 @@ product_v2:
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
     internal-label: Reporting
-source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
+source-git-commit: e4b0bd62a974e32297b11177d13a783c631597fb
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '519'
 ht-degree: 2%
 ---
 
 # Rapporti
 
-La scheda [!UICONTROL Rapporti] fornisce informazioni sulle prestazioni in [!DNL Adobe Marketo Optimizer], tra cui coinvolgimento del percorso, prestazioni e-mail e attività Web. Nel menu di navigazione a sinistra, seleziona **[!UICONTROL Rapporti]** per aprirlo.
+La pagina _[!UICONTROL Rapporti]_ fornisce informazioni sulle prestazioni in [!DNL Adobe Marketo Optimizer], tra cui coinvolgimento del percorso, prestazioni e-mail e attività Web. Nel menu di navigazione a sinistra, seleziona **[!UICONTROL Rapporti]** per aprirlo.
 
-Ogni report è generato su [!DNL Adobe Customer Journey Analytics] e incorporato direttamente in [!DNL Marketo Optimizer]. Fai clic sull&#39;icona _Elenco_ ( ![Icona Elenco](../assets/do-not-localize/icon-table-of-contents.svg) ) per utilizzare il pannello **[!UICONTROL Sommario]** a sinistra per spostarti tra le sezioni.
+Ogni report viene creato utilizzando le funzionalità [!DNL Adobe Customer Journey Analytics] e incorporato direttamente in [!DNL Marketo Optimizer]. Fai clic sull&#39;icona _Elenco_ ( ![Icona Elenco](../assets/do-not-localize/icon-table-of-contents.svg) ) per utilizzare il pannello **[!UICONTROL Sommario]** a sinistra per spostarti tra le sezioni.
 
 ![Pagina dei report in cui sono elencate le sezioni Panoramica Percorso di persone, Coinvolgimento, Coinvolgimento e-mail e Coinvolgimento Web](./assets/reports-table-of-contents.png){width="800" zoomable="yes"}
 
@@ -41,7 +41,7 @@ La scheda [!UICONTROL Rapporti] organizza i rapporti predefiniti in quattro sezi
 Alcuni rapporti si concentrano su un singolo record anziché su una visualizzazione a livello di sezione e sono accessibili da un&#39;area diversa dell&#39;applicazione.
 
 * Per le prestazioni di ottimizzazione dell&#39;ora di invio dell&#39;e-mail, apri il report dall&#39;interfaccia chat di [!UICONTROL Collaboratore]. Per i passaggi, consulta [Ottimizzazione dell&#39;ora di invio dell&#39;e-mail](../marketing/email-send-time-optimization.md#reporting).
-* Per informazioni sull&#39;avanzamento di una persona in un singolo percorso, aprire il report [Individuale Percorso di persone](./person-journey-individual-report.md) da tale percorso.
+* Per le prestazioni del percorso di persone, apri il [report individuale del Percorso di persone](./person-journey-individual-report.md) dall&#39;interno di un percorso live o completato. Dopo aver aperto il rapporto, puoi selezionare più percorsi da includere.
 
 ## Esportare un rapporto {#export-a-report}
 
