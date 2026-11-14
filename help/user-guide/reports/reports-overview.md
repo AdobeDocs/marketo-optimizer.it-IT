@@ -23,7 +23,7 @@ Ogni report viene creato utilizzando le funzionalità [!DNL Adobe Customer Journ
 
 >[!PREREQUISITES]
 >
->Per visualizzare i report nella scheda _[!UICONTROL Report]_, è necessario disporre dell&#39;autorizzazione **[!UICONTROL Visualizza report incorporati B2B]** [](../start/permissions-reference.md).
+>Per visualizzare i report nella scheda _[!UICONTROL Report]_, è necessario disporre dell&#39;autorizzazione **[!UICONTROL Visualizza report incorporati B2B]** [&#128279;](../start/permissions-reference.md).
 
 ## Sezioni dei rapporti {#report-sections}
 
