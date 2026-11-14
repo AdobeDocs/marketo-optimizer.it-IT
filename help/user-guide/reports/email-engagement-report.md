@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
     internal-label: Reporting
-source-git-commit: 6e919a66af259ea1f5facf7f5c3e811d76101e85
+source-git-commit: 84abcbf4ddf114898768766d6e91ec855e3f979f
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '394'
 ht-degree: 0%
 ---
 
@@ -24,7 +24,9 @@ _Per visualizzare il report :_
 1. Nel menu di navigazione a sinistra, seleziona **[!UICONTROL Rapporti]**.
 1. Fai clic sull&#39;icona _Elenco_ ( ![Icona Elenco](../assets/do-not-localize/icon-table-of-contents.svg) ) e seleziona **[!UICONTROL Coinvolgimento e-mail]** nel pannello _[!UICONTROL Sommario]_.
 
-![Report di coinvolgimento e-mail con filtri Nome Percorso e Persona, intervallo di date Ultimi 30 giorni e una tabella di metriche di attività e-mail.](./assets/reports-email-engagement.png){width="700" zoomable="yes"}
+![Report di coinvolgimento e-mail con filtri per nome Percorso (evento) e persona (evento), intervallo di date Ultimi 30 giorni e una tabella di metriche di attività e-mail.](./assets/reports-email-engagement.png){width="700" zoomable="yes"}
+
+Utilizza i filtri **[!UICONTROL Nome Percorso (Evento)]** e **[!UICONTROL Persona (Evento)]** nella parte superiore del report per restringere i dati e-mail. Aprire un elenco di filtri e selezionare i valori da includere. Vedi [Filtri](#filters).
 
 Puoi [modificare l&#39;intervallo di date](./reports-overview.md#change-the-date-range) utilizzando lo stesso selettore di intervalli di date disponibile in altre sezioni del rapporto.
 
@@ -56,7 +58,11 @@ Le colonne delle metriche sono raggruppate in **[!UICONTROL Attività e-mail]**.
 
 ## Filtri {#filters}
 
-Utilizza i filtri per restringere il rapporto a un percorso o a un utente tipo specifico. Seleziona **[!UICONTROL Reimposta tutto]** per cancellare ogni filtro e tornare alla visualizzazione predefinita.
+Utilizza i filtri per restringere il rapporto per percorso o persona.
 
 * **[!UICONTROL Nome Percorso (Evento)]** - Filtra in base al percorso che ha inviato l&#39;e-mail. Il valore predefinito è [!UICONTROL Nessun filtro].
-* **[!UICONTROL Persona (evento)]** - Filtra in base all&#39;utente tipo associato all&#39;e-mail. Il valore predefinito è [!UICONTROL Nessun filtro].
+* **[!UICONTROL Persona (Evento)]** - Filtra in base alla [persona derivata](../audiences/personas.md#filter-by-derived-persona) associata all&#39;e-mail. Il valore predefinito è [!UICONTROL Nessun filtro].
+
+![Filtri report di coinvolgimento e-mail con quattro percorsi selezionati e l&#39;elenco filtri Persona (Evento) aperto, con gli utenti tipo disponibili.](./assets/reports-email-engagement-filters.png){width="500" zoomable="yes"}
+
+Seleziona **[!UICONTROL Reimposta tutto]** per cancellare ogni filtro e tornare alla visualizzazione predefinita.

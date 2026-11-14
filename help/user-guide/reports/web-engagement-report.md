@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
     internal-label: Reporting
-source-git-commit: 64d70f192f1ef972590aef2811e2e91908691196
+source-git-commit: 84abcbf4ddf114898768766d6e91ec855e3f979f
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '281'
 ht-degree: 1%
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!-- SPHR-39571: Audience, Company Name, Company Industry, and Region filters, plus the report title/subtitle rename, are planned under SPHR-32471 (not yet shipped) and should be documented separately once delivered  -->
 
-Utilizza il rapporto [!UICONTROL Coinvolgimento web] per esaminare il coinvolgimento per i principali webinar interattivi nell&#39;istanza.
+Utilizza il rapporto [!UICONTROL Coinvolgimento web] per esaminare il coinvolgimento per i webinar interattivi più popolari nell&#39;istanza.
 
 _Per visualizzare il report :_
 
@@ -44,9 +44,13 @@ Il report [!UICONTROL Web Engagement] mostra le prime 10 pagine più visualizzat
 
 ## Filtri {#filters}
 
-Utilizza il seguente filtro per limitare il rapporto a un utente tipo specifico.
+Utilizza il filtro **[!UICONTROL Persona (Evento)]** nella parte superiore del report per limitare i dati di visualizzazione della pagina. Apri l’elenco dei filtri e seleziona i valori da includere.
 
-* **[!UICONTROL Persona]** - Filtra in base all&#39;utente tipo associato alle visualizzazioni di pagina.
+* **[!UICONTROL Persona (evento)]** - Filtra in base alla [persona derivata](../audiences/personas.md#filter-by-derived-persona) associata alle visualizzazioni di pagina. Il valore predefinito è [!UICONTROL Nessun filtro].
+
+![Report di Web Engagement con l&#39;elenco di filtri Persona (Evento) aperto, con gli utenti tipo disponibili e il controllo Reimposta tutto.](./assets/reports-web-engagement-filters.png){width="500" zoomable="yes"}
+
+Selezionare **[!UICONTROL Reimposta tutto]** per cancellare il filtro e tornare alla visualizzazione predefinita.
 
 >[!NOTE]
 >
