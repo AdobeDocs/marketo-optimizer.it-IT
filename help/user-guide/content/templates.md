@@ -10,19 +10,21 @@ feature_v2:
     internal-label: Journeys
   - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
     internal-label: Content Management
-source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
+source-git-commit: e48e778c3a62154297e2c4464f49c3010917d984
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 1%
+source-wordcount: '525'
+ht-degree: 2%
 ---
 
 # Modelli e-mail
 
-I modelli e-mail in [!DNL Adobe Marketo Optimizer] consentono agli esperti di contenuto di creare layout e-mail riutilizzabili in modo indipendente, in modo che i team di marketing possano applicarli tra i percorsi di account senza dover ricreare le progettazioni ogni volta.
+I modelli e-mail in [!DNL Adobe Marketo Optimizer] consentono agli esperti di contenuto di creare layout e-mail riutilizzabili in modo indipendente, in modo che i team di marketing possano riutilizzare le progettazioni senza doverle ricreare ogni volta.
 
 >[!NOTE]
 >
->In questa versione di Beta, sono supportati solo i modelli e-mail.
+>Al momento sono supportati solo i modelli e-mail. I modelli di pagina di destinazione non sono attualmente disponibili.
+
+Utilizza [moduli di contenuto](./content-modules.md) quando [crei modelli di posta elettronica](./templates-create.md) per assemblare i layout dalle sezioni preparate.
 
 Quando un modello viene applicato a una nuova e-mail, il contenuto viene copiato in quel punto. Le modifiche apportate al modello non influiscono sulle e-mail create in precedenza da esso.
 
@@ -57,7 +59,7 @@ Crea cartelle per raggruppare i modelli per team, campagna, marchio o qualsiasi 
 **Per spostare un modello in una cartella:**
 
 1. Fai clic sull&#39;icona **[!UICONTROL Altro]** ( ... ) accanto al modello.
-1. Selezionare **[!UICONTROL Sposta nella cartella]**.
+1. Seleziona **[!UICONTROL Sposta nella cartella]**.
 1. Selezionare la cartella di destinazione e fare clic su **[!UICONTROL Sposta]**.
 
 ## Visualizza dettagli modello {#view-details}

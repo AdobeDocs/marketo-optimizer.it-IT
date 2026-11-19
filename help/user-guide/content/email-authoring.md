@@ -19,9 +19,9 @@ topic_v2:
     internal-label: Accessibility
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 8c2e4b17decc42fe5efe36f5bd50ebceacb5d8a1
+source-git-commit: e48e778c3a62154297e2c4464f49c3010917d984
 workflow-type: tm+mt
-source-wordcount: '2583'
+source-wordcount: '2590'
 ht-degree: 3%
 ---
 # Authoring dei contenuti e-mail
@@ -52,7 +52,7 @@ Fai clic su **[!UICONTROL Modifica corpo dell&#39;e-mail]** per avviare lo spazi
 ## Strumenti di progettazione e-mail {#email-design-tools}
 
 * **Barra degli strumenti superiore:** Salva, Indietro, Passa all&#39;editor di codice, controlli di anteprima.
-* **Pannello sinistro:** strutture (layout colonne), contenuto (testo, pulsante, immagine, divisore, social, HTML), frammenti, modelli, struttura di navigazione (gerarchia DOM dell&#39;e-mail).
+* **Pannello sinistro:** moduli (sezioni preparate), strutture (layout colonne), contenuto (testo, pulsante, immagine, divisore, social, HTML), frammenti, modelli, struttura di navigazione (gerarchia DOM dell&#39;e-mail).
 * **Area di lavoro centrale:** editor WYSIWYG con anteprima desktop e mobile.
 * **Pannello a destra:** impostazioni e stili per il componente attualmente selezionato, incluse le proprietà del contenuto, lo sfondo, il bordo, la spaziatura interna e la personalizzazione.
 
@@ -88,7 +88,7 @@ Utilizza lo spazio di progettazione del contenuto visivo per definire la struttu
 
    ![Crea la tua finestra di dialogo e-mail](./assets/email-design-create-your-email-dialog.png){width="450"}
 
-1. [Aggiungi componenti struttura e contenuto](#structure-content) nell&#39;area di lavoro.
+1. [Aggiungi moduli](#add-modules) o [componenti struttura e contenuto](#structure-content) nell&#39;area di lavoro.
 
 1. [Rivedi e aggiorna i collegamenti](#preview-and-edit-linked-urls).
 
@@ -160,6 +160,10 @@ Questa azione copia il contenuto nello spazio di progettazione dell’e-mail vis
 
 >[!ENDTABS]
 
+## Aggiungi moduli {#add-modules}
+
+{{$include /help/_includes/content-design-modules.md}}
+
 ## Aggiungere struttura e contenuto {#structure-content}
 
 Utilizza l’editor e-mail visivo per creare il tuo messaggio e-mail. Aggiungi un preintestazione, struttura il layout con colonne e divisori, quindi popola tali strutture con componenti di contenuto come immagini, pulsanti e testo. Puoi anche applicare CSS personalizzati per lo stile avanzato e visualizzare in anteprima il rendering del design in modalità scura.
@@ -208,7 +212,7 @@ Consulta [Aggiungi CSS personalizzato per il contenuto](./design-custom-css.md) 
 
 >[!NOTE]
 >
->Se il messaggio di posta elettronica è progettato utilizzando un modello [&#x200B; con contenuto bloccato](./template-content-governance.md), non è possibile aggiungere CSS personalizzati al contenuto. L&#39;etichetta del pulsante diventa **[!UICONTROL Visualizza CSS personalizzato]** ed eventuali CSS personalizzati già presenti nel contenuto sono di sola lettura.
+>Se il messaggio di posta elettronica è progettato utilizzando un modello [ con contenuto bloccato](./template-content-governance.md), non è possibile aggiungere CSS personalizzati al contenuto. L&#39;etichetta del pulsante diventa **[!UICONTROL Visualizza CSS personalizzato]** ed eventuali CSS personalizzati già presenti nel contenuto sono di sola lettura.
 
 ### Aggiungi frammenti {#visual-fragments}
 
