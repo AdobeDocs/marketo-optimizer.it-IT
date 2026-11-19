@@ -8,16 +8,18 @@ product_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+source-git-commit: e48e778c3a62154297e2c4464f49c3010917d984
 workflow-type: tm+mt
-source-wordcount: 203
+source-wordcount: '204'
 ht-degree: 3%
-
 ---
-
 # Authoring dei frammenti
 
-Dopo aver [creato un frammento](./fragments.md#create-fragments), utilizza lo spazio di progettazione visiva per creare la struttura e i componenti di contenuto nel frammento.
+Dopo aver [creato un frammento](./fragments.md#create-fragments), utilizza lo spazio di progettazione visiva per definire il layout e il contenuto del frammento.
+
+## Aggiungi moduli
+
+{{$include /help/_includes/content-design-modules.md}}
 
 ## Aggiungere struttura e contenuto {#design-fragment}
 

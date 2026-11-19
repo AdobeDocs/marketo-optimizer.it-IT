@@ -1,6 +1,6 @@
 ---
 title: Creare modelli e-mail
-description: 'Scopri come creare modelli e-mail in Marketo Optimizer: creare nuovi modelli, salvare un’e-mail da un percorso come modello o convertire un’immagine di progettazione in un modello e-mail.'
+description: Scopri come creare modelli e-mail in Marketo Optimizer, personalizzare i moduli di contenuto, salvare un’e-mail come modello o convertire un’immagine di progettazione in un modello e-mail.
 TQID: 'https://experienceleague.adobe.com/Hag-o6Hu-82rqnWHnDBgPD-dKApy5JGsPMD5cGFOCfA'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
@@ -15,30 +15,32 @@ topic_v2:
     internal-label: Accessibility
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: b6253400e2c9fc5b7f277add102367743981ce8a
+source-git-commit: e48e778c3a62154297e2c4464f49c3010917d984
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '937'
 ht-degree: 1%
 ---
 
 # Creare modelli e-mail
 
-È possibile creare un modello di posta elettronica in [!DNL Adobe Marketo Optimizer] in tre modi:
+Creare modelli di posta elettronica in [!DNL Adobe Marketo Optimizer] utilizzando lo spazio di progettazione visiva. I modelli e-mail supportano moduli di contenuto preparati e singoli componenti di struttura e contenuto.
+
+>[!NOTE]
+>
+>Al momento sono supportati solo i modelli e-mail. I modelli di pagina di destinazione non sono attualmente disponibili.
+
+Per i modelli e-mail, puoi iniziare in tre modi:
 
 * **Crea un nuovo modello** — Crea un modello nella libreria di modelli utilizzando lo spazio di progettazione e-mail visiva.
 * **Salva da e-mail di percorso** — Salva un messaggio e-mail creato in un percorso come modello riutilizzabile.
 * **Converti un&#39;immagine** - Carica un&#39;immagine di progettazione e utilizza l&#39;intelligenza artificiale generativa per convertirla in un modello di e-mail modificabile.
 
-## Crea un nuovo modello {#build-new}
+## Crea un nuovo modello e-mail {#build-new}
 
 1. Nel menu di navigazione a sinistra, espandi **[!UICONTROL Gestione contenuto]** e seleziona **[!UICONTROL Modelli]**.
 1. Fare clic su **[!UICONTROL Crea modello]**.
 1. Immettere un **[!UICONTROL nome modello]** e una **[!UICONTROL descrizione]** facoltativa.
-1. Imposta il **[!UICONTROL canale]** (tipo) per il modello.
-
-   >[!NOTE]
-   >
-   >In questa versione di Beta, sono supportati solo i modelli e-mail.
+1. Imposta **[!UICONTROL Canale]** su E-mail.
 
    <!-- 1. Optionally add **[!UICONTROL Tags]** to categorize the template. -->
 
@@ -46,11 +48,23 @@ ht-degree: 1%
 
 1. Fai clic su **[!UICONTROL Modifica corpo dell&#39;e-mail]** per accedere allo spazio di progettazione del contenuto.
 
-   Per informazioni dettagliate sulla progettazione del contenuto, consulta [Authoring di e-mail](email-authoring.md).
+   [Aggiungi moduli](#add-modules) o utilizza [Authoring di e-mail](email-authoring.md) per informazioni dettagliate sulla progettazione del contenuto.
 
 1. Facoltativamente, abilita **[!UICONTROL Governance]** e configura [il blocco del contenuto](template-content-governance.md) per limitare le parti che gli autori dei modelli possono modificare quando applicano il modello.
 
 1. Fai clic su **[!UICONTROL Salva]**.
+
+## Aggiungi moduli {#add-modules}
+
+In un modello e-mail, utilizza i moduli per iniziare dalle sezioni preparate e personalizzarne il contenuto e lo stile.
+
+{{$include /help/_includes/content-design-modules.md}}
+
+### Aggiungere struttura e contenuto
+
+Per creare sezioni da zero o estendere un modulo, aggiungi la struttura e i componenti di contenuto.
+
+{{$include /help/_includes/content-design-components-prime.md}}
 
 ## Salvare un’e-mail come modello {#save-as-template}
 
