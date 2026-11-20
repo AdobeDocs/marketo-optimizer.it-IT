@@ -11,9 +11,9 @@ feature_v2:
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
     internal-label: Taxonomy
-source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
+source-git-commit: b41193169434abe23589cde8e73bf6c9016ec04d
 workflow-type: tm+mt
-source-wordcount: '1365'
+source-wordcount: '1404'
 ht-degree: 1%
 ---
 
@@ -141,7 +141,9 @@ La colonna **[!UICONTROL Ponderazione]** visualizza il numero utilizzato nel pun
 
 1. **Frequenza**: quante volte un lead ha interagito con quel contenuto, considerato nella media tra le interazioni di una persona.
 
-Formalmente, per coinvolgimento: `activity weight × content relevance`, viene calcolata la media in un **punteggio giornaliero** con un decadimento esponenziale di **7 giorni** applicato in modo che l&#39;attività recente domini, quindi min-max viene normalizzato a 0 a 1 nella popolazione corrente e inserito nel bucket:
+Per [!DNL Marketo Optimizer], il bootstrapping iniziale dei punteggi di intento considera due anni di attività del lead.
+
+Formalmente, per coinvolgimento: peso dell’attività × rilevanza dei contenuti, calcolato come media di un punteggio giornaliero con un decadimento esponenziale di sette giorni applicato in modo che l’attività recente domini. Il meccanismo di decadimento viene eseguito ogni sette giorni: se un lead non si impegna in nuove attività, il suo punteggio intento decade. Il risultato è quindi min-max normalizzato a 0-1 nella popolazione corrente e inserito nel bucket:
 
 | Punteggio finale | Livello intento |
 | --- | --- |
