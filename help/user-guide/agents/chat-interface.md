@@ -19,9 +19,9 @@ topic_v2:
     internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 52295deb478e2f7160a39fc1e554074aefe277ba
+source-git-commit: 418b81a0a39eca0ca7b537c76da972df7eefd09f
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '919'
 ht-degree: 0%
 ---
 # Interfaccia chat
@@ -35,7 +35,7 @@ Il pannello chat è incorporato in [!DNL Adobe Marketo Optimizer]. È qui che in
 Per aprire il pannello, seleziona l&#39;icona _Chat_ nel menu di navigazione a sinistra. L’intestazione del pannello presenta quattro controlli:
 
 | Controllo | Descrizione |
-|---------|-------------|
+| --------- | ------------- |
 | **Nuova conversazione** | Avvia una nuova chat (cancella il thread corrente). |
 | **Cronologia conversazioni** | Apri le conversazioni precedenti in modo da poterne riaprire una. |
 | **Scambia pannelli** | Sposta il pannello chat sull&#39;altro lato dell&#39;area di lavoro. |
@@ -53,7 +53,7 @@ Ci sono due modi ugualmente validi per ottenere lavoro fatto — non è mai nece
 **Lingua naturale** — Digita la richiesta nel modo in cui l&#39;hai detta a un collega:
 
 * _&quot;Crea un percorso di benvenuto per le nuove iscrizioni di prova.&quot;_
-* _&quot;Perché john@acme.com non è entrato in questo percorso?&quot;_
+* _&quot;Perché `john@acme.com` non è entrato in questo percorso?&quot;_
 * _&quot;Confrontare gli elenchi &#39;Partecipanti al webinar Q3&#39; e &#39;Account organizzazione&#39;.&quot;_
 
 L&#39;agente associa il testo all&#39;abilità appropriata dietro le quinte ed esegue il flusso di lavoro appropriato.
@@ -69,7 +69,7 @@ Utilizza **/** per spostarti tra le voci, **Invio** o **Scheda** da selezionare 
 Le voci di menu sono raggruppate in sezioni etichettate:
 
 | Sezione | Contiene |
-|---------|----------|
+| --------- | ---------- |
 | **Analizza** | Ricerche diagnostiche di sola lettura (ad esempio, indagini lead, query intento). |
 | **Convalida** | Flussi di lavoro di controllo qualità e audit. |
 | **Build** | Flussi di lavoro di creazione (programmi, percorsi, elenchi, punteggio). |
