@@ -45,7 +45,7 @@ La chat di [!DNL CX Enterprise Coworker] è un&#39;interfaccia di conversazione 
 
 Per ulteriori informazioni, consulta:
 
-* [Panoramica chat di [!DNL Adobe CX Enterprise Coworker]](https://experienceleague.adobe.com/en/docs/coworker/content/chat/overview)
+* [Panoramica chat di [!DNL Adobe CX Enterprise Coworker]](https://experienceleague.adobe.com/it/docs/coworker/content/chat/overview)
 * [Interfaccia chat in [!DNL Marketo Optimizer]](./chat-interface.md)
 * [[!DNL Coworker] abilità in [!DNL Marketo Optimizer]](./skills.md)
 
